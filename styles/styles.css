@@ -1,0 +1,259 @@
+/* Layout principal */
+.main-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 100vh;
+}
+
+/* Coluna da esquerda (Seleção de personagens) */
+.left-column {
+  flex: 1; /* 20% da largura */
+  max-width: 17%;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Coluna da direita (Folha A4) */
+.right-column {
+  flex: 4; /* 80% da largura */
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Contêiner para os grupos de personagens */
+.character-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+  gap: 0px;
+}
+
+/* Linha vermelha separando os grupos */
+.separator {
+  background-color: red;
+  width: 100%;
+  height: 3px;
+}
+
+/* Personagens na folha A4 */
+.selected-character {
+  display: flex;
+  align-items: center;
+  gap: 0px; /* Reduz o espaço entre a imagem e o texto */
+  border: 1px solid #ddd;
+  padding: 0px; /* Reduz o preenchimento interno */
+  border-radius: 0px;
+  background-color: #f9f9f9;
+  width: 100%; /* Ajuste a largura, caso queira manter a caixa responsiva */
+  max-width: 400px; /* Defina um limite de largura se necessário */
+  max-height: 100px;
+}
+
+.selected-character img {
+  width: 75px; /* Reduz o tamanho da imagem */
+  height: auto;
+  object-fit: contain;
+  margin-left: -10px; /* Adiciona margem negativa para aproximar a imagem */
+  margin-right: -10px; /* Adiciona margem negativa para puxar a imagem para fora do contêiner */
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.selected-character p {
+  margin: 0;
+  font-size: 12px; /* Fonte menor para descrição */
+}
+
+/* Alinha o texto mais próximo */
+.selected-character .info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* Reduz espaço entre nome e habilidade */
+}
+
+/* Estilo do nome do personagem (em negrito) */
+.selected-character .name {
+  font-size: 14px; /* Fonte menor para descrição */
+  font-weight: bold; /* Torna a habilidade em negrito */
+}
+
+/* Estilo da habilidade (em itálico) */
+.selected-character .ability {
+  font-style: italic; /* Torna a habilidade em itálico */
+}
+
+/* Botão de colapsar/descolapsar */
+.toggle-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+/* Remove marcadores da lista */
+#character-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#character-list li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#character-list li img {
+  width: 30px;
+  height: auto;
+}
+
+#character-list li.selected {
+  background-color: #ffd700;
+  color: #000;
+  font-weight: bold;
+  border-color: #ff8c00;
+}
+
+/* Adiciona estilos para o foco e interatividade */
+#character-list li:focus {
+  outline: 2px solid #007bff;
+  background-color: #e7f1ff;
+}
+
+#character-list li.selected::before {
+  content: '✔';
+  color: green;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Contêiner do grupo */
+.type-container {
+  display: grid; /* Controla o layout de cada tipo */
+  grid-template-columns: 50px 1fr; /* Coluna estreita para o tipo e restante para os personagens */
+  align-items: start; /* Alinha os elementos no topo */
+  margin-bottom: 0px; /* Espaço entre os grupos */
+}
+
+/* Cabeçalhos dos tipos em barra lateral */
+.type-header {
+  writing-mode: vertical-lr; /* Escreve o texto na vertical */
+  transform: rotate(180deg);
+  text-align: center;
+  background-color: #ddd; /* Cor de fundo padrão */
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 4px;
+  height: 100%; /* Ocupa toda a altura do grupo */
+  display: flex;
+  align-items: center; /* Centraliza o texto verticalmente */
+  justify-content: center; /* Centraliza o texto horizontalmente */
+  font-size: 20px;
+}
+
+/* Contêiner do grupo */
+.group-container {
+  display: flex;
+  align-items: flex-start; /* Alinha o texto e os personagens no topo */
+  margin-bottom: 20px; /* Espaçamento entre grupos */
+}
+
+/* Contêiner dos personagens dentro de um grupo */
+.characters-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os personagens "quebrem linha" se necessário */
+  gap: 10px; /* Espaçamento entre personagens */
+}
+
+/* Fundo azul para Townsfolk e Outsider */
+.type-header.townsfolk, .type-header.outsider {
+  background-color: #add8e6; /* Azul claro */
+  color: #000; /* Texto preto */
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Fundo vermelho para Demon e Minion */
+.type-header.demon, .type-header.minion {
+  background-color: #f08080; /* Vermelho claro */
+  color: #fff; /* Texto branco */
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Ajusta os personagens dentro de cada tipo */
+.type-characters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+  gap: 0px;
+}
+
+/* Estilo atualizado da folha A4 */
+.a4-sheet {
+  display: grid;
+  gap: 0px; /* Reduz o espaço entre as colunas */
+  padding: 0px; /* Reduz a borda interna */
+  width: 210mm;
+  height: 297mm;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 12px; /* Reduz o tamanho da fonte */
+  overflow: auto;
+}
+@media print {
+  /* Esconde tudo fora da área da folha A4 */
+  body * {
+    visibility: hidden;
+  }
+
+  /* Exibe apenas a área do conteúdo da folha A4 */
+  #selected-characters,
+  #selected-characters * {
+    visibility: visible;
+  }
+
+  /* Ajusta a área de impressão para caber na folha */
+  #selected-characters {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    page-break-before: always;
+  }
+
+  /* Estilo adicional para garantir que a impressão seja legível */
+  .type-container {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .selected-character {
+    page-break-inside: avoid;
+  }
+}
