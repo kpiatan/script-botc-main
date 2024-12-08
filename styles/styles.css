@@ -43,10 +43,9 @@
   display: flex;
   align-items: center;
   gap: 0px; /* Reduz o espaço entre a imagem e o texto */
-  border: 1px solid #ddd;
   padding: 0px; /* Reduz o preenchimento interno */
-  border-radius: 0px;
-  background-color: #f9f9f9;
+  border: none; /* Remova a borda */
+  background-color: transparent;
   width: 100%; /* Ajuste a largura, caso queira manter a caixa responsiva */
   max-width: 400px; /* Defina um limite de largura se necessário */
   max-height: 100px;
@@ -161,13 +160,14 @@
   text-align: center;
   background-color: #ddd; /* Cor de fundo padrão */
   padding: 5px;
+  width: 16px; /* Largura da barra */
   font-weight: bold;
   border-radius: 4px;
   height: 100%; /* Ocupa toda a altura do grupo */
   display: flex;
   align-items: center; /* Centraliza o texto verticalmente */
   justify-content: center; /* Centraliza o texto horizontalmente */
-  font-size: 20px;
+  font-size: 14px;
 }
 
 /* Contêiner do grupo */
@@ -186,8 +186,8 @@
 
 /* Fundo azul para Townsfolk e Outsider */
 .type-header.townsfolk, .type-header.outsider {
-  background-color: #add8e6; /* Azul claro */
-  color: #000; /* Texto preto */
+  background-color: #2a6099; /* Azul claro */
+  color: #fff; /* Texto preto */
   padding: 5px;
   border-radius: 4px;
   font-weight: bold;
@@ -196,7 +196,7 @@
 
 /* Fundo vermelho para Demon e Minion */
 .type-header.demon, .type-header.minion {
-  background-color: #f08080; /* Vermelho claro */
+  background-color: #ff0000; /* Vermelho claro */
   color: #fff; /* Texto branco */
   padding: 5px;
   border-radius: 4px;
@@ -218,42 +218,66 @@
   padding: 0px; /* Reduz a borda interna */
   width: 210mm;
   height: 297mm;
-  background-color: #fff;
-  border: 1px solid #000;
+  background-image: url('/images/fundo.png'); /* Caminho para a imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
   font-size: 12px; /* Reduz o tamanho da fonte */
   overflow: auto;
 }
+
 @media print {
-  /* Esconde tudo fora da área da folha A4 */
+  /* Remove margens padrão do navegador */
+  @page {
+    margin: 0;
+    size: A4;
+  }
+
+  /* Estilo para o contêiner da folha */
+  #selected-characters {
+    width: 100%; /* Garante que ocupe 100% da área da página */
+    max-width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden; /* Remove qualquer overflow que cause barra de rolagem */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+
+  /* Evitar que elementos sejam quebrados entre páginas */
+  .type-container {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    overflow: hidden; /* Remove overflow interno */
+  }
+
+  .selected-character {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Esconde tudo que não é a folha */
   body * {
     visibility: hidden;
   }
 
-  /* Exibe apenas a área do conteúdo da folha A4 */
   #selected-characters,
   #selected-characters * {
     visibility: visible;
   }
 
-  /* Ajusta a área de impressão para caber na folha */
-  #selected-characters {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    page-break-before: always;
-  }
-
-  /* Estilo adicional para garantir que a impressão seja legível */
-  .type-container {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-
-  .selected-character {
-    page-break-inside: avoid;
+  /* Centraliza a folha A4 na impressão */
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que nada extrapole a viewport */
   }
 }
