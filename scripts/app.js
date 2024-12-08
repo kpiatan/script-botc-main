@@ -133,6 +133,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // Contêiner do grupo
         const typeContainer = document.createElement('div');
         typeContainer.classList.add('type-container');
+
+        // Linha horizontal separadora
+        //const separatorLine = document.createElement('hr');
+        //separatorLine.classList.add('separator-line', type.toLowerCase()); // Adiciona classe com o tipo para personalização
       
         // Cabeçalho do tipo
         const typeHeader = document.createElement('div');
@@ -177,6 +181,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       
         // Monta o contêiner do grupo
+        //typeContainer.appendChild(separatorLine);
         typeContainer.appendChild(typeHeader);
         typeContainer.appendChild(typeCharacters);
         typeListContainer.appendChild(typeContainer);

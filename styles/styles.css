@@ -31,11 +31,29 @@
   gap: 0px;
 }
 
-/* Linha vermelha separando os grupos */
-.separator {
-  background-color: red;
+/* Linha separadora genérica */
+.separator-line {
   width: 100%;
-  height: 3px;
+  height: 4px;
+  margin: none;
+  border: none;
+}
+
+/* Estilos para cada tipo */
+.separator-line.townsfolk {
+  background-color: blue;
+}
+
+.separator-line.outsider {
+  background-color: lightblue;
+}
+
+.separator-line.minion {
+  background-color: red;
+}
+
+.separator-line.demon {
+  background-color: darkred;
 }
 
 /* Personagens na folha A4 */
@@ -226,7 +244,7 @@
   background-repeat: no-repeat; /* Impede que a imagem se repita */
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-size: 12px; /* Reduz o tamanho da fonte */
   overflow: auto;
 }
