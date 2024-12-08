@@ -1,15 +1,13 @@
 /* Layout principal */
 .main-container {
   display: flex;
-  gap: 20px;
-  padding: 20px;
-  height: 100vh;
+  gap: 0px;
+  padding: 0px;
 }
 
 /* Coluna da esquerda (Seleção de personagens) */
 .left-column {
   flex: 1; /* 20% da largura */
-  max-width: 17%;
   overflow-y: auto;
   border-right: 1px solid #ddd;
   padding: 10px;
@@ -20,7 +18,7 @@
   flex: 4; /* 80% da largura */
   padding: 0px;
   display: flex;
-  justify-content: center;
+  justify-content:left;
   align-items: flex-start;
 }
 
@@ -56,7 +54,7 @@
 
 .selected-character p {
   margin: 0;
-  font-size: 14px; /* Fonte menor para descrição */
+  font-size: 12px; /* Fonte menor para descrição */
   margin-inline-end: 15px;
 }
 
@@ -75,8 +73,9 @@
 
 /* Estilo da habilidade (em itálico) */
 .selected-character .ability {
-  font-style: italic; /* Torna a habilidade em itálico */
+  /*font-style: italic; /* Torna a habilidade em itálico */
   padding-bottom: 2px;
+  line-height: 1.0; /* Ajuste o valor conforme necessário */
 }
 
 /* Botão de colapsar/descolapsar */
@@ -166,20 +165,6 @@
   font-size: 14px;
 }
 
-/* Contêiner do grupo */
-.group-container {
-  display: flex;
-  align-items: flex-start; /* Alinha o texto e os personagens no topo */
-  margin-bottom: 20px; /* Espaçamento entre grupos */
-}
-
-/* Contêiner dos personagens dentro de um grupo */
-.characters-container {
-  display: flex;
-  flex-wrap: wrap; /* Permite que os personagens "quebrem linha" se necessário */
-  gap: 10px; /* Espaçamento entre personagens */
-}
-
 /* Fundo azul para Townsfolk e Outsider */
 .type-header.townsfolk, .type-header.outsider {
   background-color: #008bc1; /* Azul claro */
@@ -221,15 +206,88 @@
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 12px; /* Reduz o tamanho da fonte */
+  font-size: 10px; /* Reduz o tamanho da fonte */
   overflow: auto;
+}
+
+.a4-sheet > *:first-child {
+  margin-top: 100px; /* Espaço extra na primeira linha */
 }
 
 .horizontal-line {
   border: 1;
   border-top: 3px solid #000;
-  margin: 0; /* Ajuste o espaçamento da linha */
+  margin: -2px; /* Ajuste o espaçamento da linha */
   width: calc(100% - 40px); /* Ajusta a largura da linha, deixando 20px de espaço em cada lado */
-  margin-left: 10px; /* Espaço à esquerda */
-  margin-right: 10px; /* Espaço à direita */
+  margin-left: 20px; /* Espaço à esquerda */
+  margin-right: 20px; /* Espaço à direita */
+}
+
+/* Configurações gerais para a página A4 durante a impressão */
+@media print {
+  /* Define o tamanho da página para A4 */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  /* Remove qualquer espaço extra da página */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Oculta o título e a parte da seleção de personagens */
+  header {
+    display: none;
+  }
+
+  #character-selector {
+    display: none;
+  }
+
+  /* Garante que o conteúdo da folha A4 ocupe toda a página */
+  .a4-sheet {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10mm;  /* Ajuste a margem conforme necessário */
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  /* Centraliza o conteúdo na impressão */
+  #selected-characters {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Garante que o conteúdo comece no topo da página */
+    align-items: center;  /* Centraliza o conteúdo */
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Ajusta o conteúdo da folha A4 para se ajustar ao tamanho da impressão */
+  .type-list-container,
+  .character-grid-container {
+    width: 100%;
+    height: auto;
+    page-break-before: always; /* Faz a quebra de página se necessário */
+  }
+
+  /* Remover qualquer borda ou padding adicionais na impressão */
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Remover espaços extras na página */
+  h1, h2, p, hr {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Ajuste da largura da imagem dos personagens */
+  img {
+    width: 100px;  /* Ajuste conforme necessário */
+    height: auto;
+  }
 }
