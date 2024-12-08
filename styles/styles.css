@@ -31,31 +31,6 @@
   gap: 0px;
 }
 
-/* Linha separadora genérica */
-.separator-line {
-  width: 100%;
-  height: 4px;
-  margin: none;
-  border: none;
-}
-
-/* Estilos para cada tipo */
-.separator-line.townsfolk {
-  background-color: blue;
-}
-
-.separator-line.outsider {
-  background-color: lightblue;
-}
-
-.separator-line.minion {
-  background-color: red;
-}
-
-.separator-line.demon {
-  background-color: darkred;
-}
-
 /* Personagens na folha A4 */
 .selected-character {
   display: flex;
@@ -101,6 +76,7 @@
 /* Estilo da habilidade (em itálico) */
 .selected-character .ability {
   font-style: italic; /* Torna a habilidade em itálico */
+  padding-bottom: 2px;
 }
 
 /* Botão de colapsar/descolapsar */
@@ -206,7 +182,7 @@
 
 /* Fundo azul para Townsfolk e Outsider */
 .type-header.townsfolk, .type-header.outsider {
-  background-color: #2a6099; /* Azul claro */
+  background-color: #008bc1; /* Azul claro */
   color: #fff; /* Texto preto */
   padding: 5px;
   border-radius: 4px;
@@ -216,7 +192,7 @@
 
 /* Fundo vermelho para Demon e Minion */
 .type-header.demon, .type-header.minion {
-  background-color: #ff0000; /* Vermelho claro */
+  background-color: #7f0c10; /* Vermelho claro */
   color: #fff; /* Texto branco */
   padding: 5px;
   border-radius: 4px;
@@ -300,4 +276,13 @@
     align-items: center;
     overflow: hidden; /* Garante que nada extrapole a viewport */
   }
+}
+
+.horizontal-line {
+  border: 1;
+  border-top: 6px solid #000;
+  margin: 0; /* Ajuste o espaçamento da linha */
+  width: calc(100% - 40px); /* Ajusta a largura da linha, deixando 20px de espaço em cada lado */
+  margin-left: 20px; /* Espaço à esquerda */
+  margin-right: 20px; /* Espaço à direita */
 }
