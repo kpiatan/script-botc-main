@@ -52,7 +52,7 @@
 }
 
 .selected-character img {
-  width: 75px; /* Reduz o tamanho da imagem */
+  width: 85px; /* Reduz o tamanho da imagem */
   height: auto;
   object-fit: contain;
   margin-left: -10px; /* Adiciona margem negativa para aproximar a imagem */
@@ -63,19 +63,20 @@
 
 .selected-character p {
   margin: 0;
-  font-size: 12px; /* Fonte menor para descrição */
+  font-size: 14px; /* Fonte menor para descrição */
+  margin-inline-end: 15px;
 }
 
 /* Alinha o texto mais próximo */
 .selected-character .info {
   display: flex;
   flex-direction: column;
-  gap: 2px; /* Reduz espaço entre nome e habilidade */
+  gap: 1px; /* Reduz espaço entre nome e habilidade */
 }
 
 /* Estilo do nome do personagem (em negrito) */
 .selected-character .name {
-  font-size: 14px; /* Fonte menor para descrição */
+  font-size: 16px; /* Fonte menor para descrição */
   font-weight: bold; /* Torna a habilidade em negrito */
 }
 
@@ -148,9 +149,10 @@
 /* Contêiner do grupo */
 .type-container {
   display: grid; /* Controla o layout de cada tipo */
-  grid-template-columns: 50px 1fr; /* Coluna estreita para o tipo e restante para os personagens */
+  grid-template-columns: 35px 1fr;
   align-items: start; /* Alinha os elementos no topo */
   margin-bottom: 0px; /* Espaço entre os grupos */
+  justify-items: end;
 }
 
 /* Cabeçalhos dos tipos em barra lateral */
