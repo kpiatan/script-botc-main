@@ -11,6 +11,7 @@
   overflow-y: auto;
   border-right: 1px solid #ddd;
   padding: 10px;
+  min-width: 80px;
 }
 
 /* Coluna da direita (Folha A4) */
@@ -236,6 +237,12 @@
   body {
     margin: 0;
     padding: 0;
+    width: 210mm; /* Largura da folha A4 */
+    height: 297mm; /* Altura da folha A4 */
+    background-image: url('../images/fundo.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a página */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
   }
 
   /* Oculta o título e a parte da seleção de personagens */
@@ -254,6 +261,7 @@
     margin: 0;
     padding: 0;  /* Ajuste a margem conforme necessário */
     box-sizing: border-box;
+    background-size: 100% 100%;
     overflow: hidden;
   }
 

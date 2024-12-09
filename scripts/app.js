@@ -226,9 +226,4 @@ function updateSelectedCharacters() {
   selectedContainer.appendChild(characterGridContainer);
 }
 
-
-  // Botão de impressão
-  document.getElementById('print-button').addEventListener('click', function () {
-    window.print();
-  });
 });
