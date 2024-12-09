@@ -37,6 +37,9 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
+    // Ordena os personagens por 'order' antes de agrupá-los por tipo
+    characters.sort((a, b) => a.order - b.order); 
+
     // Agrupa os personagens por tipo
     const types = {};
     characters.forEach(character => {
@@ -134,6 +137,11 @@ function updateSelectedCharacters() {
       groupedByType[characterType] = [];
     }
     groupedByType[characterType].push({ name: characterName, img: characterImg, ability: characterData?.ability });
+  });
+
+  // Ordena os personagens em cada tipo pelo campo 'order'
+  Object.keys(groupedByType).forEach(type => {
+    groupedByType[type].sort((a, b) => a.order - b.order);
   });
 
   // Ordena as chaves dos tipos com base na ordem definida
