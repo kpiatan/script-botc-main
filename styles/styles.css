@@ -7,7 +7,7 @@
 
 /* Coluna da esquerda (Seleção de personagens) */
 .left-column {
-  flex: 1; /* 20% da largura */
+  flex: 1; /* 20% da laRbackrgura */
   overflow-y: auto;
   border-right: 1px solid #ddd;
   padding: 10px;
