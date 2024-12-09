@@ -1000,4 +1000,10 @@
   "name": "Zumbuul",
   "order": "125",
   "type": "demon"
+},{
+  "ability": "Na noite X, todos os Cidadãos estão envenenados até o anoitecer. [X Forasteiros]",
+  "id": "xaan",
+  "name": "Xaan",
+  "order": "104",
+  "type": "minion"
 }]
