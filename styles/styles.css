@@ -200,7 +200,7 @@
   padding: 0px; /* Reduz a borda interna */
   width: 210mm;
   height: 297mm;
-  background-image: url('images/fundo.png'); /* Caminho para a imagem */
+  background-image: url('/images/fundo.png'); /* Caminho para a imagem */
   background-size: cover; /* Faz a imagem cobrir toda a área */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Impede que a imagem se repita */
