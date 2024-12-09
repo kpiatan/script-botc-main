@@ -54,7 +54,7 @@
 
 .selected-character p {
   margin: 0;
-  font-size: 12px; /* Fonte menor para descrição */
+  font-size: 12px;
   margin-inline-end: 15px;
 }
 
@@ -74,7 +74,8 @@
 /* Estilo da habilidade (em itálico) */
 .selected-character .ability {
   /*font-style: italic; /* Torna a habilidade em itálico */
-  padding-bottom: 2px;
+  font-size: 14px;
+  padding-bottom: 4px;
   line-height: 1.0; /* Ajuste o valor conforme necessário */
 }
 
@@ -206,12 +207,12 @@
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 10px; /* Reduz o tamanho da fonte */
+  font-size: 12px; /* Reduz o tamanho da fonte */
   overflow: auto;
 }
 
 .a4-sheet > *:first-child {
-  margin-top: 100px; /* Espaço extra na primeira linha */
+  margin-top: 40px; /* Espaço extra na primeira linha */
 }
 
 .horizontal-line {
