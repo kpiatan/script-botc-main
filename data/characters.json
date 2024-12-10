@@ -47,7 +47,7 @@
   "order": "8",
   "type": "townsfolk"
 }, {
-  "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiro em jogo.)",
+  "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico. (Ou que há 'zero' Forasteiro em jogo.)",
   "id": "librarian",
   "name": "Bibliotecária",
   "order": "9",
@@ -311,7 +311,7 @@
   "order": "52",
   "type": "townsfolk"
 }, {
-  "ability": "Você tem a habilidade do jogador executado mais recente. Se ele for do mal, você fica envenenado até um jogador do bem morrer por execução.",
+  "ability": "Você tem a habilidade do jogador que mais recentemente morreu por execução. Se ele for do mal, você fica envenenado até um jogador do bem morrer por execução.",
   "id": "cannibal",
   "name": "Canibal",
   "order": "53",
@@ -443,7 +443,7 @@
   "order": "74",
   "type": "outsider"
 }, {
-  "ability": "Você pode ser registrado como se fosse um Demônio ou um Lacaio do mal, mesmo quando morto.",
+  "ability": "Você pode ser registrado como se fosse do mal e um Demônio ou um Lacaio, mesmo quando morto.",
   "id": "recluse",
   "name": "Recluso",
   "order": "75",
@@ -677,7 +677,7 @@
   "order": "113",
   "type": "minion"
 }, {
-  "ability": "O Demônio (mesmo se bêbado ou envenenado) possui a habilidade de um personagem bom fora de jogo. O Demônio e você sabem qual personagem.",
+  "ability": "O Demônio (mesmo se bêbado ou envenenado) possui a habilidade de um personagem do bem fora de jogo. O Demônio e você sabem qual personagem.",
   "id": "boffin",
   "name": "Sabichão",
   "order": "114",
