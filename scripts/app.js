@@ -139,11 +139,6 @@ function updateSelectedCharacters() {
     groupedByType[characterType].push({ name: characterName, img: characterImg, ability: characterData?.ability });
   });
 
-  // Ordena os personagens em cada tipo pelo campo 'order'
-  //Object.keys(groupedByType).forEach(type => {
-  //  groupedByType[type].sort((a, b) => a.order - b.order);
-  //});
-
   // Ordena as chaves dos tipos com base na ordem definida
   order.forEach(type => {
     if (groupedByType[type]) {
