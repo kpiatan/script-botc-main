@@ -299,6 +299,11 @@
     width: 100px;  /* Ajuste conforme necessário */
     height: auto;
   }
+
+  .a4-footer {
+    display: block;  /* Exibe o texto na impressão */
+  }
+
 }
 
 /* Contêiner para o texto no topo da folha A4 */
@@ -317,4 +322,19 @@
   z-index: 10; /* Garante que o texto esteja acima do restante do conteúdo */
   width: calc(100% - 40px); /* Deixa espaço nas laterais */
   margin: 0 auto; /* Centraliza o contêiner */
+}
+
+/* Novo texto na parte inferior direita */
+.a4-footer {
+  position: absolute;
+  bottom: 10px;  /* Distância da parte inferior */
+  right: 10px;   /* Distância da parte direita */
+  background-color: rgb(223, 223, 55);  /* Fundo amarelo */
+  padding: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 12px;  /* Ajuste o tamanho da fonte conforme necessário */
+  color: #000;  /* Cor do texto (preto) */
+  text-align: center;  /* Centraliza o texto */
+  border-radius: 0;  /* Bordas arredondadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Sombrinha suave para destacar */
 }
