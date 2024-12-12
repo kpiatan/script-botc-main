@@ -300,3 +300,21 @@
     height: auto;
   }
 }
+
+/* Contêiner para o texto no topo da folha A4 */
+.a4-header {
+  text-align: center;
+  position: absolute; /* Posicionamento absoluto para não interferir no fluxo do conteúdo */
+  top: 10px; /* Ajuste a margem superior conforme necessário */
+  left: 0;
+  right: 0;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  font-size: 24px; /* Ajuste o tamanho da fonte */
+  font-weight: bold; /* Negrito para destacar */
+  font-family: 'Rock Salt', cursive; /* Fonte Rock Salt */
+  background-color: transparent; /* Fundo semitransparente para melhor visibilidade */
+  padding: 0;
+  z-index: 10; /* Garante que o texto esteja acima do restante do conteúdo */
+  width: calc(100% - 40px); /* Deixa espaço nas laterais */
+  margin: 0 auto; /* Centraliza o contêiner */
+}
