@@ -280,7 +280,7 @@
       "type": "townsfolk"
   },
   {
-      "ability": "Uma vez por jogo, à noite, escolha um jogador: ele sabe que você é o Vigia Noturn",
+      "ability": "Uma vez por jogo, à noite, escolha um jogador: ele sabe que você é o Vigia Noturno",
       "id": "nightwatchman",
       "name": "Vigia Noturno",
       "order": "41",
