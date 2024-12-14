@@ -222,3 +222,18 @@ function updateSelectedCharacters() {
 }
 
 });
+
+// Identifique o elemento de texto editável
+const topTextElement = document.getElementById('a4-header');
+
+// Função para atualizar o título da página
+function updatePageTitle() {
+  const textContent = topTextElement.textContent.trim(); // Obtem o texto
+  document.title = `${textContent}-PT`; // Atualiza o título com "-PT"
+}
+
+// Adicione o evento de entrada (input) para atualizar em tempo real
+topTextElement.addEventListener('input', updatePageTitle);
+
+// Atualiza o título inicial
+updatePageTitle();
