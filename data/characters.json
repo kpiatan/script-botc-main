@@ -280,7 +280,7 @@
       "type": "townsfolk"
   },
   {
-      "ability": "Uma vez por jogo, à noite, escolha um jogador: ele sabe que você é o Vigia Noturno",
+      "ability": "Uma vez por jogo, à noite, escolha um jogador: ele sabe que você é o Vigia Noturno.",
       "id": "nightwatchman",
       "name": "Vigia Noturno",
       "order": "41",
@@ -357,7 +357,7 @@
       "type": "townsfolk"
   },
   {
-      "ability": "Você possui a habilidade de um Lacaio. Quando a usando, o Narrador pode solicitar que você faça uma escolha diferente.",
+      "ability": "Você possui a habilidade de um Lacaio. Quando estiver a usando, o Narrador pode solicitar que você faça uma escolha diferente.",
       "id": "alchemist",
       "name": "Alquimista",
       "order": "52",
