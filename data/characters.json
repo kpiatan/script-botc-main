@@ -357,7 +357,7 @@
       "type": "townsfolk"
   },
   {
-      "ability": "Você possui a habilidade de um Lacaio. Quando estiver a usando, o Narrador pode solicitar que você faça uma escolha diferente.",
+      "ability": "Você possui a habilidade de um Lacaio. Quando estiver usando-a, o Narrador pode solicitar que você faça uma escolha diferente.",
       "id": "alchemist",
       "name": "Alquimista",
       "order": "52",
