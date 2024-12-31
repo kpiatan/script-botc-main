@@ -1169,7 +1169,7 @@
       "type": "fabled"
   },
   {
-      "ability": "O demônio pode escolher não atacar e deve fazer isso ao menos uma vez por jogo. Jogadores do mal recebem informação inicial padrão.",
+      "ability": "O Demônio pode escolher não atacar e deve fazer isso ao menos uma vez por jogo. Jogadores do mal recebem informação inicial padrão.",
       "id": "toymaker",
       "name": "Brincalhão",
       "order": "167",
