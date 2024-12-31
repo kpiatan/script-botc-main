@@ -365,7 +365,7 @@
     "setup": false,
     "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam)",
     "jinxes": [
-        {"id": "plaguedoctor_br", "reason": "Se o Médico da Peste morrer, um lacaio vivo ganha a habilidade da Mulher Escarlate em adição a sua própria habilidade, e é avisado disso."}]
+        {"id": "plaguedoctor_br", "reason": "Se o Médico da Peste morrer, um Lacaio vivo ganha a habilidade da Mulher Escarlate em adição a sua própria habilidade, e é avisado disso."}]
   },
   {
     "id": "baron_br",
@@ -2221,7 +2221,7 @@
     "reminders": ["Habilidade do Narrador"],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "Se você morrer, o narrador ganha a habilidade de um lacaio."
+    "ability": "Se você morrer, o narrador ganha a habilidade de um Lacaio."
   },
   {
     "id": "hatter_br",
