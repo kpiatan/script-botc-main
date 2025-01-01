@@ -56,7 +56,7 @@
       "type": "townsfolk"
   },
   {
-      "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiros em jogo.)",
+      "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico. (Ou que há 'zero' Forasteiros em jogo.)",
       "id": "librarian",
       "name": "Bibliotecária",
       "order": "9",
@@ -294,7 +294,7 @@
       "type": "townsfolk"
   },
   {
-      "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): saiba de eles têm o mesmo alinhamento.",
+      "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): saiba se eles têm o mesmo alinhamento.",
       "id": "seamstress",
       "name": "Costureira",
       "order": "43",
@@ -574,7 +574,7 @@
       "type": "outsider"
   },
   {
-      "ability": "Se você morreu hoje, os Lacaio(s) e Demônio podem escolher novos personagens de seu tipo para ser.",
+      "ability": "Se você morreu hoje, os Lacaio(s) e Demônio podem escolher novos personagens de Lacaio(s) e Demônio para serem.",
       "id": "hatter",
       "name": "Chapeleiro",
       "order": "83",
@@ -665,7 +665,7 @@
       "type": "minion"
   },
   {
-      "ability": "A cada Noite, escolha 2 jogadores: amanhã o 1º alucina que o 2º é do mal, ou um ou ambos podem morrer.",
+      "ability": "A cada noite, escolha 2 jogadores: amanhã o 1º alucina que o 2º é do mal, ou um ou ambos podem morrer.",
       "id": "harpy",
       "name": "Harpia",
       "order": "96",
@@ -805,7 +805,7 @@
       "type": "minion"
   },
   {
-      "ability": "Você começa sabendo uma frase secreta, para cada vez que você a diz hoje publicamente, alguém pode morrer.",
+      "ability": "Você começa sabendo uma frase secreta. Para cada vez que você a diz hoje publicamente, alguém pode morrer.",
       "id": "yaggababble",
       "name": "Yagarela",
       "order": "116",
