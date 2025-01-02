@@ -106,6 +106,7 @@ let colorIndex = 0;
 function updateSelectedCharacters() {
   const selectedCharacters = document.querySelectorAll('#character-list li.selected');
   const selectedContainer = document.getElementById('selected-characters');
+  const selectedIdsInput = document.getElementById('selected-ids'); // Novo elemento
 
   if (!selectedContainer) {
     console.error("Elemento #selected-characters não encontrado.");
@@ -138,6 +139,19 @@ function updateSelectedCharacters() {
     }
     groupedByType[characterType].push({ name: characterName, img: characterImg, ability: characterData?.ability });
   });
+
+  // Atualiza o campo de IDs com os IDs dos personagens selecionados
+  const selectedIds = Array.from(selectedCharacters)
+    .map(character => character.textContent.trim())
+    .map(characterName => {
+      const characterData = characters.find(c => c.name === characterName);
+      return characterData?.id;
+    })
+    .filter(id => id)  // Filtra IDs undefined ou nulos
+    .map(id => `"${id}"`)  // Coloca cada ID entre aspas
+    .join(', ');
+
+  selectedIdsInput.value = `[${selectedIds}]`; // Atualiza o campo de IDs, com colchetes em volta
 
   // Ordena as chaves dos tipos com base na ordem definida
   order.forEach(type => {
