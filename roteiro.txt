@@ -1,0 +1,17 @@
+1 - Pegar o roles.json mais atualizado em: https://script.bloodontheclocktower.com/data/roles.json e salvar na pasta data;
+Esse arquivo contém a ordem atualizada dos personagens na folha dos personagens, que é diferente das ordens da noite.
+
+2 - Executar o script order-and-filter-roles.py;
+Esse script limpa o roles.json e gera o order.json com os campos id, tipo do personagem e a ordem certa.
+
+3 - Pegar o arquivo all.json mais atualizado em: https://github.com/Pedro9Paulo/TradutorDeScriptsBotC/blob/main/ptbr/all.json e salvar na pasta data;
+Esse arquivo contém as traduções para as habilidades dos personagens em português brasileiro.
+
+4 - Executar o script remove-json-fields.py;
+Esse script limpa o all.json, salvando em filtered_all.json e só deixando os campos id (removendo o _br), nome e habilidade em português.
+
+5 - Executar o script merge-json.py;
+Esse script lê os arquivos order.json e filtered_all.json e combina estes arquivos no arquivo final updated_characters.json.
+
+6 - Conferir e renomear o arquivo updated_characters.json para characters.json;
+Este último passo é uma segurança adicional para não perder o arquivo anterior.

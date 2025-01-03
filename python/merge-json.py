@@ -2,7 +2,7 @@ import json
 import os
 
 # Caminhos dos arquivos
-characters_file = os.path.join('data', 'characters.json')
+characters_file = os.path.join('data', 'order.json')
 filtered_all_file = os.path.join('data', 'filtered_all.json')
 output_file = 'updated_characters.json'
 

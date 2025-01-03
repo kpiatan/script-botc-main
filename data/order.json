@@ -1,0 +1,842 @@
+[
+    {
+        "id": "steward",
+        "type": "townsfolk",
+        "order": 1
+    },
+    {
+        "id": "knight",
+        "type": "townsfolk",
+        "order": 2
+    },
+    {
+        "id": "chef",
+        "type": "townsfolk",
+        "order": 3
+    },
+    {
+        "id": "noble",
+        "type": "townsfolk",
+        "order": 4
+    },
+    {
+        "id": "investigator",
+        "type": "townsfolk",
+        "order": 5
+    },
+    {
+        "id": "washerwoman",
+        "type": "townsfolk",
+        "order": 6
+    },
+    {
+        "id": "clockmaker",
+        "type": "townsfolk",
+        "order": 7
+    },
+    {
+        "id": "grandmother",
+        "type": "townsfolk",
+        "order": 8
+    },
+    {
+        "id": "librarian",
+        "type": "townsfolk",
+        "order": 9
+    },
+    {
+        "id": "shugenja",
+        "type": "townsfolk",
+        "order": 10
+    },
+    {
+        "id": "bountyhunter",
+        "type": "townsfolk",
+        "order": 11
+    },
+    {
+        "id": "pixie",
+        "type": "townsfolk",
+        "order": 12
+    },
+    {
+        "id": "empath",
+        "type": "townsfolk",
+        "order": 13
+    },
+    {
+        "id": "highpriestess",
+        "type": "townsfolk",
+        "order": 14
+    },
+    {
+        "id": "sailor",
+        "type": "townsfolk",
+        "order": 15
+    },
+    {
+        "id": "balloonist",
+        "type": "townsfolk",
+        "order": 16
+    },
+    {
+        "id": "general",
+        "type": "townsfolk",
+        "order": 17
+    },
+    {
+        "id": "preacher",
+        "type": "townsfolk",
+        "order": 18
+    },
+    {
+        "id": "chambermaid",
+        "type": "townsfolk",
+        "order": 19
+    },
+    {
+        "id": "villageidiot",
+        "type": "townsfolk",
+        "order": 20
+    },
+    {
+        "id": "snakecharmer",
+        "type": "townsfolk",
+        "order": 21
+    },
+    {
+        "id": "mathematician",
+        "type": "townsfolk",
+        "order": 22
+    },
+    {
+        "id": "king",
+        "type": "townsfolk",
+        "order": 23
+    },
+    {
+        "id": "fortuneteller",
+        "type": "townsfolk",
+        "order": 24
+    },
+    {
+        "id": "dreamer",
+        "type": "townsfolk",
+        "order": 25
+    },
+    {
+        "id": "cultleader",
+        "type": "townsfolk",
+        "order": 26
+    },
+    {
+        "id": "flowergirl",
+        "type": "townsfolk",
+        "order": 27
+    },
+    {
+        "id": "towncrier",
+        "type": "townsfolk",
+        "order": 28
+    },
+    {
+        "id": "oracle",
+        "type": "townsfolk",
+        "order": 29
+    },
+    {
+        "id": "undertaker",
+        "type": "townsfolk",
+        "order": 30
+    },
+    {
+        "id": "innkeeper",
+        "type": "townsfolk",
+        "order": 31
+    },
+    {
+        "id": "monk",
+        "type": "townsfolk",
+        "order": 32
+    },
+    {
+        "id": "gambler",
+        "type": "townsfolk",
+        "order": 33
+    },
+    {
+        "id": "acrobat",
+        "type": "townsfolk",
+        "order": 34
+    },
+    {
+        "id": "lycanthrope",
+        "type": "townsfolk",
+        "order": 35
+    },
+    {
+        "id": "exorcist",
+        "type": "townsfolk",
+        "order": 36
+    },
+    {
+        "id": "gossip",
+        "type": "townsfolk",
+        "order": 37
+    },
+    {
+        "id": "savant",
+        "type": "townsfolk",
+        "order": 38
+    },
+    {
+        "id": "alsaahir",
+        "type": "townsfolk",
+        "order": 39
+    },
+    {
+        "id": "engineer",
+        "type": "townsfolk",
+        "order": 40
+    },
+    {
+        "id": "nightwatchman",
+        "type": "townsfolk",
+        "order": 41
+    },
+    {
+        "id": "courtier",
+        "type": "townsfolk",
+        "order": 42
+    },
+    {
+        "id": "seamstress",
+        "type": "townsfolk",
+        "order": 43
+    },
+    {
+        "id": "philosopher",
+        "type": "townsfolk",
+        "order": 44
+    },
+    {
+        "id": "huntsman",
+        "type": "townsfolk",
+        "order": 45
+    },
+    {
+        "id": "professor",
+        "type": "townsfolk",
+        "order": 46
+    },
+    {
+        "id": "artist",
+        "type": "townsfolk",
+        "order": 47
+    },
+    {
+        "id": "slayer",
+        "type": "townsfolk",
+        "order": 48
+    },
+    {
+        "id": "fisherman",
+        "type": "townsfolk",
+        "order": 49
+    },
+    {
+        "id": "juggler",
+        "type": "townsfolk",
+        "order": 50
+    },
+    {
+        "id": "soldier",
+        "type": "townsfolk",
+        "order": 51
+    },
+    {
+        "id": "alchemist",
+        "type": "townsfolk",
+        "order": 52
+    },
+    {
+        "id": "cannibal",
+        "type": "townsfolk",
+        "order": 53
+    },
+    {
+        "id": "amnesiac",
+        "type": "townsfolk",
+        "order": 54
+    },
+    {
+        "id": "farmer",
+        "type": "townsfolk",
+        "order": 55
+    },
+    {
+        "id": "minstrel",
+        "type": "townsfolk",
+        "order": 56
+    },
+    {
+        "id": "ravenkeeper",
+        "type": "townsfolk",
+        "order": 57
+    },
+    {
+        "id": "sage",
+        "type": "townsfolk",
+        "order": 58
+    },
+    {
+        "id": "choirboy",
+        "type": "townsfolk",
+        "order": 59
+    },
+    {
+        "id": "banshee",
+        "type": "townsfolk",
+        "order": 60
+    },
+    {
+        "id": "tealady",
+        "type": "townsfolk",
+        "order": 61
+    },
+    {
+        "id": "mayor",
+        "type": "townsfolk",
+        "order": 62
+    },
+    {
+        "id": "fool",
+        "type": "townsfolk",
+        "order": 63
+    },
+    {
+        "id": "virgin",
+        "type": "townsfolk",
+        "order": 64
+    },
+    {
+        "id": "magician",
+        "type": "townsfolk",
+        "order": 65
+    },
+    {
+        "id": "poppygrower",
+        "type": "townsfolk",
+        "order": 66
+    },
+    {
+        "id": "pacifist",
+        "type": "townsfolk",
+        "order": 67
+    },
+    {
+        "id": "atheist",
+        "type": "townsfolk",
+        "order": 68
+    },
+    {
+        "id": "butler",
+        "type": "outsider",
+        "order": 69
+    },
+    {
+        "id": "goon",
+        "type": "outsider",
+        "order": 70
+    },
+    {
+        "id": "ogre",
+        "type": "outsider",
+        "order": 71
+    },
+    {
+        "id": "lunatic",
+        "type": "outsider",
+        "order": 72
+    },
+    {
+        "id": "drunk",
+        "type": "outsider",
+        "order": 73
+    },
+    {
+        "id": "tinker",
+        "type": "outsider",
+        "order": 74
+    },
+    {
+        "id": "recluse",
+        "type": "outsider",
+        "order": 75
+    },
+    {
+        "id": "golem",
+        "type": "outsider",
+        "order": 76
+    },
+    {
+        "id": "sweetheart",
+        "type": "outsider",
+        "order": 77
+    },
+    {
+        "id": "plaguedoctor",
+        "type": "outsider",
+        "order": 78
+    },
+    {
+        "id": "klutz",
+        "type": "outsider",
+        "order": 79
+    },
+    {
+        "id": "moonchild",
+        "type": "outsider",
+        "order": 80
+    },
+    {
+        "id": "saint",
+        "type": "outsider",
+        "order": 81
+    },
+    {
+        "id": "barber",
+        "type": "outsider",
+        "order": 82
+    },
+    {
+        "id": "hatter",
+        "type": "outsider",
+        "order": 83
+    },
+    {
+        "id": "mutant",
+        "type": "outsider",
+        "order": 84
+    },
+    {
+        "id": "politician",
+        "type": "outsider",
+        "order": 85
+    },
+    {
+        "id": "zealot",
+        "type": "outsider",
+        "order": 86
+    },
+    {
+        "id": "damsel",
+        "type": "outsider",
+        "order": 87
+    },
+    {
+        "id": "snitch",
+        "type": "outsider",
+        "order": 88
+    },
+    {
+        "id": "heretic",
+        "type": "outsider",
+        "order": 89
+    },
+    {
+        "id": "puzzlemaster",
+        "type": "outsider",
+        "order": 90
+    },
+    {
+        "id": "mezepheles",
+        "type": "minion",
+        "order": 91
+    },
+    {
+        "id": "godfather",
+        "type": "minion",
+        "order": 92
+    },
+    {
+        "id": "poisoner",
+        "type": "minion",
+        "order": 93
+    },
+    {
+        "id": "devilsadvocate",
+        "type": "minion",
+        "order": 94
+    },
+    {
+        "id": "spy",
+        "type": "minion",
+        "order": 95
+    },
+    {
+        "id": "harpy",
+        "type": "minion",
+        "order": 96
+    },
+    {
+        "id": "witch",
+        "type": "minion",
+        "order": 97
+    },
+    {
+        "id": "cerenovus",
+        "type": "minion",
+        "order": 98
+    },
+    {
+        "id": "fearmonger",
+        "type": "minion",
+        "order": 99
+    },
+    {
+        "id": "pithag",
+        "type": "minion",
+        "order": 100
+    },
+    {
+        "id": "psychopath",
+        "type": "minion",
+        "order": 101
+    },
+    {
+        "id": "assassin",
+        "type": "minion",
+        "order": 102
+    },
+    {
+        "id": "wizard",
+        "type": "minion",
+        "order": 103
+    },
+    {
+        "id": "widow",
+        "type": "minion",
+        "order": 104
+    },
+    {
+        "id": "xaan",
+        "type": "minion",
+        "order": 105
+    },
+    {
+        "id": "marionette",
+        "type": "minion",
+        "order": 106
+    },
+    {
+        "id": "eviltwin",
+        "type": "minion",
+        "order": 107
+    },
+    {
+        "id": "summoner",
+        "type": "minion",
+        "order": 108
+    },
+    {
+        "id": "goblin",
+        "type": "minion",
+        "order": 109
+    },
+    {
+        "id": "boomdandy",
+        "type": "minion",
+        "order": 110
+    },
+    {
+        "id": "mastermind",
+        "type": "minion",
+        "order": 111
+    },
+    {
+        "id": "scarletwoman",
+        "type": "minion",
+        "order": 112
+    },
+    {
+        "id": "vizier",
+        "type": "minion",
+        "order": 113
+    },
+    {
+        "id": "organgrinder",
+        "type": "minion",
+        "order": 114
+    },
+    {
+        "id": "boffin",
+        "type": "minion",
+        "order": 115
+    },
+    {
+        "id": "baron",
+        "type": "minion",
+        "order": 116
+    },
+    {
+        "id": "yaggababble",
+        "type": "demon",
+        "order": 117
+    },
+    {
+        "id": "pukka",
+        "type": "demon",
+        "order": 118
+    },
+    {
+        "id": "lilmonsta",
+        "type": "demon",
+        "order": 119
+    },
+    {
+        "id": "nodashii",
+        "type": "demon",
+        "order": 120
+    },
+    {
+        "id": "imp",
+        "type": "demon",
+        "order": 121
+    },
+    {
+        "id": "kazali",
+        "type": "demon",
+        "order": 122
+    },
+    {
+        "id": "shabaloth",
+        "type": "demon",
+        "order": 123
+    },
+    {
+        "id": "ojo",
+        "type": "demon",
+        "order": 124
+    },
+    {
+        "id": "po",
+        "type": "demon",
+        "order": 125
+    },
+    {
+        "id": "zombuul",
+        "type": "demon",
+        "order": 126
+    },
+    {
+        "id": "alhadikhia",
+        "type": "demon",
+        "order": 127
+    },
+    {
+        "id": "vigormortis",
+        "type": "demon",
+        "order": 128
+    },
+    {
+        "id": "vortox",
+        "type": "demon",
+        "order": 129
+    },
+    {
+        "id": "fanggu",
+        "type": "demon",
+        "order": 130
+    },
+    {
+        "id": "legion",
+        "type": "demon",
+        "order": 131
+    },
+    {
+        "id": "lordoftyphon",
+        "type": "demon",
+        "order": 132
+    },
+    {
+        "id": "lleech",
+        "type": "demon",
+        "order": 133
+    },
+    {
+        "id": "leviathan",
+        "type": "demon",
+        "order": 134
+    },
+    {
+        "id": "riot",
+        "type": "demon",
+        "order": 135
+    },
+    {
+        "id": "thief",
+        "type": "travellers",
+        "order": 136
+    },
+    {
+        "id": "bureaucrat",
+        "type": "travellers",
+        "order": 137
+    },
+    {
+        "id": "barista",
+        "type": "travellers",
+        "order": 138
+    },
+    {
+        "id": "harlot",
+        "type": "travellers",
+        "order": 139
+    },
+    {
+        "id": "butcher",
+        "type": "travellers",
+        "order": 140
+    },
+    {
+        "id": "gunslinger",
+        "type": "travellers",
+        "order": 141
+    },
+    {
+        "id": "matron",
+        "type": "travellers",
+        "order": 142
+    },
+    {
+        "id": "gangster",
+        "type": "travellers",
+        "order": 143
+    },
+    {
+        "id": "bonecollector",
+        "type": "travellers",
+        "order": 144
+    },
+    {
+        "id": "judge",
+        "type": "travellers",
+        "order": 145
+    },
+    {
+        "id": "apprentice",
+        "type": "travellers",
+        "order": 146
+    },
+    {
+        "id": "beggar",
+        "type": "travellers",
+        "order": 147
+    },
+    {
+        "id": "deviant",
+        "type": "travellers",
+        "order": 148
+    },
+    {
+        "id": "scapegoat",
+        "type": "travellers",
+        "order": 149
+    },
+    {
+        "id": "gnome",
+        "type": "travellers",
+        "order": 150
+    },
+    {
+        "id": "bishop",
+        "type": "travellers",
+        "order": 151
+    },
+    {
+        "id": "voudon",
+        "type": "travellers",
+        "order": 152
+    },
+    {
+        "id": "angel",
+        "type": "fabled",
+        "order": 153
+    },
+    {
+        "id": "bootlegger",
+        "type": "fabled",
+        "order": 154
+    },
+    {
+        "id": "buddhist",
+        "type": "fabled",
+        "order": 155
+    },
+    {
+        "id": "djinn",
+        "type": "fabled",
+        "order": 156
+    },
+    {
+        "id": "doomsayer",
+        "type": "fabled",
+        "order": 157
+    },
+    {
+        "id": "duchess",
+        "type": "fabled",
+        "order": 158
+    },
+    {
+        "id": "ferryman",
+        "type": "fabled",
+        "order": 159
+    },
+    {
+        "id": "fibbin",
+        "type": "fabled",
+        "order": 160
+    },
+    {
+        "id": "fiddler",
+        "type": "fabled",
+        "order": 161
+    },
+    {
+        "id": "gardener",
+        "type": "fabled",
+        "order": 162
+    },
+    {
+        "id": "hellslibrarian",
+        "type": "fabled",
+        "order": 163
+    },
+    {
+        "id": "revolutionary",
+        "type": "fabled",
+        "order": 164
+    },
+    {
+        "id": "sentinel",
+        "type": "fabled",
+        "order": 165
+    },
+    {
+        "id": "spiritofivory",
+        "type": "fabled",
+        "order": 166
+    },
+    {
+        "id": "stormcatcher",
+        "type": "fabled",
+        "order": 167
+    },
+    {
+        "id": "toymaker",
+        "type": "fabled",
+        "order": 168
+    }
+]
