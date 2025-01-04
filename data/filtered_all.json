@@ -6,7 +6,7 @@
     },
     {
         "name": "Bibliotecária",
-        "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiros em jogo.)",
+        "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico. (Ou que há 'zero' Forasteiros em jogo.)",
         "id": "librarian"
     },
     {
@@ -326,7 +326,7 @@
     },
     {
         "name": "Costureira",
-        "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): saiba de eles têm o mesmo alinhamento.",
+        "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): saiba se eles têm o mesmo alinhamento.",
         "id": "seamstress"
     },
     {
@@ -446,7 +446,7 @@
     },
     {
         "name": "Pixie",
-        "ability": "Você começa o sabendo 1 personagem Cidadão em jogo. Se você estava alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer.",
+        "ability": "Você começa sabendo 1 personagem Cidadão em jogo. Se você estava alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer.",
         "id": "pixie"
     },
     {
@@ -486,7 +486,7 @@
     },
     {
         "name": "Vigia Noturno",
-        "ability": "Uma vez por jogo, à noite, escolha um jogador: ele sabe que você é o Vigia Noturn",
+        "ability": "Uma vez por jogo, à noite, escolha um jogador: ele sabe que você é o Vigia Noturno.",
         "id": "nightwatchman"
     },
     {
@@ -511,7 +511,7 @@
     },
     {
         "name": "Fazendeiro",
-        "ability": "Se você morrer à noite, um jogador do bem vivo se torna um fazendeiro.",
+        "ability": "Se você morrer à noite, um jogador do bem vivo se torna um Fazendeiro.",
         "id": "farmer"
     },
     {
@@ -556,7 +556,7 @@
     },
     {
         "name": "Shugenja",
-        "ability": "Você começa sabendo se o jogador do mal mais próximo de você se encontra no sentido horário ou anti-horário, se equidistantes, essa informação é arbitrária.",
+        "ability": "Você começa sabendo se o jogador do mal mais próximo de você se encontra no sentido horário ou anti-horário. Se equidistantes, essa informação é arbitrária.",
         "id": "shugenja"
     },
     {
@@ -591,7 +591,7 @@
     },
     {
         "name": "Enigmático",
-        "ability": "Um jogador está bêbado, mesmo se vc estiver morto. Você tem uma chance de adivinhar quem é. Se conseguir, saiba quem é o Demônio. Do contrário, você recebe informação falsa.",
+        "ability": "Um jogador está bêbado, mesmo se você estiver morto. Você tem uma chance de adivinhar quem é. Se conseguir, saiba quem é o Demônio. Do contrário, você recebe informação falsa.",
         "id": "puzzlemaster"
     },
     {
@@ -601,7 +601,7 @@
     },
     {
         "name": "Donzela",
-        "ability": "Todos os Lacaios sabem uma Donzela está em jogo. Uma vez no jogo, um deles pode adivinhar quem é você. Se conseguir, seu time perde.",
+        "ability": "Todos os Lacaios sabem que uma Donzela está em jogo. Uma vez no jogo, um deles pode adivinhar quem é você. Se conseguir, seu time perde.",
         "id": "damsel"
     },
     {
@@ -616,17 +616,17 @@
     },
     {
         "name": "Médico da Peste",
-        "ability": "Se você morrer, o narrador ganha a habilidade de um lacaio.",
+        "ability": "Se você morrer, o narrador ganha a habilidade de um Lacaio.",
         "id": "plaguedoctor"
     },
     {
         "name": "Chapeleiro",
-        "ability": "Se você morreu hoje, os Lacaio(s) e Demônio podem escolher novos personagens de seu tipo para ser.",
+        "ability": "Se você morreu hoje, os Lacaio(s) e Demônio podem escolher novos personagens de Lacaio(s) e Demônio para serem.",
         "id": "hatter"
     },
     {
         "name": "Ogro",
-        "ability": "Na sua primiera noite, escolha um jogador (exceto você): você se torna do alinhamento dele (você não sabe qual), mesmo se estiver bêbado ou envenenado.",
+        "ability": "Na sua primeira noite, escolha um jogador (exceto você): você se torna do alinhamento dele (você não sabe qual), mesmo se estiver bêbado ou envenenado.",
         "id": "ogre"
     },
     {
@@ -636,7 +636,7 @@
     },
     {
         "name": "Viúva",
-        "ability": "Na primeira Noite, veja o Grimório e escolha um jogador: ela está envenenado. 1 jogador do Bem sabe que a Viúva está em jogo.",
+        "ability": "Na primeira noite, veja o Grimório e escolha um jogador: ela está envenenado. 1 jogador do Bem sabe que a Viúva está em jogo.",
         "id": "widow"
     },
     {
@@ -681,12 +681,12 @@
     },
     {
         "name": "Harpia",
-        "ability": "A cada Noite, escolha 2 jogadores: amanhã o 1º alucina que o 2º é do mal, ou um ou ambos podem morrer.",
+        "ability": "A cada noite, escolha 2 jogadores: amanhã o 1º alucina que o 2º é do mal, ou um ou ambos podem morrer.",
         "id": "harpy"
     },
     {
         "name": "Invocador",
-        "ability": "Você começa sabendo 3 blefes. Na 3ª noite escolha um jogador: Ele se torna um Demônio do mal a sua escolha.[Sem Demônio]",
+        "ability": "Você começa sabendo 3 blefes. Na 3ª noite escolha um jogador: Ele se torna um Demônio do mal a sua escolha. [Sem Demônio]",
         "id": "summoner"
     },
     {
@@ -698,6 +698,11 @@
         "name": "Xaã",
         "ability": "Na X-ésima noite todos os Cidadãos são envenenados até o anoitecer. [X Forasteiros]",
         "id": "xaan"
+    },
+    {
+        "name": "Feiticeiro",
+        "ability": "Uma vez por jogo, escolha realizar um desejo. Se concedido, pode ter um preço e deixar uma pista de sua natureza.",
+        "id": "wizard"
     },
     {
         "name": "Monstrim",
@@ -721,7 +726,7 @@
     },
     {
         "name": "Leviatã",
-        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do Bem for executado, o Mal vence.",
+        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do bem for executado, o Mal vence.",
         "id": "leviathan"
     },
     {
@@ -731,7 +736,7 @@
     },
     {
         "name": "Ojo",
-        "ability": "A cada noite*, escolha um jogador ele morre. Se ele não está em jogo, o Narrador escolhe quem morre.",
+        "ability": "A cada noite*, escolha um jogador: ele morre. Se ele não está em jogo, o Narrador escolhe quem morre.",
         "id": "ojo"
     },
     {
@@ -741,7 +746,7 @@
     },
     {
         "name": "Yagarela",
-        "ability": "Você começa sabendo uma frase secreta, para cada vez que você a diz hoje publicamente, alguém pode morrer.",
+        "ability": "Você começa sabendo uma frase secreta. Para cada vez que você a diz hoje publicamente, alguém pode morrer.",
         "id": "yaggababble"
     },
     {
@@ -756,7 +761,7 @@
     },
     {
         "name": "Gnomo",
-        "ability": "Todos os jogadores começam sabendo, um jogador do seu alinhamento. Você pode escolher matar qualquer um que nomeie ele.",
+        "ability": "Todos os jogadores começam sabendo um jogador do seu alinhamento. Você pode escolher matar qualquer um que nomeie ele.",
         "id": "gnome"
     },
     {
@@ -766,7 +771,7 @@
     },
     {
         "name": "Aura de Marfim",
-        "ability": "Não pode haver mais do que 1 jogador do mal adicional",
+        "ability": "Não pode haver mais do que 1 jogador do mal adicional.",
         "id": "spiritofivory"
     },
     {
@@ -781,7 +786,7 @@
     },
     {
         "name": "Apocalíptico",
-        "ability": "Se há 4 ou mais jogadores vivos, cada jogador vivo pode pedir publicamente (uma vez por jogo)que um jogador do alinhamento dele morra.",
+        "ability": "Se há 4 ou mais jogadores vivos, cada jogador vivo pode pedir publicamente (uma vez por jogo) que um jogador do alinhamento dele morra.",
         "id": "doomsayer"
     },
     {
@@ -796,12 +801,12 @@
     },
     {
         "name": "Brincalhão",
-        "ability": "O demônio pode escolher não atacar e deve fazer isso ao menos uma vez por jogo. Jogadores do mal recebem informação inicial padrão.",
+        "ability": "O Demônio pode escolher não atacar e deve fazer isso ao menos uma vez por jogo. Jogadores do mal recebem informação inicial padrão.",
         "id": "toymaker"
     },
     {
         "name": "Duquesa",
-        "ability": "A cada dia 3 jogadores podem escolher te visitar. A noite* cada visitante sabe quantos visitantes são do mal, mas 1 deles recebe informação falsa.",
+        "ability": "A cada dia 3 jogadores podem escolher te visitar. À noite*, cada visitante sabe quantos visitantes são do mal, mas 1 deles recebe informação falsa.",
         "id": "duchess"
     },
     {
@@ -821,7 +826,7 @@
     },
     {
         "name": "Violinista",
-        "ability": "Uma vez por jogo, 1 jogador do bem pode ganhar informação falsa.",
+        "ability": "Uma vez por jogo, o Demônio escolhe secretamente um jogador adversário: todos os jogadores escolhem qual desses 2 jogadores vence.",
         "id": "fiddler"
     },
     {
@@ -831,7 +836,7 @@
     },
     {
         "name": "Barqueiro",
-        "ability": "No último dia todos os mortos ganham seus votos de volta.",
+        "ability": "No último dia, todos os mortos ganham seus votos de volta.",
         "id": "ferryman"
     },
     {
