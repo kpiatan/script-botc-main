@@ -543,7 +543,7 @@
         "type": "outsider",
         "order": 78,
         "name": "Médico da Peste",
-        "ability": "Se você morrer, o narrador ganha a habilidade de um Lacaio."
+        "ability": "Se você morrer, o Narrador ganha a habilidade de um Lacaio."
     },
     {
         "id": "klutz",
