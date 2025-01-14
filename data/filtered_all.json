@@ -76,7 +76,7 @@
     },
     {
         "name": "Recluso",
-        "ability": "Você pode ser registrado como se fosse Demônio ou Lacaio do mal, mesmo quando morto.",
+        "ability": "Você pode ser registrado como se fosse do mal e um Demônio ou Lacaio, mesmo quando morto.",
         "id": "recluse"
     },
     {
@@ -91,7 +91,7 @@
     },
     {
         "name": "Espião",
-        "ability": "A cada noite, você vê o Grimório. Você pode ser registrado como se fosse Cidadão ou Forasteiro do bem, mesmo morto.",
+        "ability": "A cada noite, você vê o Grimório. Você pode ser registrado como se fosse do bem e um Cidadão ou Forasteiro, mesmo morto.",
         "id": "spy"
     },
     {
@@ -686,7 +686,7 @@
     },
     {
         "name": "Invocador",
-        "ability": "Você começa sabendo 3 blefes. Na 3ª noite escolha um jogador: Ele se torna um Demônio do mal a sua escolha. [Sem Demônio]",
+        "ability": "Você começa sabendo 3 blefes. Na 3ª noite escolha um jogador: ele se torna um Demônio do mal a sua escolha. [Sem Demônio]",
         "id": "summoner"
     },
     {
@@ -726,7 +726,7 @@
     },
     {
         "name": "Leviatã",
-        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do bem for executado, o Mal vence.",
+        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do Bem for executado, o Mal vence.",
         "id": "leviathan"
     },
     {
