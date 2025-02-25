@@ -235,6 +235,62 @@ function updateSelectedCharacters() {
   selectedContainer.appendChild(characterGridContainer);
 }
 
+// Substitua a função applyIdsFromTextarea por esta versão
+function applyIdsFromTextarea() {
+  const input = document.getElementById('selected-ids').value;
+  
+  // Extrai todos os IDs usando uma expressão regular flexível
+  const rawIds = input.toLowerCase()
+    .replace(/[^a-z0-9\s,"'\[\]]/g, ' ') // Remove caracteres especiais
+    .match(/([a-z0-9]+)/g) || []; // Captura sequências alfanuméricas
+
+  // Limpa seleções atuais
+  document.querySelectorAll('#character-list li.selected').forEach(li => {
+    li.classList.remove('selected');
+  });
+
+  // Mapeia para IDs válidos existentes
+  const validIds = rawIds
+    .map(id => id.trim())
+    .filter(id => characters.some(c => c.id === id));
+
+  // Seleciona os novos personagens
+  validIds.forEach(id => {
+    const character = characters.find(c => c.id === id);
+    if (character) {
+      const li = Array.from(document.querySelectorAll('#character-list li')).find(item => {
+        return item.textContent.trim() === character.name;
+      });
+      if (li) li.classList.add('selected');
+    }
+  });
+
+  updateSelectedCharacters();
+}
+
+// Substitua o evento do botão por um observer no textarea
+const idsTextarea = document.getElementById('selected-ids');
+
+// Função para detectar colagem/digitação
+function handleTextareaInput() {
+  if (idsTextarea.value.trim().length > 0) {
+    applyIdsFromTextarea();
+  }
+}
+
+// Adicione os listeners
+idsTextarea.addEventListener('input', handleTextareaInput);
+idsTextarea.addEventListener('paste', handleTextareaInput);
+
+// Remova a parte do código que referencia o botão (se houver)
+
+// Opcional: Atualizar automaticamente ao digitar (remova se preferir só o botão)
+document.getElementById('selected-ids').addEventListener('input', () => {
+  if (document.getElementById('selected-ids').value.trim().startsWith('[')) {
+    applyIdsFromTextarea();
+  }
+});
+
 });
 
 // Identifique o elemento de texto editável
