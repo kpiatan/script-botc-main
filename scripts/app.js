@@ -1,5 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
   let characters = []; // Variável global para armazenar personagens carregados
+  let jinxes = [];
+
+  // Carrega os jinxes
+  fetch('data/jinxes.json')
+    .then(response => response.json())
+    .then(data => jinxes = data)
+    .catch(error => console.error('Erro ao carregar jinxes:', error));
 
   // Carrega os personagens do JSON local
   fetch('data/characters.json')
@@ -141,18 +148,41 @@ function updateSelectedCharacters() {
   });
 
   // Atualiza o campo de IDs com os IDs dos personagens selecionados
-  const selectedIds = Array.from(selectedCharacters)
-    .map(character => character.textContent.trim())
-    .map(characterName => {
-      const characterData = characters.find(c => c.name === characterName);
-      return characterData?.id;
-    })
-    .filter(id => id)  // Filtra IDs undefined ou nulos
-    .map(id => `"${id}"`)  // Coloca cada ID entre aspas
-    .join(', ');
+  
+// Atualiza o campo de IDs com os IDs dos personagens selecionados (MANTENHA ESSA PARTE)
+const formattedIds = Array.from(selectedCharacters) // ✅ Renomeado para "formattedIds"
+  .map(character => character.textContent.trim())
+  .map(characterName => {
+    const characterData = characters.find(c => c.name === characterName);
+    return characterData?.id;
+  })
+  .filter(id => id)
+  .map(id => `"${id}"`)
+  .join(', ');
 
-  selectedIdsInput.value = `[${selectedIds}]`; // Atualiza o campo de IDs, com colchetes em volta
+selectedIdsInput.value = `[${formattedIds}]`; // ✅ Usando o novo nome
 
+// =========================================================================
+// VERIFICAÇÃO DE JINX (USE O NOME "selectedIds" AQUI)
+// =========================================================================
+const selectedIds = Array.from(selectedCharacters).map(li => {
+  const imgSrc = li.querySelector('img').src;
+  const match = imgSrc.match(/Icon_([\w-]+)\.png/);
+  return match ? match[1] : null;
+}).filter(Boolean);
+
+const hasJinx = jinxes.some(jinx => 
+  selectedIds.includes(jinx.character1) && 
+  selectedIds.includes(jinx.character2)
+);
+
+// Atualiza o aviso de jinx
+const jinxElement = document.getElementById('a4-jinx');
+if (jinxElement) {
+  jinxElement.style.display = hasJinx ? 'flex' : 'none';
+  // Adiciona/remove classe para controle na impressão
+  jinxElement.classList.toggle('has-jinx', hasJinx);
+}
   // Ordena as chaves dos tipos com base na ordem definida
   order.forEach(type => {
     if (groupedByType[type]) {

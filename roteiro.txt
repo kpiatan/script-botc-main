@@ -15,3 +15,6 @@ Esse script lê os arquivos order.json e filtered_all.json e combina estes arqui
 
 6 - Conferir e renomear o arquivo updated_characters.json para characters.json;
 Este último passo é uma segurança adicional para não perder o arquivo anterior.
+
+// "O Gênio adapta regras para interações conflitantes – pergunte ao Narrador."
+// "Há regras especiais para certas interações conflitantes."
