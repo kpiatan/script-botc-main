@@ -162,27 +162,30 @@ const formattedIds = Array.from(selectedCharacters) // ✅ Renomeado para "forma
 
 selectedIdsInput.value = `[${formattedIds}]`; // ✅ Usando o novo nome
 
-// =========================================================================
-// VERIFICAÇÃO DE JINX (USE O NOME "selectedIds" AQUI)
-// =========================================================================
-const selectedIds = Array.from(selectedCharacters).map(li => {
-  const imgSrc = li.querySelector('img').src;
-  const match = imgSrc.match(/Icon_([\w-]+)\.png/);
-  return match ? match[1] : null;
-}).filter(Boolean);
+// FUNÇÃO SEPARADA PARA ATUALIZAR JINX (ADICIONE ISSO)
+function updateJinxDisplay() {
+  const selectedIds = Array.from(document.querySelectorAll('#character-list li.selected')).map(li => {
+    const imgSrc = li.querySelector('img').src;
+    const match = imgSrc.match(/Icon_([\w-]+)\.png/);
+    return match ? match[1] : null;
+  }).filter(Boolean);
 
-const hasJinx = jinxes.some(jinx => 
-  selectedIds.includes(jinx.character1) && 
-  selectedIds.includes(jinx.character2)
-);
+  const hasJinx = jinxes.some(jinx => 
+    selectedIds.includes(jinx.character1) && 
+    selectedIds.includes(jinx.character2)
+  );
 
-// Atualiza o aviso de jinx
-const jinxElement = document.getElementById('a4-jinx');
-if (jinxElement) {
-  jinxElement.style.display = hasJinx ? 'flex' : 'none';
-  // Adiciona/remove classe para controle na impressão
-  jinxElement.classList.toggle('has-jinx', hasJinx);
+  const showJinx = document.getElementById('show-jinx').checked;
+  const jinxElement = document.getElementById('a4-jinx');
+  
+  if (jinxElement) {
+    jinxElement.style.display = (hasJinx && showJinx) ? 'flex' : 'none';
+    jinxElement.classList.toggle('has-jinx', hasJinx && showJinx);
+  }
 }
+
+// NO EVENT LISTENER DO CHECKBOX (MODIFIQUE PARA)
+document.getElementById('show-jinx').addEventListener('change', updateJinxDisplay);
   // Ordena as chaves dos tipos com base na ordem definida
   order.forEach(type => {
     if (groupedByType[type]) {
@@ -263,6 +266,7 @@ if (jinxElement) {
   // Adiciona os contêineres principais à folha
   selectedContainer.appendChild(typeListContainer);
   selectedContainer.appendChild(characterGridContainer);
+  updateJinxDisplay();
 }
 
 // Substitua a função applyIdsFromTextarea por esta versão
@@ -337,3 +341,8 @@ topTextElement.addEventListener('input', updatePageTitle);
 
 // Atualiza o título inicial
 updatePageTitle();
+
+// Adicione este código após os listeners do textarea
+document.getElementById('show-jinx').addEventListener('change', () => {
+  updateSelectedCharacters();
+});
