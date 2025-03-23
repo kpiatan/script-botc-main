@@ -29,6 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
       'outsider': 'Forasteiros',
       'minion': 'Lacaios',
       'demon': 'Demônios',
+      'travellers': 'Viajantes',
+      'fabled': 'Lendas',
       // Adicione mais tipos conforme necessário
     };
 
@@ -81,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const img = document.createElement('img');
         img.src = `images/Icon_${character.id}.png`;
         img.alt = character.name;
-        img.style.width = '30px';
+        img.style.width = '40px';
         img.style.marginRight = '10px';
 
         li.prepend(img);
