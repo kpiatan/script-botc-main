@@ -2,7 +2,7 @@
 Esse arquivo contém a ordem atualizada dos personagens na folha dos personagens, que é diferente das ordens da noite.
 
 2 - Executar o script order-and-filter-roles.py;
-Esse script limpa o roles.json e gera o order.json com os campos id, tipo do personagem e a ordem certa.
+Esse script limpa o roles.json e gera o order.json com os campos id, tipo do personagem e a ordem certa na folha dos personagens.
 
 3 - Pegar o arquivo all.json mais atualizado em: https://github.com/Pedro9Paulo/TradutorDeScriptsBotC/blob/main/ptbr/all.json e salvar na pasta data;
 Esse arquivo contém as traduções para as habilidades dos personagens em português brasileiro.
@@ -15,6 +15,3 @@ Esse script lê os arquivos order.json e filtered_all.json e combina estes arqui
 
 6 - Conferir e renomear o arquivo updated_characters.json para characters.json;
 Este último passo é uma segurança adicional para não perder o arquivo anterior.
-
-// "O Gênio adapta regras para interações conflitantes – pergunte ao Narrador."
-// "Há regras especiais para certas interações conflitantes."
