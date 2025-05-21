@@ -3,7 +3,7 @@
         "id": "steward",
         "type": "townsfolk",
         "order": 1,
-        "name": "Regente",
+        "name": "Comissário / Regente",
         "ability": "Você começa sabendo 1 jogador do bem."
     },
     {
@@ -689,7 +689,7 @@
         "id": "fearmonger",
         "type": "minion",
         "order": 99,
-        "name": "Intimidador",
+        "name": "Amedrontador",
         "ability": "A cada noite, escolha um jogador. Se você nomeá-lo e executá-lo, o time dele perde. Todos os jogadores sabem quando você escolhe um novo alvo."
     },
     {
@@ -906,7 +906,7 @@
         "id": "fanggu",
         "type": "demon",
         "order": 130,
-        "name": "Fang Gu",
+        "name": "Espectro / Fang Gu",
         "ability": "A cada noite*, você escolhe um jogador: ele morre. O 1º Forasteiro a ser morto assim, torna-se um Fang Gu do mal e você morre em vez dele. [+1 Forasteiro]"
     },
     {
@@ -927,7 +927,7 @@
         "id": "lleech",
         "type": "demon",
         "order": 133,
-        "name": "Sanguesuga",
+        "name": "Parasita / Sanguesuga",
         "ability": "A cada noite*, escolha um jogador: ele morre. Você começa escolhendo um jogador vivo: ele fica envenenado - você morre se e somente se este jogador estiver morto."
     },
     {

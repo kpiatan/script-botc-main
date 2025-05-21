@@ -1437,7 +1437,7 @@
     "image":[
       "https://raw.githubusercontent.com/Pedro9Paulo/TradutorDeScriptsBotC/main/images/fanggu.png",
       "https://raw.githubusercontent.com/Pedro9Paulo/TradutorDeScriptsBotC/main/images/fangguReversed.png"],
-    "name": "Fang Gu",
+    "name": "Espectro / Fang Gu",
     "edition": "snv",
     "team": "demon",
     "firstNight":  0,
@@ -1976,7 +1976,7 @@
     "image":[
       "https://raw.githubusercontent.com/Pedro9Paulo/TradutorDeScriptsBotC/main/images/steward.png", 
       "https://raw.githubusercontent.com/Pedro9Paulo/TradutorDeScriptsBotC/main/images/stewardReversed.png"],
-    "name": "Regente",
+    "name": "Comissário / Regente",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 57,
@@ -2348,7 +2348,7 @@
     "image":[
       "https://raw.githubusercontent.com/Pedro9Paulo/TradutorDeScriptsBotC/main/images/fearmonger.png",
       "https://raw.githubusercontent.com/Pedro9Paulo/TradutorDeScriptsBotC/main/images/fearmongerReversed.png"],
-    "name": "Intimidador",
+    "name": "Amedrontador",
     "edition": "",
     "team": "minion",
     "firstNight": 38,
@@ -2643,7 +2643,7 @@
     "image":[
       "https://raw.githubusercontent.com/Pedro9Paulo/TradutorDeScriptsBotC/main/images/lleech.png",
       "https://raw.githubusercontent.com/Pedro9Paulo/TradutorDeScriptsBotC/main/images/lleechReversed.png"],
-    "name": "Sanguesuga",
+    "name": "Parasita / Sanguesuga",
     "edition": "",
     "team": "demon",
     "firstNight": 25,
