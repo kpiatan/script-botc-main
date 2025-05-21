@@ -240,7 +240,7 @@
         "id": "mastermind"
     },
     {
-        "name": "Zumbuul",
+        "name": "Zumbão / Zumbuul",
         "ability": "A cada noite*, se ninguém morreu durante o dia, escolha um jogador: ele morre. Na 1ª vez que você for morrer, continua vivo, mas é registrado como morto.",
         "id": "zombuul"
     },
@@ -390,7 +390,7 @@
         "id": "pithag"
     },
     {
-        "name": "Fang Gu",
+        "name": "Espectro / Fang Gu",
         "ability": "A cada noite*, você escolhe um jogador: ele morre. O 1º Forasteiro a ser morto assim, torna-se um Fang Gu do mal e você morre em vez dele. [+1 Forasteiro]",
         "id": "fanggu"
     },
@@ -540,7 +540,7 @@
         "id": "cannibal"
     },
     {
-        "name": "Regente",
+        "name": "Comissário / Regente",
         "ability": "Você começa sabendo 1 jogador do bem.",
         "id": "steward"
     },
@@ -640,7 +640,7 @@
         "id": "widow"
     },
     {
-        "name": "Intimidador",
+        "name": "Amedrontador",
         "ability": "A cada noite, escolha um jogador. Se você nomeá-lo e executá-lo, o time dele perde. Todos os jogadores sabem quando você escolhe um novo alvo.",
         "id": "fearmonger"
     },
@@ -710,7 +710,7 @@
         "id": "lilmonsta"
     },
     {
-        "name": "Sanguesuga",
+        "name": "Parasita / Sanguesuga",
         "ability": "A cada noite*, escolha um jogador: ele morre. Você começa escolhendo um jogador vivo: ele fica envenenado - você morre se e somente se este jogador estiver morto.",
         "id": "lleech"
     },
