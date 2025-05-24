@@ -3,7 +3,7 @@
         "id": "steward",
         "type": "townsfolk",
         "order": 1,
-        "name": "Regente",
+        "name": "Regente / Comissário",
         "ability": "Você começa sabendo 1 jogador do bem."
     },
     {
