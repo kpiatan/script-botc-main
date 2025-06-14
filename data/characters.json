@@ -60,7 +60,7 @@
         "type": "townsfolk",
         "order": 9,
         "name": "Bibliotecária",
-        "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico. (Ou que há 'zero' Forasteiros em jogo.)"
+        "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico. (Ou que há zero Forasteiros em jogo.)"
     },
     {
         "id": "shugenja",
