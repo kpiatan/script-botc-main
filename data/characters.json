@@ -767,7 +767,7 @@
         "type": "minion",
         "order": 110,
         "name": "Goblin",
-        "ability": "Quando nomeado, você pode publicamente alegar ser o Goblin e for executado naquele dia, seu time vence."
+        "ability": "Quando nomeado, você pode publicamente alegar ser o Goblin. Se for executado naquele dia, seu time vence."
     },
     {
         "id": "boomdandy",
