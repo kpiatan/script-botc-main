@@ -18,7 +18,7 @@
         "type": "townsfolk",
         "order": 3,
         "name": "Chef",
-        "ability": "Você começa sabendo quantos pares de jogadores maus existem."
+        "ability": "Você começa sabendo quantos pares de jogadores do mal existem."
     },
     {
         "id": "noble",
@@ -242,7 +242,7 @@
         "type": "townsfolk",
         "order": 35,
         "name": "Licantropo",
-        "ability": "A cada noite*, escolha um jogador vivo. Se o jogador escolhido for do bem, ele morre e o Demônio não mata esta noite. Um jogador bom registra como mal."
+        "ability": "A cada noite*, escolha um jogador vivo. Se o jogador escolhido for do bem, ele morre e o Demônio não mata esta noite. Um jogador do bem registra como do mal."
     },
     {
         "id": "exorcist",
