@@ -326,7 +326,7 @@
         "type": "townsfolk",
         "order": 47,
         "name": "Artista",
-        "ability": "Uma vez por jogo, durante o dia, em segredo, você pode fazer uma pergunta de 'sim ou não' para o Narrador."
+        "ability": "Uma vez por jogo, durante o dia, em segredo, você pode fazer uma pergunta de sim/não para o Narrador."
     },
     {
         "id": "slayer",
