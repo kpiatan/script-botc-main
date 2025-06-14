@@ -641,7 +641,7 @@
         "type": "minion",
         "order": 92,
         "name": "Mezéfeles",
-        "ability": "Você começa sabendo uma palavra secreta. O 1º jogador bom que disser a palavra se torna mau esta noite."
+        "ability": "Você começa sabendo uma palavra secreta. O 1º jogador do bem que disser a palavra se torna do mal esta noite."
     },
     {
         "id": "godfather",
@@ -746,7 +746,7 @@
         "type": "minion",
         "order": 107,
         "name": "Marionete",
-        "ability": "Você acredita ser um personagem bom. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
+        "ability": "Você acredita ser um personagem do bem. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
     },
     {
         "id": "eviltwin",
@@ -809,7 +809,7 @@
         "type": "minion",
         "order": 116,
         "name": "Sabichão",
-        "ability": "O Demônio (mesmo se bêbado ou envenenado) possui a habilidade de um personagem bom fora de jogo. O Demônio e você sabem qual personagem."
+        "ability": "O Demônio (mesmo se bêbado ou envenenado) possui a habilidade de um personagem do bem fora de jogo. O Demônio e você sabem qual personagem."
     },
     {
         "id": "baron",
@@ -921,7 +921,7 @@
         "type": "demon",
         "order": 132,
         "name": "Legião",
-        "ability": "A cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores maus votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
+        "ability": "A cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores do mal votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
     },
     {
         "id": "lordoftyphon",
