@@ -116,7 +116,7 @@
         "type": "townsfolk",
         "order": 17,
         "name": "General",
-        "ability": "A cada noite, saiba qual time o Narrador acredita que está vencendo: Bem, Mal ou nenhum."
+        "ability": "A cada noite, saiba qual time o Narrador acredita que está vencendo: bem, mal ou nenhum."
     },
     {
         "id": "preacher",
