@@ -270,7 +270,7 @@
         "type": "townsfolk",
         "order": 39,
         "name": "Alsaahir",
-        "ability": "A cada dia, se você publicamente adivinhar quais jogadores são Lacaio(s) e quais são Demônio(s), o Bem vence."
+        "ability": "A cada dia, se você publicamente adivinhar quais jogadores são Lacaio(s) e quais são Demônio(s), o bem vence."
     },
     {
         "id": "engineer",
@@ -473,7 +473,7 @@
         "type": "townsfolk",
         "order": 68,
         "name": "Ateu",
-        "ability": "O Narrador pode quebrar as regras do jogo e, se executado, o Bem ganha, mesmo que você esteja morto. [Sem personagens do mal]"
+        "ability": "O Narrador pode quebrar as regras do jogo e, se executado, o bem ganha, mesmo que você esteja morto. [Sem personagens do mal]"
     },
         {
         "id": "hermit",
@@ -732,7 +732,7 @@
         "type": "minion",
         "order": 105,
         "name": "Viúva",
-        "ability": "Na primeira noite, veja o Grimório e escolha um jogador: ela está envenenado. 1 jogador do Bem sabe que a Viúva está em jogo."
+        "ability": "Na primeira noite, veja o Grimório e escolha um jogador: ela está envenenado. 1 jogador do bem sabe que a Viúva está em jogo."
     },
     {
         "id": "xaan",
@@ -753,7 +753,7 @@
         "type": "minion",
         "order": 108,
         "name": "Gêmea Má",
-        "ability": "Você e um oponente se conhecem e sabem o personagem um do outro. Se o jogador do bem for executado, o Mal vence. O Bem não pode vencer enquanto ambos viverem."
+        "ability": "Você e um oponente se conhecem e sabem o personagem um do outro. Se o jogador do bem for executado, o mal vence. O bem não pode vencer enquanto ambos viverem."
     },
     {
         "id": "summoner",
@@ -907,7 +907,7 @@
         "type": "demon",
         "order": 130,
         "name": "Vortox",
-        "ability": "A cada noite*, escolha um jogador: ele morre. Habilidades de Cidadãos geram informações falsas. A cada dia, se ninguém for executado, o Mal vence."
+        "ability": "A cada noite*, escolha um jogador: ele morre. Habilidades de Cidadãos geram informações falsas. A cada dia, se ninguém for executado, o mal vence."
     },
     {
         "id": "fanggu",
@@ -942,7 +942,7 @@
         "type": "demon",
         "order": 135,
         "name": "Leviatã",
-        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do Bem for executado, o Mal vence."
+        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o mal vence. Se mais de 1 jogador do bem for executado, o mal vence."
     },
     {
         "id": "riot",
