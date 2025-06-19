@@ -67,7 +67,7 @@
         "type": "townsfolk",
         "order": 10,
         "name": "Shugenja",
-        "ability": "Você começa sabendo se o jogador do mal mais próximo de você se encontra no sentido horário ou anti-horário. Se equidistantes, essa informação é arbitrária."
+        "ability": "Você começa sabendo se o jogador do mal mais próximo de você está no sentido horário ou anti-horário. Se equidistantes, essa informação é arbitrária."
     },
     {
         "id": "bountyhunter",
@@ -361,7 +361,7 @@
         "type": "townsfolk",
         "order": 52,
         "name": "Alquimista",
-        "ability": "Você possui a habilidade de um Lacaio. Quando a usando, o Narrador pode solicitar que você faça uma escolha diferente."
+        "ability": "Você possui a habilidade de um Lacaio. Ao usá-la, o Narrador pode solicitar que você faça uma escolha diferente."
     },
     {
         "id": "cannibal",
@@ -480,7 +480,7 @@
         "type": "outsider",
         "order": 69,
         "name": "Ermitão",
-        "ability": "Você tem todas as habilidades de Forasteiros. [-0 ou -1 Forasteiros]"
+        "ability": "Você tem todas as habilidades dos Forasteiros. [-0 ou -1 Forasteiros]"
     },
     {
         "id": "butler",
@@ -508,7 +508,7 @@
         "type": "outsider",
         "order": 73,
         "name": "Lunático",
-        "ability": "Você pensa que é um Demônio, mas você não é. O Demônio sabe quem você é e quem você escolhe à noite."
+        "ability": "Você acha que é um Demônio, mas você não é. O Demônio sabe quem você é e quem você escolhe à noite."
     },
     {
         "id": "drunk",
