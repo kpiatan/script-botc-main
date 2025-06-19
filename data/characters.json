@@ -746,7 +746,7 @@
         "type": "minion",
         "order": 107,
         "name": "Marionete",
-        "ability": "Você acredita ser um personagem do bem. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
+        "ability": "Você acha que é um personagem do bem. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
     },
     {
         "id": "eviltwin",
