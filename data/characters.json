@@ -1092,93 +1092,100 @@
         "ability": "Pelos primeiros 2 minutos de cada dia veteranos não podem falar."
     },
     {
-        "id": "djinn",
+        "id": "deusexfiasco",
         "type": "fabled",
         "order": 157,
+        "name": "Deus ex Fiasco",
+        "ability": "Pelo menos uma vez por jogo, o Narrador vai cometer um erro, corrigi-lo, e admitir isso publicamente."
+    },
+    {
+        "id": "djinn",
+        "type": "fabled",
+        "order": 158,
         "name": "Gênio",
         "ability": "Use a regra especial do Gênio. Todos sabem qual é."
     },
     {
         "id": "doomsayer",
         "type": "fabled",
-        "order": 158,
+        "order": 159,
         "name": "Apocalíptico",
         "ability": "Se há 4 ou mais jogadores vivos, cada jogador vivo pode pedir publicamente (uma vez por jogo) que um jogador do alinhamento dele morra."
     },
     {
         "id": "duchess",
         "type": "fabled",
-        "order": 159,
+        "order": 160,
         "name": "Duquesa",
         "ability": "A cada dia 3 jogadores podem escolher te visitar. À noite*, cada visitante sabe quantos visitantes são do mal, mas 1 deles recebe informação falsa."
     },
     {
         "id": "ferryman",
         "type": "fabled",
-        "order": 160,
+        "order": 161,
         "name": "Barqueiro",
         "ability": "No último dia, todos os mortos ganham seus votos de volta."
     },
     {
         "id": "fibbin",
         "type": "fabled",
-        "order": 161,
+        "order": 162,
         "name": "Bufão",
         "ability": "Uma vez por jogo, 1 jogador do bem pode ganhar informação falsa."
     },
     {
         "id": "fiddler",
         "type": "fabled",
-        "order": 162,
+        "order": 163,
         "name": "Violinista",
         "ability": "Uma vez por jogo, o Demônio escolhe secretamente um jogador adversário: todos os jogadores escolhem qual desses 2 jogadores vence."
     },
     {
         "id": "gardener",
         "type": "fabled",
-        "order": 163,
+        "order": 164,
         "name": "Jardineiro",
         "ability": "O Narrador pode escolher o personagem de 1 ou mais jogadores."
     },
     {
         "id": "hellslibrarian",
         "type": "fabled",
-        "order": 164,
+        "order": 165,
         "name": "Bibliotecária Infernal",
         "ability": "Algo ruim pode acontecer com quem falar quando o Narrador pedir silêncio."
     },
     {
         "id": "revolutionary",
         "type": "fabled",
-        "order": 165,
+        "order": 166,
         "name": "Revolucionário",
         "ability": "2 jogadores vizinhos têm o mesmo alinhamento e todos sabem quem são. Uma vez por jogo, um deles pode ser registrado falsamente."
     },
     {
         "id": "sentinel",
         "type": "fabled",
-        "order": 166,
+        "order": 167,
         "name": "Sentinela",
         "ability": "Pode haver 1 Forasteiro a menos ou a mais em jogo."
     },
     {
         "id": "spiritofivory",
         "type": "fabled",
-        "order": 167,
+        "order": 168,
         "name": "Aura de Marfim",
         "ability": "Não pode haver mais do que 1 jogador do mal adicional."
     },
     {
         "id": "stormcatcher",
         "type": "fabled",
-        "order": 168,
+        "order": 169,
         "name": "Apanhador de Chuvas",
         "ability": "Anuncie o nome de um personagem do bem. Se estiver em jogo ele só pode morrer por execução, mas o time do mal sabe quem ele é."
     },
     {
         "id": "toymaker",
         "type": "fabled",
-        "order": 169,
+        "order": 170,
         "name": "Brincalhão",
         "ability": "O Demônio pode escolher não atacar e deve fazer isso ao menos uma vez por jogo. Jogadores do mal recebem informação inicial padrão."
     }
