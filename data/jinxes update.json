@@ -1,0 +1,18 @@
+[
+   
+    {"character1": "alchemist", "character2": "boffin", "description": "The Alchemist-Boffin does not learn what ability the Demon has."},
+    {"character1": "alchemist", "character2": "spy", "description": "If the Alchemist has the Spy ability, they do not, and a Spy is in play. Each day, after the execution phase, the living Alchemist may publicly guess a living player as the Spy. If correct, the Demon must choose the Spy tonight."},
+    {"character1": "alchemist", "character2": "summoner", "description": "The Alchemist-Summoner does not get bluffs, and chooses which Demon but not which player. If they die before this happens, evil wins. [No Demon]"},
+    {"character1": "alchemist", "character2": "widow", "description": "If the Alchemist has the Widow ability, they do not, and a Widow is in play. Each day, after the execution phase, the living Alchemist may publicly guess a living player as the Widow. If correct, the Demon must choose the Widow tonight."},
+    {"character1": "alchemist", "character2": "marionette", "description": "An Alchemist-Marionette has no Marionette ability & the Marionette is in play."},
+    {"character1": "alchemist", "character2": "mastermind", "description": "An Alchemist-Mastermind has no Mastermind ability & the Mastermind is not-in-play."},
+    {"character1": "alchemist", "character2": "organgrinder", "description": "If the Alchemist has the Organ Grinder ability, the Organ Grinder is in play & if both the Alchemist and Organ Grinder are sober, both are drunk."},          
+]
+            
+        
+    
+
+    
+
+
+    
