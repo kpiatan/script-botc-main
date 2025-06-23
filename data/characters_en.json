@@ -342,850 +342,857 @@
         "name": "Fisherman",
         "ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win."
     },
+        {
+        "id": "princess",
+        "type": "townsfolk",
+        "order": 50,
+        "name": "Princess",
+        "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight."
+    },
     {
         "id": "juggler",
         "type": "townsfolk",
-        "order": 50,
+        "order": 51,
         "name": "Juggler",
         "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
     },
     {
         "id": "soldier",
         "type": "townsfolk",
-        "order": 51,
+        "order": 52,
         "name": "Soldier",
         "ability": "You are safe from the Demon."
     },
     {
         "id": "alchemist",
         "type": "townsfolk",
-        "order": 52,
+        "order": 53,
         "name": "Alchemist",
         "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently."
     },
     {
         "id": "cannibal",
         "type": "townsfolk",
-        "order": 53,
+        "order": 54,
         "name": "Cannibal",
         "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution."
     },
     {
         "id": "amnesiac",
         "type": "townsfolk",
-        "order": 54,
+        "order": 55,
         "name": "Amnesiac",
         "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
     },
     {
         "id": "farmer",
         "type": "townsfolk",
-        "order": 55,
+        "order": 56,
         "name": "Farmer",
         "ability": "When you die at night, an alive good player becomes a Farmer."
     },
     {
         "id": "minstrel",
         "type": "townsfolk",
-        "order": 56,
+        "order": 57,
         "name": "Minstrel",
         "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow."
     },
     {
         "id": "ravenkeeper",
         "type": "townsfolk",
-        "order": 57,
+        "order": 58,
         "name": "Ravenkeeper",
         "ability": "If you die at night, you are woken to choose a player: you learn their character."
     },
     {
         "id": "sage",
         "type": "townsfolk",
-        "order": 58,
+        "order": 59,
         "name": "Sage",
         "ability": "If the Demon kills you, you learn that it is 1 of 2 players."
     },
     {
         "id": "choirboy",
         "type": "townsfolk",
-        "order": 59,
+        "order": 60,
         "name": "Choirboy",
         "ability": "If the Demon kills the King, you learn which player is the Demon. [+the King]"
     },
     {
         "id": "banshee",
         "type": "townsfolk",
-        "order": 60,
+        "order": 61,
         "name": "Banshee",
         "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination."
     },
     {
         "id": "tealady",
         "type": "townsfolk",
-        "order": 61,
+        "order": 62,
         "name": "Tea Lady",
         "ability": "If both your alive neighbors are good, they can't die."
     },
     {
         "id": "mayor",
         "type": "townsfolk",
-        "order": 62,
+        "order": 63,
         "name": "Mayor",
         "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead."
     },
     {
         "id": "fool",
         "type": "townsfolk",
-        "order": 63,
+        "order": 64,
         "name": "Fool",
         "ability": "The 1st time you die, you don't."
     },
     {
         "id": "virgin",
         "type": "townsfolk",
-        "order": 64,
+        "order": 65,
         "name": "Virgin",
         "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
     },
     {
         "id": "magician",
         "type": "townsfolk",
-        "order": 65,
+        "order": 66,
         "name": "Magician",
         "ability": "The Demon thinks you are a Minion. Minions think you are a Demon."
     },
     {
         "id": "poppygrower",
         "type": "townsfolk",
-        "order": 66,
+        "order": 67,
         "name": "Poppy Grower",
         "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
     },
     {
         "id": "pacifist",
         "type": "townsfolk",
-        "order": 67,
+        "order": 68,
         "name": "Pacifist",
         "ability": "Executed good players might not die."
     },
     {
         "id": "atheist",
         "type": "townsfolk",
-        "order": 68,
+        "order": 69,
         "name": "Atheist",
         "ability": "The Storyteller can break the game rules, and if executed, good wins, even if you are dead. [No evil characters]"
     },
         {
         "id": "hermit",
         "type": "outsider",
-        "order": 69,
+        "order": 70,
         "name": "Hermit",
         "ability": "You have all Outsider abilities. [-0 or -1 Outsiders]"
     },
     {
         "id": "butler",
         "type": "outsider",
-        "order": 70,
+        "order": 71,
         "name": "Butler",
         "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
     },
     {
         "id": "goon",
         "type": "outsider",
-        "order": 71,
+        "order": 72,
         "name": "Goon",
         "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment."
     },
     {
         "id": "ogre",
         "type": "outsider",
-        "order": 72,
+        "order": 73,
         "name": "Ogre",
         "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned."
     },
     {
         "id": "lunatic",
         "type": "outsider",
-        "order": 73,
+        "order": 74,
         "name": "Lunatic",
         "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night."
     },
     {
         "id": "drunk",
         "type": "outsider",
-        "order": 74,
+        "order": 75,
         "name": "Drunk",
         "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
     },
     {
         "id": "tinker",
         "type": "outsider",
-        "order": 75,
+        "order": 76,
         "name": "Tinker",
         "ability": "You might die at any time." 
     },
     {
         "id": "recluse",
         "type": "outsider",
-        "order": 76,
+        "order": 77,
         "name": "Recluse",
         "ability": "You might register as evil & as a Minion or Demon, even if dead."
     },
     {
         "id": "golem",
         "type": "outsider",
-        "order": 77,
+        "order": 78,
         "name": "Golem",
         "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die."
     },
     {
         "id": "sweetheart",
         "type": "outsider",
-        "order": 78,
+        "order": 79,
         "name": "Sweetheart",
         "ability": "When you die, 1 player is drunk from now on."
     },
     {
         "id": "plaguedoctor",
         "type": "outsider",
-        "order": 79,
+        "order": 80,
         "name": "Plague Doctor",
         "ability": "When you die, the Storyteller gains a Minion ability."
     },
     {
         "id": "klutz",
         "type": "outsider",
-        "order": 80,
+        "order": 81,
         "name": "Klutz",
         "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses."
     },
     {
         "id": "moonchild",
         "type": "outsider",
-        "order": 81,
+        "order": 82,
         "name": "Moonchild",
         "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die."
     },
     {
         "id": "saint",
         "type": "outsider",
-        "order": 82,
+        "order": 83,
         "name": "Saint",
         "ability": "If you die by execution, your team loses."
     },
     {
         "id": "barber",
         "type": "outsider",
-        "order": 83,
+        "order": 84,
         "name": "Barber",
         "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
     },
     {
         "id": "hatter",
         "type": "outsider",
-        "order": 84,
+        "order": 85,
         "name": "Hatter",
         "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be."
     },
     {
         "id": "mutant",
         "type": "outsider",
-        "order": 85,
+        "order": 86,
         "name": "Mutant",
         "ability": "If you are 'mad' about being an Outsider, you might be executed."
     },
     {
         "id": "politician",
         "type": "outsider",
-        "order": 86,
+        "order": 87,
         "name": "Politician",
         "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead."
     },
     {
         "id": "zealot",
         "type": "outsider",
-        "order": 87,
+        "order": 88,
         "name": "Zealot",
         "ability": "If there are 5 or more players alive, you must vote for every nomination."
     },
     {
         "id": "damsel",
         "type": "outsider",
-        "order": 88,
+        "order": 89,
         "name": "Damsel",
         "ability": "All Minions know a Damsel is in play. If a Minion publicly guesses you (once), your team loses."
     },
     {
         "id": "snitch",
         "type": "outsider",
-        "order": 89,
+        "order": 90,
         "name": "Snitch",
         "ability": "Each Minion gets 3 bluffs."
     },
     {
         "id": "heretic",
         "type": "outsider",
-        "order": 90,
+        "order": 91,
         "name": "Heretic",
         "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead."
     },
     {
         "id": "puzzlemaster",
         "type": "outsider",
-        "order": 91,
+        "order": 92,
         "name": "Puzzlemaster",
         "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info."
     },
     {
         "id": "mezepheles",
         "type": "minion",
-        "order": 92,
+        "order": 93,
         "name": "Mezepheles",
         "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night."
     },
     {
         "id": "godfather",
         "type": "minion",
-        "order": 93,
+        "order": 94,
         "name": "Godfather",
         "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]"
     },
     {
         "id": "poisoner",
         "type": "minion",
-        "order": 94,
+        "order": 95,
         "name": "Poisoner",
         "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day."
     },
     {
         "id": "devilsadvocate",
         "type": "minion",
-        "order": 95,
+        "order": 96,
         "name": "Devil's Advocate",
         "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die."
     },
     {
         "id": "spy",
         "type": "minion",
-        "order": 96,
+        "order": 97,
         "name": "Spy",
         "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead."
     },
     {
         "id": "harpy",
         "type": "minion",
-        "order": 97,
+        "order": 98,
         "name": "Harpy",
         "ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or one or both might die."
     },
     {
         "id": "witch",
         "type": "minion",
-        "order": 98,
+        "order": 99,
         "name": "Witch",
         "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
     },
     {
         "id": "cerenovus",
         "type": "minion",
-        "order": 99,
+        "order": 100,
         "name": "Cerenovus",
         "ability": "Each night, choose a player & a good character: they are 'mad' they are this character tomorrow, or might be executed."
     },
     {
         "id": "fearmonger",
         "type": "minion",
-        "order": 100,
+        "order": 101,
         "name": "Fearmonger",
         "ability": "Each night, choose a player: if you nominate & execute them, their team loses. All players know if you choose a new player."
     },
     {
         "id": "pithag",
         "type": "minion",
-        "order": 101,
+        "order": 102,
         "name": "Pit-Hag",
         "ability": "Each night*, choose a player & a character they become (if not in play). If a Demon is made, deaths tonight are arbitrary."
     },
     {
         "id": "psychopath",
         "type": "minion",
-        "order": 102,
+        "order": 103,
         "name": "Psychopath",
         "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo."
     },
     {
         "id": "assassin",
         "type": "minion",
-        "order": 103,
+        "order": 104,
         "name": "Assassin",
         "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not."
     },
     {
         "id": "wizard",
         "type": "minion",
-        "order": 104,
+        "order": 105,
         "name": "Wizard",
         "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature."
     },
     {
         "id": "widow",
         "type": "minion",
-        "order": 105,
+        "order": 106,
         "name": "Widow",
         "ability": "On your 1st night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play."
     },
     {
         "id": "xaan",
         "type": "minion",
-        "order": 106,
+        "order": 107,
         "name": "Xaan",
         "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]"
     },
     {
         "id": "marionette",
         "type": "minion",
-        "order": 107,
+        "order": 108,
         "name": "Marionette",
         "ability": "You think you are a good character, but you are not. The Demon knows who you are. [You neighbor the Demon]"
     },
     {
         "id": "eviltwin",
         "type": "minion",
-        "order": 108,
+        "order": 109,
         "name": "Evin Twin",
         "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live."
     },
     {
         "id": "summoner",
         "type": "minion",
-        "order": 109,
+        "order": 110,
         "name": "Summoner",
         "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]"
     },
     {
         "id": "goblin",
         "type": "minion",
-        "order": 110,
+        "order": 111,
         "name": "Goblin",
         "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins."
     },
     {
         "id": "boomdandy",
         "type": "minion",
-        "order": 111,
+        "order": 112,
         "name": "Boomdandy",
         "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies."
     },
     {
         "id": "mastermind",
         "type": "minion",
-        "order": 112,
+        "order": 113,
         "name": "Mastermind",
         "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses."
     },
     {
         "id": "scarletwoman",
         "type": "minion",
-        "order": 113,
+        "order": 114,
         "name": "Scarler Woman",
         "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don't count.)"
     },
     {
         "id": "vizier",
         "type": "minion",
-        "order": 114,
+        "order": 115,
         "name": "Vizier",
         "ability": "All players know you are the Vizier. You cannot die during the day. If good voted, you may choose to execute immediately."
     },
     {
         "id": "organgrinder",
         "type": "minion",
-        "order": 115,
+        "order": 116,
         "name": "Organ Grinder",
         "ability": "All players keep their eyes closed when voting and the vote tally is secret. Each night, choose if you are drunk until dusk."
     },
     {
         "id": "boffin",
         "type": "minion",
-        "order": 116,
+        "order": 117,
         "name": "Boffin",
         "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which."
     },
     {
         "id": "baron",
         "type": "minion",
-        "order": 117,
+        "order": 118,
         "name": "Baron",
         "ability": "There are extra Outsiders in play. [+2 Outsiders]"
     },
     {
         "id": "yaggababble",
         "type": "demon",
-        "order": 118,
+        "order": 119,
         "name": "Yaggababble",
         "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die."
     },
     {
         "id": "pukka",
         "type": "demon",
-        "order": 119,
+        "order": 120,
         "name": "Pukka",
         "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy."
     },
     {
         "id": "lilmonsta",
         "type": "demon",
-        "order": 120,
+        "order": 121,
         "name": "Lil' Monsta",
         "ability": "Each night, Minions choose who babysits Lil' Monsta & 'is the Demon'. Each night*, a player might die. [+1 Minion]"
     },
     {
         "id": "nodashii",
         "type": "demon",
-        "order": 121,
+        "order": 122,
         "name": "No Dashii",
         "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned."
     },
     {
         "id": "imp",
         "type": "demon",
-        "order": 122,
+        "order": 123,
         "name": "Imp",
         "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
     },
     {
         "id": "kazali",
         "type": "demon",
-        "order": 123,
+        "order": 124,
         "name": "Kazali",
         "ability": "Each night*, choose a player: they die. [You choose which players are which Minions. -? to +? Outsiders]"
     },
     {
         "id": "shabaloth",
         "type": "demon",
-        "order": 124,
+        "order": 125,
         "name": "Shabaloth",
         "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated."
     },
     {
         "id": "ojo",
         "type": "demon",
-        "order": 125,
+        "order": 126,
         "name": "Ojo",
         "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies."
     },
     {
         "id": "po",
         "type": "demon",
-        "order": 126,
+        "order": 127,
         "name": "Po",
         "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight."
     },
     {
         "id": "zombuul",
         "type": "demon",
-        "order": 127,
+        "order": 128,
         "name": "Zombuul",
         "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead."
     },
     {
         "id": "alhadikhia",
         "type": "demon",
-        "order": 128,
+        "order": 129,
         "name": "Al-Hadikhia",
         "ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die."
     },
     {
         "id": "vigormortis",
         "type": "demon",
-        "order": 129,
+        "order": 130,
         "name": "Vigormortis",
         "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]"
     },
     {
         "id": "vortox",
         "type": "demon",
-        "order": 130,
+        "order": 131,
         "name": "Vortox",
         "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins."
     },
     {
         "id": "fanggu",
         "type": "demon",
-        "order": 131,
+        "order": 132,
         "name": "Fang Gu",
         "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]"
     },
     {
         "id": "legion",
         "type": "demon",
-        "order": 132,
+        "order": 133,
         "name": "Legion",
         "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]"
     },
     {
         "id": "lordoftyphon",
         "type": "demon",
-        "order": 133,
+        "order": 134,
         "name": "Lord of Typhon",
         "ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? to +? Outsiders]"
     },
     {
         "id": "lleech",
         "type": "demon",
-        "order": 134,
+        "order": 135,
         "name": "Lleech",
         "ability": "Each night*, choose a player: they die. You start by choosing a player: they are poisoned. You die if & only if they are dead."
     },
     {
         "id": "leviathan",
         "type": "demon",
-        "order": 135,
+        "order": 136,
         "name": "Leviathan",
         "ability": "If more than 1 good player is executed, evil wins. All players know you are in play. After day 5, evil wins."
     },
     {
         "id": "riot",
         "type": "demon",
-        "order": 136,
+        "order": 137,
         "name": "Riot",
         "ability": "On day 3, Minions become Riot & nominees die but nominate an alive player immediately. This must happen."
     },
     {
         "id": "thief",
         "type": "travellers",
-        "order": 137,
+        "order": 138,
         "name": "Thief",
         "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow."
     },
     {
         "id": "bureaucrat",
         "type": "travellers",
-        "order": 138,
+        "order": 139,
         "name": "Bureaucrat",
         "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow."
     },
     {
         "id": "barista",
         "type": "travellers",
-        "order": 139,
+        "order": 140,
         "name": "Barista",
         "ability": "Each night, until dusk, 1) a player becomes sober, healthy & gets true info, or 2) their ability works twice. They learn which."
     },
     {
         "id": "harlot",
         "type": "travellers",
-        "order": 140,
+        "order": 141,
         "name": "Harlot",
         "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die."
     },
     {
         "id": "butcher",
         "type": "travellers",
-        "order": 141,
+        "order": 142,
         "name": "Butcher",
         "ability": "Each day, after the 1st execution, you may nominate again."
     },
     {
         "id": "gunslinger",
         "type": "travellers",
-        "order": 142,
+        "order": 143,
         "name": "Gunslinger",
         "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die."
     },
     {
         "id": "matron",
         "type": "travellers",
-        "order": 143,
+        "order": 144,
         "name": "Matron",
         "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private."
     },
     {
         "id": "gangster",
         "type": "travellers",
-        "order": 144,
+        "order": 145,
         "name": "Gangster",
         "ability": "Once per day, you may choose to kill an alive neighbor, if your other alive neighbor agrees."
     },
     {
         "id": "bonecollector",
         "type": "travellers",
-        "order": 145,
+        "order": 146,
         "name": "Bone Collector",
         "ability": "Once per game, at night*, choose a dead player: they regain their ability until dusk."
     },
     {
         "id": "judge",
         "type": "travellers",
-        "order": 146,
+        "order": 147,
         "name": "Judge",
         "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail."
     },
     {
         "id": "apprentice",
         "type": "travellers",
-        "order": 147,
+        "order": 148,
         "name": "Apprentice",
         "ability": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil)."
     },
     {
         "id": "beggar",
         "type": "travellers",
-        "order": 148,
+        "order": 149,
         "name": "Beggar",
         "ability": "You must use a vote token to vote. If a dead player gives you theirs, you learn their alignment. You are sober and healthy."
     },
     {
         "id": "deviant",
         "type": "travellers",
-        "order": 149,
+        "order": 150,
         "name": "Deviant",
         "ability": "If you were funny today, you cannot die by exile."
     },
     {
         "id": "scapegoat",
         "type": "travellers",
-        "order": 150,
+        "order": 151,
         "name": "Scapegoat",
         "ability": "If a player of your alignment is executed, you might be executed instead."
     },
     {
         "id": "gnome",
         "type": "travellers",
-        "order": 151,
+        "order": 152,
         "name": "Gnome",
         "ability": "All players start knowing a player of your alignment. You may choose to kill anyone who nominates them."
     },
     {
         "id": "bishop",
         "type": "travellers",
-        "order": 152,
+        "order": 153,
         "name": "Bishop",
         "ability": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day."
     },
     {
         "id": "voudon",
         "type": "travellers",
-        "order": 153,
+        "order": 154,
         "name": "Voudon",
         "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required."
     },
     {
         "id": "angel",
         "type": "fabled",
-        "order": 154,
+        "order": 155,
         "name": "Angel",
         "ability": "Something bad might happen to whoever is most responsible for the death of a new player."
     },
     {
         "id": "bootlegger",
         "type": "fabled",
-        "order": 155,
+        "order": 156,
         "name": "Bootlegger",
         "ability": "This script has homebrew characters or rules."
     },
     {
         "id": "buddhist",
         "type": "fabled",
-        "order": 156,
+        "order": 157,
         "name": "Buddhist",
         "ability": "For the first 2 minutes of each day, veteran players may not talk."
     },
     {
         "id": "deusexfiasco",
         "type": "fabled",
-        "order": 157,
+        "order": 158,
         "name": "Deus ex Fiasco",
         "ability": "At least once per game, the Storyteller will make a mistake, correct it, and publicly admit to it."
     },
     {
         "id": "djinn",
         "type": "fabled",
-        "order": 158,
+        "order": 159,
         "name": "Djinn",
         "ability": "Use the Djinn's special rule. All players know what it is."
     },
     {
         "id": "doomsayer",
         "type": "fabled",
-        "order": 159,
+        "order": 160,
         "name": "Doomsayer",
         "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies."
     },
     {
         "id": "duchess",
         "type": "fabled",
-        "order": 160,
+        "order": 161,
         "name": "Duchess",
         "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
     },
     {
         "id": "ferryman",
         "type": "fabled",
-        "order": 161,
+        "order": 162,
         "name": "Ferryman",
         "ability": "On the final day, all dead players regain their vote token."
     },
     {
         "id": "fibbin",
         "type": "fabled",
-        "order": 162,
+        "order": 163,
         "name": "Fibbin",
         "ability": "Once per game, 1 good player might get incorrect information."
     },
     {
         "id": "fiddler",
         "type": "fabled",
-        "order": 163,
+        "order": 164,
         "name": "Fiddler",
         "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
     },
     {
         "id": "gardener",
         "type": "fabled",
-        "order": 164,
+        "order": 165,
         "name": "Gardener",
         "ability": "The Storyteller assigns 1 or more players' characters."
     },
     {
         "id": "hellslibrarian",
         "type": "fabled",
-        "order": 165,
+        "order": 166,
         "name": "Hell's Librarian",
         "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence."
     },
     {
         "id": "revolutionary",
         "type": "fabled",
-        "order": 166,
+        "order": 167,
         "name": "Revolutionary",
         "ability": "2 neighboring players are known to be the same alignment. Once per game, 1 of them registers falsely."
     },
     {
         "id": "sentinel",
         "type": "fabled",
-        "order": 167,
+        "order": 168,
         "name": "Sentinel",
         "ability": "There might be 1 extra or 1 fewer Outsider in play."
     },
     {
         "id": "spiritofivory",
         "type": "fabled",
-        "order": 168,
+        "order": 169,
         "name": "Spirit of Ivory",
         "ability": "There can't be more than 1 extra evil player."
     },
     {
         "id": "stormcatcher",
         "type": "fabled",
-        "order": 169,
+        "order": 170,
         "name": "Storm Catcher",
         "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is."
     },
     {
         "id": "toymaker",
         "type": "fabled",
-        "order": 170,
+        "order": 171,
         "name": "Toymaker",
         "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
     }
