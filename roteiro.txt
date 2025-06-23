@@ -13,5 +13,8 @@ Esse script limpa o all.json, salvando em filtered_all.json e só deixando os ca
 5 - Executar o script merge-json.py;
 Esse script lê os arquivos order.json e filtered_all.json e combina estes arquivos no arquivo final updated_characters.json.
 
-6 - Conferir e renomear o arquivo updated_characters.json para characters.json;
+6a (essa opção mantém a tradução do site) - Conferir e renomear o arquivo updated_characters.json para characters.json;
 Este último passo é uma segurança adicional para não perder o arquivo anterior.
+
+6b (essa opção mantém a tradução minha) - Jogar o arquivo updated_characters na pasta data e executar o script transfer-order.py
+Essa opção mantém as descrições dos personagens que estavam no arquivo characters.json, que contém algumas correções e algumas adaptações próprias. No fim, renomear o arquivo new.json para characters.json
