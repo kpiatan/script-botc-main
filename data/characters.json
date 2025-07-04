@@ -837,7 +837,7 @@
         "type": "demon",
         "order": 120,
         "name": "Yagarela",
-        "ability": "Você começa sabendo uma frase secreta. Para cada vez que você a diz hoje publicamente, alguém pode morrer."
+        "ability": "Você começa sabendo uma frase secreta. Para cada vez que você a disser hoje publicamente, alguém pode morrer."
     },
     {
         "id": "pukka",
