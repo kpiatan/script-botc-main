@@ -826,277 +826,277 @@
         "ability": "Há Forasteiros adicionais em jogo. [+2 Forasteiros]"
     },
     {
+        "id": "wraith",
+        "type": "minion",
+        "order": 119,
+        "name": "Espectro",
+        "ability": "Você pode escolher abrir os olhos a noite. Você acorda quando outros jogadores do mal acordam."
+    },   
+    {
         "id": "yaggababble",
         "type": "demon",
-        "order": 119,
+        "order": 120,
         "name": "Yagarela",
         "ability": "Você começa sabendo uma frase secreta. Para cada vez que você a diz hoje publicamente, alguém pode morrer."
     },
     {
         "id": "pukka",
         "type": "demon",
-        "order": 120,
+        "order": 121,
         "name": "Púca",
         "ability": "A cada noite, escolha um jogador: ele fica envenenado. O jogador envenenado anteriormente morre e então fica são."
     },
     {
         "id": "lilmonsta",
         "type": "demon",
-        "order": 121,
+        "order": 122,
         "name": "Monstrim",
         "ability": "A cada noite os Lacaios escolhem quem cuidará do Monstrim e 'é o Demônio'. A cada noite* um jogador pode morrer. [+1 Lacaio]"
     },
     {
         "id": "nodashii",
         "type": "demon",
-        "order": 122,
+        "order": 123,
         "name": "No Dashii",
         "ability": "A cada noite*, escolha um jogador: ele morre. Seus dois vizinhos Cidadãos estão envenenados."
     },
     {
         "id": "imp",
         "type": "demon",
-        "order": 123,
+        "order": 124,
         "name": "Capeta",
         "ability": "A cada noite*, escolha um jogador: ele morre. Se você se matar desta forma, um Lacaio se torna Capeta."
     },
     {
         "id": "shabaloth",
         "type": "demon",
-        "order": 124,
+        "order": 125,
         "name": "Xabalote",
         "ability": "A cada noite*, escolha 2 jogadores: eles morrem. Um jogador morto escolhido na noite anterior pode ser regurgitado."
     },
     {
         "id": "ojo",
         "type": "demon",
-        "order": 125,
+        "order": 126,
         "name": "Ojo",
         "ability": "A cada noite*, escolha um personagem: ele morre. Se ele não está em jogo, o Narrador escolhe quem morre."
     },
     {
         "id": "kazali",
         "type": "demon",
-        "order": 126,
+        "order": 127,
         "name": "Kazali",
         "ability": "A cada noite* escolha um jogador: ele morre. [Você escolhe quais jogadores são quais Lacaios. -? a +? Forasteiros]"
     },
     {
         "id": "po",
         "type": "demon",
-        "order": 127,
+        "order": 128,
         "name": "Po",
         "ability": "A cada noite*, você pode escolher um jogador: ele morre. Se a sua última escolha foi 'ninguém', escolha 3 jogadores esta noite."
     },
     {
         "id": "zombuul",
         "type": "demon",
-        "order": 128,
+        "order": 129,
         "name": "Zumbuul",
         "ability": "A cada noite*, se ninguém morreu durante o dia, escolha um jogador: ele morre. Na 1ª vez que você for morrer, continua vivo, mas é registrado como morto."
     },
     {
         "id": "vigormortis",
         "type": "demon",
-        "order": 129,
+        "order": 130,
         "name": "Vigormortis",
         "ability": "A cada noite*, você escolhe um jogador: ele morre. Lacaios que você mata mantêm suas habilidades e envenenam um vizinho Cidadão. [-1 Forasteiro]."
     },
     {
         "id": "vortox",
         "type": "demon",
-        "order": 130,
+        "order": 131,
         "name": "Vortox",
         "ability": "A cada noite*, escolha um jogador: ele morre. Habilidades de Cidadãos geram informações falsas. A cada dia, se ninguém for executado, o mal vence."
     },
     {
         "id": "legion",
         "type": "demon",
-        "order": 131,
+        "order": 132,
         "name": "Legião",
         "ability": "A cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores do mal votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
     },
     {
         "id": "fanggu",
         "type": "demon",
-        "order": 132,
+        "order": 133,
         "name": "Fang Gu / Espectro",
         "ability": "A cada noite*, você escolhe um jogador: ele morre. O 1º Forasteiro a ser morto assim, torna-se um Fang Gu do mal e você morre em vez dele. [+1 Forasteiro]"
     },
     {
         "id": "lordoftyphon",
         "type": "demon",
-        "order": 133,
+        "order": 134,
         "name": "Lorde do Tifão",
         "ability": "A cada noite* escolha um jogador: ele morre. [Jogadores do mal estão em linha. Você está no meio. +1 Lacaio. -? a +? Forasteiros]"
     },
     {
         "id": "lleech",
         "type": "demon",
-        "order": 134,
+        "order": 135,
         "name": "Sanguessuga / Parasita",
         "ability": "A cada noite*, escolha um jogador: ele morre. Você começa escolhendo um jogador vivo: ele fica envenenado - você morre se e somente se este jogador estiver morto."
     },
     {
         "id": "alhadikhia",
         "type": "demon",
-        "order": 135,
+        "order": 136,
         "name": "Al-Hadikhia",
         "ability": "A cada noite*, você pode escolher 3 jogadores (todos sabem quais): cada um escolhe silenciosamente se vive ou morre, mas se todos viverem, todos morrem."
     },
     {
         "id": "riot",
         "type": "demon",
-        "order": 136,
+        "order": 137,
         "name": "Pandemônio",
         "ability": "No 3º dia, Lacaios viram Pandemônios & nomeados morrem, mas imediatamente nomeiam um jogador vivo. Isso deve acontecer."
     },
     {
         "id": "leviathan",
         "type": "demon",
-        "order": 137,
+        "order": 138,
         "name": "Leviatã",
         "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o mal vence. Se mais de 1 jogador do bem for executado, o mal vence."
     },
     {
         "id": "thief",
         "type": "travellers",
-        "order": 138,
+        "order": 139,
         "name": "Ladrão",
         "ability": "A cada noite, escolha um jogador (exceto você): o voto dele conta negativamente amanhã."
     },
     {
         "id": "bureaucrat",
         "type": "travellers",
-        "order": 139,
+        "order": 140,
         "name": "Burocrata",
         "ability": "A cada noite, escolha um jogador (exceto você): o voto dele vale por 3 amanhã."
     },
     {
         "id": "barista",
         "type": "travellers",
-        "order": 140,
+        "order": 141,
         "name": "Barista",
         "ability": "A cada noite, até o anoitecer: 1) Um jogador fica são, sóbrio e obtém informações verdadeiras, ou; 2) Uma habilidade funciona duas vezes. O jogador afetado sabe qual é o efeito."
     },
     {
         "id": "harlot",
         "type": "travellers",
-        "order": 141,
+        "order": 142,
         "name": "Meretriz",
         "ability": "A cada noite*, escolha um jogador vivo: se ele concordar, saiba o personagem dele, mas ambos podem morrer."
     },
     {
         "id": "butcher",
         "type": "travellers",
-        "order": 142,
+        "order": 143,
         "name": "Açougueiro",
         "ability": "A cada dia, depois da 1ª execução, você pode nomear novamente."
     },
     {
         "id": "gunslinger",
         "type": "travellers",
-        "order": 143,
+        "order": 144,
         "name": "Pistoleiro",
         "ability": "A cada dia, após a 1ª contagem de votos, você pode escolher um jogador que votou: ele morre."
     },
     {
         "id": "matron",
         "type": "travellers",
-        "order": 144,
+        "order": 145,
         "name": "Matrona",
         "ability": "A cada dia, você pode escolher até 3 duplas de 2 jogadores para trocarem de lugar. Jogadores não podem sair de seus lugares para falar em particular."
     },
     {
         "id": "gangster",
         "type": "travellers",
-        "order": 145,
+        "order": 146,
         "name": "Gângster",
         "ability": "Uma vez por dia, você pode escolher matar um vizinho vivo, desde que o outro vizinho concorde."
     },
     {
         "id": "bonecollector",
         "type": "travellers",
-        "order": 146,
+        "order": 147,
         "name": "Coletor de Ossos",
         "ability": "Uma vez por jogo, à noite, escolha um jogador morto: ele recupera a habilidade até o anoitecer."
     },
     {
         "id": "judge",
         "type": "travellers",
-        "order": 147,
+        "order": 148,
         "name": "Juiz",
         "ability": "Uma vez por jogo, se outro jogador nomear, você pode forçar essa execução ou impedí-la."
     },
     {
         "id": "apprentice",
         "type": "travellers",
-        "order": 148,
+        "order": 149,
         "name": "Aprendiz",
         "ability": "Na sua 1ª noite, você ganha uma habilidade de Cidadão (se for do bem), ou de Lacaio (se for do mal)."
     },
     {
         "id": "beggar",
         "type": "travellers",
-        "order": 149,
+        "order": 150,
         "name": "Pedinte",
         "ability": "Você precisa de um token de voto para votar. Jogadores mortos podem escolher doar os deles a você. Caso o façam, saiba o alinhamento deles. Você está sóbrio & são."
     },
     {
         "id": "deviant",
         "type": "travellers",
-        "order": 150,
+        "order": 151,
         "name": "Desviado / Divergente",
         "ability": "Se você foi divertido hoje, não pode morrer por exílio."
     },
     {
         "id": "scapegoat",
         "type": "travellers",
-        "order": 151,
+        "order": 152,
         "name": "Bode Expiatório",
         "ability": "Se um jogador do seu alinhamento seria executado, você pode ser executado em vez disso."
     },
     {
         "id": "gnome",
         "type": "travellers",
-        "order": 152,
+        "order": 153,
         "name": "Gnomo",
         "ability": "Todos os jogadores começam sabendo um jogador do seu alinhamento. Você pode escolher matar qualquer um que nomeie ele."
     },
     {
         "id": "bishop",
         "type": "travellers",
-        "order": 153,
+        "order": 154,
         "name": "Bispo",
         "ability": "Apenas o Narrador pode nomear. Pelo menos 1 jogador do alinhamento oposto ao seu será nomeado a cada dia."
     },
     {
         "id": "voudon",
         "type": "travellers",
-        "order": 154,
+        "order": 155,
         "name": "Voudon",
         "ability": "Apenas você e os mortos podem votar. Não é necessário ter fichas de voto para isso. Não é necessário um mínimo de 50% de votos."
     },
     {
         "id": "angel",
         "type": "fabled",
-        "order": 155,
+        "order": 156,
         "name": "Anjo",
         "ability": "Algo ruim pode acontecer ao maior responsável pela morte de um jogador novo."
     },
     {
         "id": "bootlegger",
         "type": "fabled",
-        "order": 156,
+        "order": 157,
         "name": "Pirata",
         "ability": "Personagens ou regras caseiras estão em jogo."
-    },
-    {
-        "id": "buddhist",
-        "type": "fabled",
-        "order": 157,
-        "name": "Budista",
-        "ability": "Pelos primeiros 2 minutos de cada dia veteranos não podem falar."
     },
     {
         "id": "buddhist",
@@ -1106,93 +1106,100 @@
         "ability": "Pelos primeiros 2 minutos de cada dia veteranos não podem falar."
     },
     {
-        "id": "deusexfiasco",
+        "id": "buddhist",
         "type": "fabled",
         "order": 159,
+        "name": "Budista",
+        "ability": "Pelos primeiros 2 minutos de cada dia veteranos não podem falar."
+    },
+    {
+        "id": "deusexfiasco",
+        "type": "fabled",
+        "order": 160,
         "name": "Deus ex Fiasco",
         "ability": "Pelo menos uma vez por jogo, o Narrador vai cometer um erro, corrigi-lo, e admitir isso publicamente."
     },
     {
         "id": "doomsayer",
         "type": "fabled",
-        "order": 160,
+        "order": 161,
         "name": "Apocalíptico",
         "ability": "Se há 4 ou mais jogadores vivos, cada jogador vivo pode pedir publicamente (uma vez por jogo) que um jogador do alinhamento dele morra."
     },
     {
         "id": "duchess",
         "type": "fabled",
-        "order": 161,
+        "order": 162,
         "name": "Duquesa",
         "ability": "A cada dia 3 jogadores podem escolher te visitar. À noite*, cada visitante sabe quantos visitantes são do mal, mas 1 deles recebe informação falsa."
     },
     {
         "id": "ferryman",
         "type": "fabled",
-        "order": 162,
+        "order": 163,
         "name": "Barqueiro",
         "ability": "No último dia, todos os mortos ganham seus votos de volta."
     },
     {
         "id": "fibbin",
         "type": "fabled",
-        "order": 163,
+        "order": 164,
         "name": "Bufão",
         "ability": "Uma vez por jogo, 1 jogador do bem pode ganhar informação falsa."
     },
     {
         "id": "fiddler",
         "type": "fabled",
-        "order": 164,
+        "order": 165,
         "name": "Violinista",
         "ability": "Uma vez por jogo, o Demônio escolhe secretamente um jogador adversário: todos os jogadores escolhem qual desses 2 jogadores vence."
     },
     {
         "id": "gardener",
         "type": "fabled",
-        "order": 165,
+        "order": 166,
         "name": "Jardineiro",
         "ability": "O Narrador pode escolher o personagem de 1 ou mais jogadores."
     },
     {
         "id": "hellslibrarian",
         "type": "fabled",
-        "order": 166,
+        "order": 167,
         "name": "Bibliotecária Infernal",
         "ability": "Algo ruim pode acontecer com quem falar quando o Narrador pedir silêncio."
     },
     {
         "id": "revolutionary",
         "type": "fabled",
-        "order": 167,
+        "order": 168,
         "name": "Revolucionário",
         "ability": "2 jogadores vizinhos têm o mesmo alinhamento e todos sabem quem são. Uma vez por jogo, um deles pode ser registrado falsamente."
     },
     {
         "id": "sentinel",
         "type": "fabled",
-        "order": 168,
+        "order": 169,
         "name": "Sentinela",
         "ability": "Pode haver 1 Forasteiro a menos ou a mais em jogo."
     },
     {
         "id": "spiritofivory",
         "type": "fabled",
-        "order": 169,
+        "order": 170,
         "name": "Aura de Marfim",
         "ability": "Não pode haver mais do que 1 jogador do mal adicional."
     },
     {
         "id": "stormcatcher",
         "type": "fabled",
-        "order": 170,
+        "order": 171,
         "name": "Apanhador de Chuvas",
         "ability": "Anuncie o nome de um personagem do bem. Se estiver em jogo ele só pode morrer por execução, mas o time do mal sabe quem ele é."
     },
     {
         "id": "toymaker",
         "type": "fabled",
-        "order": 171,
+        "order": 172,
         "name": "Brincalhão",
         "ability": "O Demônio pode escolher não atacar e deve fazer isso ao menos uma vez por jogo. Jogadores do mal recebem informação inicial padrão."
     }
