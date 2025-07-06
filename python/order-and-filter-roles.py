@@ -1,5 +1,9 @@
 import json
 
+# Script para processar o arquivo roles.json e gerar order.json
+# Este programa lê um arquivo JSON contendo uma lista de papéis do jogo na ordem que são mostrados nos scripts,
+# extrai o id, tipo (roleType) e atribui uma ordem sequencial a cada papel.
+# O resultado é salvo em um novo arquivo JSON (order.json) com os campos: id, type e order.
 def process_roles_file(input_file, output_file):
     try:
         # Ler o arquivo roles.json

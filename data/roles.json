@@ -1413,20 +1413,20 @@
     "isDisabled": false
   },
   {
-    "id": "buddhist",
-    "name": "Buddhist",
-    "roleType": "fabled",
-    "print": "./images/print/Extras/fabled/Buddhist_print.webp",
-    "icon": "./images/icon/Extras/fabled/Buddhist_icon.webp",
-    "version": "Extras",
-    "isDisabled": false
-  },
-  {
     "id": "deusexfiasco",
     "name": "Deus ex Fiasco",
     "roleType": "fabled",
     "print": "./images/print/Extras/fabled/deusexfiasco.webp",
     "icon": "./images/icon/Extras/fabled/deusexfiasco.webp",
+    "version": "Extras",
+    "isDisabled": false
+  },
+  {
+    "id": "djinn",
+    "name": "Djinn",
+    "roleType": "fabled",
+    "print": "./images/print/Extras/fabled/Djinn_print.webp",
+    "icon": "./images/icon/Extras/fabled/Djinn_icon.webp",
     "version": "Extras",
     "isDisabled": false
   },

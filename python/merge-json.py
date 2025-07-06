@@ -1,6 +1,9 @@
 import json
 import os
 
+# Script para atualizar o arquivo characters.json com dados filtrados de order.json
+#lê os arquivos order.json e filtered_all.json e combina estes arquivos no arquivo final updated_characters.json. 
+
 # Caminhos dos arquivos
 characters_file = os.path.join('data', 'order.json')
 filtered_all_file = os.path.join('data', 'filtered_all.json')

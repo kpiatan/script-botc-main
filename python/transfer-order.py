@@ -1,6 +1,11 @@
 import json
 import os
 
+# Script para atualizar o arquivo characters.json com dados filtrados de order.json
+# Este script lê os arquivos updated_characters.json e characters.json,
+# combina os dados mantendo apenas os campos id, type, order, name do updated e ability do characters,
+# e salva o resultado em um novo arquivo new.json.
+
 # Definir os caminhos relativos
 base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data'))
 updated_characters_path = os.path.join(base_dir, 'updated_characters.json')

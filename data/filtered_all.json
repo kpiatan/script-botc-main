@@ -6,7 +6,7 @@
     },
     {
         "name": "Bibliotecária",
-        "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiros em jogo.)",
+        "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico. (Ou que há zero Forasteiros em jogo.)",
         "id": "librarian"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "name": "Chef",
-        "ability": "Você começa sabendo quantos pares de jogadores maus existem.",
+        "ability": "Você começa sabendo quantos pares de jogadores do mal existem.",
         "id": "chef"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "name": "Coveiro",
-        "ability": "A cada noite*, aprenda qual personagem morreu por execução hoje.",
+        "ability": "A cada noite*, saiba qual personagem morreu por execução hoje.",
         "id": "undertaker"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "name": "Mestre dos Corvos",
-        "ability": "Se você morrer à noite, será acordado para escolher um jogador: aprenda o personagem dele.",
+        "ability": "Se você morrer à noite, você é acordado para escolher um jogador: saiba o personagem dele.",
         "id": "ravenkeeper"
     },
     {
@@ -96,7 +96,7 @@
     },
     {
         "name": "Mulher Escarlate",
-        "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam)",
+        "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam.)",
         "id": "scarletwoman"
     },
     {
@@ -271,7 +271,7 @@
     },
     {
         "name": "Juiz",
-        "ability": "Uma vez por jogo, se outro jogador nomear, você pode forçar essa execução ou impedí-la.",
+        "ability": "Uma vez por jogo, se outro jogador nomear, você pode forçar essa execução ou impedi-la.",
         "id": "judge"
     },
     {
@@ -301,7 +301,7 @@
     },
     {
         "name": "Matemático",
-        "ability": "A cada noite, aprenda quantas habilidades de jogadores funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens.",
+        "ability": "A cada noite, saiba quantas habilidades de jogadores funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens.",
         "id": "mathematician"
     },
     {
@@ -311,22 +311,22 @@
     },
     {
         "name": "Arauto da Cidade",
-        "ability": "A cada noite*, aprenda se um Lacaio nomeou hoje.",
+        "ability": "A cada noite*, saiba se um Lacaio nomeou hoje.",
         "id": "towncrier"
     },
     {
         "name": "Oráculo",
-        "ability": "A cada noite*, aprenda quantos jogadores mortos são do mal.",
+        "ability": "A cada noite*, saiba quantos jogadores mortos são do mal.",
         "id": "oracle"
     },
     {
         "name": "Prodígio",
-        "ability": "A cada dia, você pode visitar o Narrador para ouvir 2 coisas em segredo: 1 é verdadeira e 1 é falsa.",
+        "ability": "A cada dia, você pode visitar o Narrador para saber 2 coisas em segredo: 1 é verdadeira e 1 é falsa.",
         "id": "savant"
     },
     {
         "name": "Costureira",
-        "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): aprenda se eles têm o mesmo alinhamento.",
+        "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): saiba se eles têm o mesmo alinhamento.",
         "id": "seamstress"
     },
     {
@@ -346,7 +346,7 @@
     },
     {
         "name": "Sábio",
-        "ability": "Se você for morto pelo Demônio, aprenda que ele é 1 dentre 2 jogadores.",
+        "ability": "Se você for morto pelo Demônio, saiba que ele é 1 dentre 2 jogadores.",
         "id": "sage"
     },
     {
@@ -436,7 +436,7 @@
     },
     {
         "name": "Nobre",
-        "ability": "Você começa sabendo 3 jogadores, 1 e apenas 1 deles é do mal.",
+        "ability": "Você começa sabendo 3 jogadores. 1 e apenas 1 deles é do mal.",
         "id": "noble"
     },
     {
@@ -451,7 +451,7 @@
     },
     {
         "name": "General",
-        "ability": "A cada noite, aprendaqual time o Narrador acredita que está vencendo: Bem, Mal ou nenhum.",
+        "ability": "A cada noite, saiba qual time o Narrador acredita que está vencendo: Bem, Mal ou nenhum.",
         "id": "general"
     },
     {
@@ -476,7 +476,7 @@
     },
     {
         "name": "Licantropo",
-        "ability": "A cada noite*, escolha um jogador vivo. Se o jogador escolhido for do bem, ele morre e o Demônio não mata esta noite. Um jogador bom registra como mal.",
+        "ability": "A cada noite*, escolha um jogador vivo. Se o jogador escolhido for do bem, ele morre e o Demônio não mata esta noite. Um jogador do bem registra como do mal.",
         "id": "lycanthrope"
     },
     {
@@ -506,7 +506,7 @@
     },
     {
         "name": "Alquimista",
-        "ability": "Você possui a habilidade de um Lacaio. Quando a usando, o Narrador pode solicitar que você faça uma escolha diferente.",
+        "ability": "Você possui a habilidade de um Lacaio. Ao usá-la, o Narrador pode solicitar que você faça uma escolha diferente.",
         "id": "alchemist"
     },
     {
@@ -561,7 +561,7 @@
     },
     {
         "name": "Idiota da Vila",
-        "ability": "A cada noite, escolha um jogador: aprenda o alinhamento dele. [+0 a +2 Idiotas da Vila. 1 dos extras está bêbado]",
+        "ability": "A cada noite, escolha um jogador: saiba seu alinhamento. [+0 a +2 Idiotas da Aldeia. 1 dos extras está bêbado]",
         "id": "villageidiot"
     },
     {
@@ -646,7 +646,7 @@
     },
     {
         "name": "Viúva",
-        "ability": "Na primeira noite, veja o Grimório e escolha um jogador: ela está envenenado. 1 jogador do Bem sabe que a Viúva está em jogo.",
+        "ability": "Na sua primeira noite, veja o Grimório e escolha um jogador: ele fica envenenado. 1 jogador do bem sabe que a Viúva está em jogo.",
         "id": "widow"
     },
     {
@@ -661,17 +661,17 @@
     },
     {
         "name": "Goblin",
-        "ability": "Quando nomeado, você pode publicamente alegar ser o Goblin e for executado naquele dia, seu time vence.",
+        "ability": "Se você publicamente alegar ser o Goblin quando nomeado e for executado naquele dia, seu time vence.",
         "id": "goblin"
     },
     {
         "name": "Mezéfeles",
-        "ability": "Você começa sabendo uma palavra secreta. O 1º jogador bom que disser a palavra se torna mau esta noite.",
+        "ability": "Você começa sabendo uma palavra secreta. O 1º jogador do bem a dizer a palavra se torna do mal naquela noite.",
         "id": "mezepheles"
     },
     {
         "name": "Marionete",
-        "ability": "Você acredita ser um personagem bom. O Demônio sabe quem você é. [Você é vizinho do Demônio]",
+        "ability": "Você acredita ser um personagem do bem. O Demônio sabe quem você é. [Você é vizinho do Demônio]",
         "id": "marionette"
     },
     {
@@ -681,12 +681,12 @@
     },
     {
         "name": "Realejo",
-        "ability": "Todos os jogadores mantêm seus olhos fechados durante votação e a contagem de votos é secreta. A cada noite escolha se você está ou não bêbado. ",
+        "ability": "Todos os jogadores mantêm seus olhos fechados durante a votação e a contagem de votos é secreta. A cada noite, escolha se você está ou não bêbado.",
         "id": "organgrinder"
     },
     {
         "name": "Vizir",
-        "ability": "Todos os jogadores sabem que você é o Vizir. Você não pode morrer durante o dia. Se jogadores do bem votaram você pode escolher executar imediatamente",
+        "ability": "Todos os jogadores sabem que você é o Vizir. Você não pode morrer durante o dia. Se jogadores do bem votaram você pode escolher executar imediatamente.",
         "id": "vizier"
     },
     {
@@ -701,7 +701,7 @@
     },
     {
         "name": "Sabichão",
-        "ability": "O Demônio (mesmo se bêbado ou envenenado) possui a habilidade de um personagem bom fora de jogo. O Demônio e você sabem qual personagem.",
+        "ability": "O Demônio (mesmo se bêbado ou envenenado) possui a habilidade de um personagem do bem fora de jogo. O Demônio e você sabem qual personagem.",
         "id": "boffin"
     },
     {
@@ -715,12 +715,17 @@
         "id": "wizard"
     },
     {
+        "name": "Espectro",
+        "ability": "Você pode escolher abrir os olhos à noite. Você acorda quando outros jogadores do mal acordam.",
+        "id": "wraith"
+    },
+    {
         "name": "Monstrim",
-        "ability": "A cada noite os Lacaios escolhem quem cuidará do Monstrim e 'é o Demônio'. A cada noite* um jogador pode morrer. [+1 Lacaio]",
+        "ability": "A cada noite, os Lacaios escolhem quem cuidará do Monstrim e 'é o Demônio'. A cada noite*, um jogador pode morrer. [+1 Lacaio]",
         "id": "lilmonsta"
     },
     {
-        "name": "Sanguesuga",
+        "name": "Sanguessuga",
         "ability": "A cada noite*, escolha um jogador: ele morre. Você começa escolhendo um jogador vivo: ele fica envenenado - você morre se e somente se este jogador estiver morto.",
         "id": "lleech"
     },
@@ -736,7 +741,7 @@
     },
     {
         "name": "Leviatã",
-        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do Bem for executado, o Mal vence.",
+        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do bem for executado, o Mal vence.",
         "id": "leviathan"
     },
     {
@@ -756,7 +761,7 @@
     },
     {
         "name": "Yagarela",
-        "ability": "Você começa sabendo uma frase secreta. Para cada vez que você a diz hoje publicamente, alguém pode morrer.",
+        "ability": "Você começa sabendo uma frase secreta. Para cada vez que você a disser hoje publicamente, alguém pode morrer.",
         "id": "yaggababble"
     },
     {
@@ -791,7 +796,7 @@
     },
     {
         "name": "Apanhador de Chuvas",
-        "ability": "Anuncie o nome de um personagem do bem. Se estiver em jogo ele só pode morrer por execução, mas o time do mal sabe quem ele é.",
+        "ability": "Anuncie o nome de um personagem do bem. Se estiver em jogo, ele só pode morrer por execução, mas o time do mal sabe quem ele é.",
         "id": "stormcatcher"
     },
     {
@@ -801,12 +806,12 @@
     },
     {
         "name": "Anjo",
-        "ability": "Algo ruim pode acontecer ao maior responsável pela morte de um jogador novo.",
+        "ability": "Algo ruim pode acontecer com quem for o maior responsável pela morte de um jogador novato.",
         "id": "angel"
     },
     {
         "name": "Budista",
-        "ability": "Pelos primeiros 2 minutos de cada dia veteranos não podem falar.",
+        "ability": "Pelos primeiros 2 minutos de cada dia, veteranos não podem falar.",
         "id": "buddhist"
     },
     {
@@ -816,12 +821,12 @@
     },
     {
         "name": "Duquesa",
-        "ability": "A cada dia 3 jogadores podem escolher te visitar. À noite*, cada visitante descobre quantos visitantes são do mal, mas 1 deles recebe informação falsa.",
+        "ability": "A cada dia 3 jogadores podem escolher visitar o Narrador. À noite*, cada visitante descobre quantos visitantes são do mal, mas 1 deles recebe informação falsa.",
         "id": "duchess"
     },
     {
         "name": "Bufão",
-        "ability": "Uma vez por jogo, 1 jogador do bem pode ganhar informação falsa.",
+        "ability": "Uma vez por jogo, 1 jogador do bem pode receber informações falsas.",
         "id": "fibbin"
     },
     {
@@ -856,7 +861,7 @@
     },
     {
         "name": "Deus ex Fiasco",
-        "ability": "O Narrador pode escolher o personagem de 1 ou mais jogadores.",
+        "ability": "Uma vez por jogo, o Narrador cometerá um erro, irá corrigí-lo e admitir publicamente.",
         "id": "deusexfiasco"
     }
 ]

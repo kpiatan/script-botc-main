@@ -1,6 +1,11 @@
 import json
 import os
 
+# Script para filtrar campos de um arquivo JSON.
+# Este script lê o arquivo all JSON, que contem uma lista em português com os personagens, habilidades, reminders e jinxes,
+# mantém apenas os campos "name", "ability" e "id" em cada objeto,
+# remove o sufixo "_br" do campo "id" (se existir),
+# e salva o resultado filtrado em um novo arquivo JSON.
 def filter_json(file_path):
     """
     Mantém apenas os campos "name", "ability" e "id" no JSON, e remove "_br" do campo "id".
