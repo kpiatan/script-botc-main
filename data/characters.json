@@ -3,7 +3,7 @@
         "id": "steward",
         "type": "townsfolk",
         "order": 1,
-        "name": "Regente / Comissário",
+        "name": "Regente",
         "ability": "Você começa sabendo 1 jogador do bem."
     },
     {
@@ -73,7 +73,7 @@
         "id": "pixie",
         "type": "townsfolk",
         "order": 11,
-        "name": "Pixie / Xuxa",
+        "name": "Pixie",
         "ability": "Você começa sabendo 1 personagem Cidadão em jogo. Se você estava alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer."
     },
     {
@@ -381,14 +381,14 @@
         "id": "amnesiac",
         "type": "townsfolk",
         "order": 55,
-        "name": "Amnésico / Esquecido",
+        "name": "Amnésico",
         "ability": "Você não sabe qual é a sua habilidade. A cada dia, visite o Narrador para tentar adivinhar a sua habilidade: saiba o quão perto está da resposta."
     },
     {
         "id": "farmer",
         "type": "townsfolk",
         "order": 56,
-        "name": "Fazendeiro / Caipira",
+        "name": "Fazendeiro",
         "ability": "Se você morrer à noite, um jogador do bem vivo se torna um Fazendeiro."
     },
     {
@@ -423,7 +423,7 @@
         "id": "banshee",
         "type": "townsfolk",
         "order": 61,
-        "name": "Banshee / Espírito",
+        "name": "Banshee",
         "ability": "Se você for morto por um Demônio, todos os jogadores sabem disso. De agora em diante você pode nomear duas vezes por dia e votar duas vezes por nomeação."
     },
     {
@@ -703,7 +703,7 @@
         "id": "fearmonger",
         "type": "minion",
         "order": 101,
-        "name": "Intimidador / Amedrontador",
+        "name": "Intimidador",
         "ability": "A cada noite, escolha um jogador. Se você nomeá-lo e executá-lo, o time dele perde. Todos os jogadores sabem quando você escolhe um novo alvo."
     },
     {
@@ -808,7 +808,7 @@
         "id": "organgrinder",
         "type": "minion",
         "order": 116,
-        "name": "Realejo / Organista",
+        "name": "Realejo",
         "ability": "Todos os jogadores mantêm seus olhos fechados durante votação e a contagem de votos é secreta. A cada noite escolha se você está ou não bêbado. "
     },
     {
@@ -927,7 +927,7 @@
         "id": "fanggu",
         "type": "demon",
         "order": 133,
-        "name": "Fang Gu / Espectro",
+        "name": "Fang Gu",
         "ability": "A cada noite*, você escolhe um jogador: ele morre. O 1º Forasteiro a ser morto assim, torna-se um Fang Gu do mal e você morre em vez dele. [+1 Forasteiro]"
     },
     {
@@ -941,7 +941,7 @@
         "id": "lleech",
         "type": "demon",
         "order": 135,
-        "name": "Sanguessuga / Parasita",
+        "name": "Sanguessuga",
         "ability": "A cada noite*, escolha um jogador: ele morre. Você começa escolhendo um jogador vivo: ele fica envenenado - você morre se e somente se este jogador estiver morto."
     },
     {
@@ -1053,7 +1053,7 @@
         "id": "deviant",
         "type": "travellers",
         "order": 151,
-        "name": "Desviado / Divergente",
+        "name": "Desviado",
         "ability": "Se você foi divertido hoje, não pode morrer por exílio."
     },
     {
