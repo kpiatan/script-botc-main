@@ -179,7 +179,7 @@
         "type": "townsfolk",
         "order": 26,
         "name": "Líder da Seita",
-        "ability": "A cada noite o seu alinhamento será igual ao de um de seus vizinhos vivos. Se todos os jogadores do bem aderirem a sua seita, seu time vence."
+        "ability": "A cada noite, o seu alinhamento será igual ao de um de seus vizinhos vivos. Se todos os jogadores do bem aderirem a sua seita, seu time vence."
     },
     {
         "id": "flowergirl",
@@ -756,82 +756,82 @@
         "ability": "Você acha que é um personagem do bem. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
     },
     {
-        "id": "summoner",
+        "id": "wraith",
         "type": "minion",
         "order": 109,
+        "name": "Espectro",
+        "ability": "Você pode escolher abrir os olhos à noite. Você acorda quando outros jogadores do mal acordam."
+    },
+    {
+        "id": "summoner",
+        "type": "minion",
+        "order": 110,
         "name": "Invocador",
-        "ability": "Você começa sabendo 3 blefes. Na 3ª noite escolha um jogador: ele se torna um Demônio do mal a sua escolha. [Sem Demônio]"
+        "ability": "Você começa sabendo 3 blefes. Na 3ª noite, escolha um jogador: ele se torna um Demônio do mal a sua escolha. [Sem Demônio]"
     },
     {
         "id": "eviltwin",
         "type": "minion",
-        "order": 110,
+        "order": 111,
         "name": "Gêmea Má",
         "ability": "Você e um oponente se conhecem e sabem o personagem um do outro. Se o jogador do bem for executado, o mal vence. O bem não pode vencer enquanto ambos viverem."
     },
     {
         "id": "goblin",
         "type": "minion",
-        "order": 111,
+        "order": 112,
         "name": "Goblin",
         "ability": "Se você publicamente alegar ser o Goblin quando nomeado e for executado naquele dia, seu time vence."
     },
     {
         "id": "boomdandy",
         "type": "minion",
-        "order": 112,
+        "order": 113,
         "name": "Homem-Bomba",
         "ability": "Se você for executado, todos morrem exceto 3 jogadores. Após uma contagem de 10 a 1, o jogador mais apontado pelos outros jogadores morre."
     },
     {
         "id": "mastermind",
         "type": "minion",
-        "order": 113,
+        "order": 114,
         "name": "Mentor",
         "ability": "Se o jogo terminaria com a morte por execução do Demônio, jogue por mais 1 dia. Se então um jogador for executado, o time dele perde."
     },
     {
         "id": "scarletwoman",
         "type": "minion",
-        "order": 114,
+        "order": 115,
         "name": "Mulher Escarlate",
         "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam)"
     },
     {
         "id": "vizier",
         "type": "minion",
-        "order": 115,
+        "order": 116,
         "name": "Vizir",
         "ability": "Todos os jogadores sabem que você é o Vizir. Você não pode morrer durante o dia. Se jogadores do bem votaram você pode escolher executar imediatamente"
     },
     {
         "id": "organgrinder",
         "type": "minion",
-        "order": 116,
+        "order": 117,
         "name": "Realejo",
-        "ability": "Todos os jogadores mantêm seus olhos fechados durante votação e a contagem de votos é secreta. A cada noite escolha se você está ou não bêbado. "
+        "ability": "Todos os jogadores mantêm seus olhos fechados durante votação e a contagem de votos é secreta. A cada noite, escolha se você está ou não bêbado. "
     },
     {
         "id": "boffin",
         "type": "minion",
-        "order": 117,
+        "order": 118,
         "name": "Sabichão",
         "ability": "O Demônio (mesmo se bêbado ou envenenado) possui a habilidade de um personagem do bem fora de jogo. O Demônio e você sabem qual personagem."
     },
     {
         "id": "baron",
         "type": "minion",
-        "order": 118,
+        "order": 119,
         "name": "Barão",
         "ability": "Há Forasteiros adicionais em jogo. [+2 Forasteiros]"
     },
-    {
-        "id": "wraith",
-        "type": "minion",
-        "order": 119,
-        "name": "Espectro",
-        "ability": "Você pode escolher abrir os olhos à noite. Você acorda quando outros jogadores do mal acordam."
-    },   
     {
         "id": "yaggababble",
         "type": "demon",
@@ -851,7 +851,7 @@
         "type": "demon",
         "order": 122,
         "name": "Monstrim",
-        "ability": "A cada noite os Lacaios escolhem quem cuidará do Monstrim e 'é o Demônio'. A cada noite* um jogador pode morrer. [+1 Lacaio]"
+        "ability": "A cada noite, os Lacaios escolhem quem cuidará do Monstrim e 'é o Demônio'. A cada noite*, um jogador pode morrer. [+1 Lacaio]"
     },
     {
         "id": "nodashii",
@@ -871,9 +871,8 @@
         "id": "shabaloth",
         "type": "demon",
         "order": 125,
-        "name": "Xabalote",
-        "ability": "A cada noite*, escolha 2 jogadores: eles morrem. Um jogador morto escolhido na noite anterior pode ser regurgitado."
-    },
+        "name": "Shabaloth",
+        "ability": "A cada noite*, escolha 2 jogadores: eles morrem. Um jogador morto escolhido na noite anterior pode ser regurgitado."},
     {
         "id": "ojo",
         "type": "demon",
@@ -886,7 +885,7 @@
         "type": "demon",
         "order": 127,
         "name": "Kazali",
-        "ability": "A cada noite* escolha um jogador: ele morre. [Você escolhe quais jogadores são quais Lacaios. -? a +? Forasteiros]"
+        "ability": "A cada noite*, escolha um jogador: ele morre. [Você escolhe quais jogadores são quais Lacaios. -? a +? Forasteiros]"
     },
     {
         "id": "po",
@@ -935,7 +934,7 @@
         "type": "demon",
         "order": 134,
         "name": "Lorde do Tifão",
-        "ability": "A cada noite* escolha um jogador: ele morre. [Jogadores do mal estão em linha. Você está no meio. +1 Lacaio. -? a +? Forasteiros]"
+        "ability": "A cada noite*, escolha um jogador: ele morre. [Jogadores do mal estão em linha. Você está no meio. +1 Lacaio. -? a +? Forasteiros]"
     },
     {
         "id": "lleech",
@@ -1106,18 +1105,18 @@
         "ability": "Pelos primeiros 2 minutos de cada dia veteranos não podem falar."
     },
     {
-        "id": "buddhist",
-        "type": "fabled",
-        "order": 159,
-        "name": "Budista",
-        "ability": "Pelos primeiros 2 minutos de cada dia veteranos não podem falar."
-    },
-    {
         "id": "deusexfiasco",
         "type": "fabled",
-        "order": 160,
+        "order": 159,
         "name": "Deus ex Fiasco",
         "ability": "Pelo menos uma vez por jogo, o Narrador vai cometer um erro, corrigi-lo, e admitir isso publicamente."
+    },
+    {
+        "id": "djinn",
+        "type": "fabled",
+        "order": 160,
+        "name": "Gênio",
+        "ability": "Use a regra especial do Gênio. Todos sabem qual é."
     },
     {
         "id": "doomsayer",
