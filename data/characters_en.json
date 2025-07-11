@@ -1084,121 +1084,128 @@
         "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required."
     },
     {
+        "id": "cacklejack",
+        "type": "travellers",
+        "order": 156,
+        "name": "Cacklejack",
+        "ability": "Each day, choose a player: a different player changes character tonight."
+    },
+    {
         "id": "angel",
         "type": "fabled",
-        "order": 156,
+        "order": 157,
         "name": "Angel",
         "ability": "Something bad might happen to whoever is most responsible for the death of a new player."
     },
     {
         "id": "bootlegger",
         "type": "fabled",
-        "order": 157,
+        "order": 158,
         "name": "Bootlegger",
         "ability": "This script has homebrew characters or rules."
     },
     {
         "id": "buddhist",
         "type": "fabled",
-        "order": 158,
+        "order": 159,
         "name": "Buddhist",
         "ability": "For the first 2 minutes of each day, veteran players may not talk."
     },
     {
         "id": "deusexfiasco",
         "type": "fabled",
-        "order": 159,
+        "order": 160,
         "name": "Deus ex Fiasco",
         "ability": "At least once per game, the Storyteller will make a mistake, correct it, and publicly admit to it."
     },
     {
         "id": "djinn",
         "type": "fabled",
-        "order": 160,
+        "order": 161,
         "name": "Djinn",
         "ability": "Use the Djinn's special rule. All players know what it is."
     },
     {
         "id": "doomsayer",
         "type": "fabled",
-        "order": 161,
+        "order": 162,
         "name": "Doomsayer",
         "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies."
     },
     {
         "id": "duchess",
         "type": "fabled",
-        "order": 162,
+        "order": 163,
         "name": "Duchess",
         "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
     },
     {
         "id": "ferryman",
         "type": "fabled",
-        "order": 163,
+        "order": 164,
         "name": "Ferryman",
         "ability": "On the final day, all dead players regain their vote token."
     },
     {
         "id": "fibbin",
         "type": "fabled",
-        "order": 164,
+        "order": 165,
         "name": "Fibbin",
         "ability": "Once per game, 1 good player might get incorrect information."
     },
     {
         "id": "fiddler",
         "type": "fabled",
-        "order": 165,
+        "order": 166,
         "name": "Fiddler",
         "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
     },
     {
         "id": "gardener",
         "type": "fabled",
-        "order": 166,
+        "order": 167,
         "name": "Gardener",
         "ability": "The Storyteller assigns 1 or more players' characters."
     },
     {
         "id": "hellslibrarian",
         "type": "fabled",
-        "order": 167,
+        "order": 168,
         "name": "Hell's Librarian",
         "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence."
     },
     {
         "id": "revolutionary",
         "type": "fabled",
-        "order": 168,
+        "order": 169,
         "name": "Revolutionary",
         "ability": "2 neighboring players are known to be the same alignment. Once per game, 1 of them registers falsely."
     },
     {
         "id": "sentinel",
         "type": "fabled",
-        "order": 169,
+        "order": 170,
         "name": "Sentinel",
         "ability": "There might be 1 extra or 1 fewer Outsider in play."
     },
     {
         "id": "spiritofivory",
         "type": "fabled",
-        "order": 170,
+        "order": 171,
         "name": "Spirit of Ivory",
         "ability": "There can't be more than 1 extra evil player."
     },
     {
         "id": "stormcatcher",
         "type": "fabled",
-        "order": 171,
+        "order": 172,
         "name": "Storm Catcher",
         "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is."
     },
     {
         "id": "toymaker",
         "type": "fabled",
-        "order": 172,
+        "order": 173,
         "name": "Toymaker",
         "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
     }
