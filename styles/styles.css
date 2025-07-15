@@ -214,7 +214,7 @@
 }
 
 .a4-sheet > *:first-child {
-  margin-top: 75px; /* Espaço extra na primeira linha */
+  margin-top: 59px; /* Espaço extra na primeira linha */
 }
 
 .horizontal-line {
