@@ -865,7 +865,7 @@
         "type": "demon",
         "order": 124,
         "name": "Capeta",
-        "ability": "A cada noite*, escolha um jogador: ele morre. Se você se matar desta forma, um Lacaio se torna Capeta."
+        "ability": "A cada noite*, escolha um jogador: ele morre. Se você se matar desta forma, um Lacaio se torna o Capeta."
     },
     {
         "id": "shabaloth",
