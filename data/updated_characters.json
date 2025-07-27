@@ -25,7 +25,7 @@
         "type": "townsfolk",
         "order": 4,
         "name": "Nobre",
-        "ability": "Você começa sabendo 3 jogadores, 1 e apenas 1 deles é do mal."
+        "ability": "Você começa sabendo 3 jogadores. 1 e apenas 1 deles é do mal."
     },
     {
         "id": "investigator",
@@ -67,7 +67,7 @@
         "type": "townsfolk",
         "order": 10,
         "name": "Shugenja",
-        "ability": "Você começa sabendo se o jogador do mal mais próximo de você está no sentido horário ou anti-horário. Se equidistantes, essa informação é arbitrária."
+        "ability": "Você começa sabendo se o jogador do mal mais próximo de você se encontra no sentido horário ou anti-horário. Se equidistantes, essa informação é arbitrária."
     },
     {
         "id": "pixie",
@@ -81,21 +81,21 @@
         "type": "townsfolk",
         "order": 12,
         "name": "Mercenário",
-        "ability": "Você começa sabendo 1 jogador do mal. Se esse jogador morrer, saiba outro jogador do mal esta noite. [1 Cidadão é do mal]"
+        "ability": "Você começa sabendo 1 jogador do mal. Se esse jogador morrer, aprenda outro jogador do mal esta noite. [1 Cidadão é do mal]"
     },
     {
         "id": "empath",
         "type": "townsfolk",
         "order": 13,
         "name": "Empático",
-        "ability": "A cada noite, saiba quantos de seus 2 vizinhos vivos são do mal."
+        "ability": "A cada noite, aprenda quantos de seus 2 vizinhos vivos são do mal."
     },
     {
         "id": "highpriestess",
         "type": "townsfolk",
         "order": 14,
         "name": "Suma Sacerdotisa",
-        "ability": "A cada noite, saiba com qual jogador o Narrador acredita que você mais deveria conversar."
+        "ability": "A cada noite, aprenda com qual jogador o Narrador acredita que você mais deveria conversar."
     },
     {
         "id": "sailor",
@@ -109,14 +109,14 @@
         "type": "townsfolk",
         "order": 16,
         "name": "Balonista",
-        "ability": "A cada noite, saiba um jogador de um tipo de personagem diferente do que você soube na noite anterior. [+0 ou +1 Forasteiro]"
+        "ability": "A cada noite, aprenda um jogador de um tipo de personagem diferente do que você soube na noite anterior. [+0 ou +1 Forasteiro]"
     },
     {
         "id": "general",
         "type": "townsfolk",
         "order": 17,
         "name": "General",
-        "ability": "A cada noite, saiba qual time o Narrador acredita que está vencendo: bem, mal ou nenhum."
+        "ability": "A cada noite, aprenda qual time o Narrador acredita que está vencendo: Bem, Mal ou nenhum."
     },
     {
         "id": "preacher",
@@ -130,14 +130,14 @@
         "type": "townsfolk",
         "order": 19,
         "name": "Camareira",
-        "ability": "A cada noite, escolha 2 jogadores vivos (exceto você): saiba quantos deles acordaram esta noite pelas próprias habilidades."
+        "ability": "A cada noite, escolha 2 jogadores vivos (exceto você): aprenda quantos deles acordaram esta noite pelas próprias habilidades."
     },
     {
         "id": "villageidiot",
         "type": "townsfolk",
         "order": 20,
         "name": "Idiota da Vila",
-        "ability": "A cada noite, escolha um jogador: saiba o alinhamento dele. [+0 a +2 Idiotas da Cidade. 1 dos extras está bêbado]"
+        "ability": "A cada noite, escolha um jogador: aprenda seu alinhamento. [+0 a +2 Idiotas da Aldeia. 1 dos extras está bêbado]"
     },
     {
         "id": "snakecharmer",
@@ -151,63 +151,63 @@
         "type": "townsfolk",
         "order": 22,
         "name": "Matemático",
-        "ability": "A cada noite, saiba quantas habilidades de jogadores funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens."
+        "ability": "A cada noite, aprenda quantas habilidades de jogadores funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens."
     },
     {
         "id": "king",
         "type": "townsfolk",
         "order": 23,
         "name": "Rei",
-        "ability": "A cada noite, se os vivos não são maioria, saiba um personagem vivo. O Demônio sabe que você é o Rei."
+        "ability": "A cada noite, se os vivos não são maioria, aprenda um personagem vivo. O Demônio sabe que você é o Rei."
     },
     {
         "id": "dreamer",
         "type": "townsfolk",
         "order": 24,
         "name": "Sonhador",
-        "ability": "A cada noite, escolha um jogador (exceto você ou Viajantes): saiba 1 personagem do bem e 1 do mal, um deles corresponde ao jogador escolhido."
+        "ability": "A cada noite, escolha um jogador (exceto você ou Viajantes): aprenda 1 personagem do bem e 1 do mal, um deles corresponde ao jogador escolhido."
     },
     {
         "id": "fortuneteller",
         "type": "townsfolk",
         "order": 25,
         "name": "Vidente",
-        "ability": "A cada noite, escolha 2 jogadores: saiba se dentre eles há um Demônio. Há um jogador do bem que é registrado como Demônio para você."
+        "ability": "A cada noite, escolha 2 jogadores: aprenda se dentre eles há um Demônio. Há um jogador do bem que é registrado como Demônio para você."
     },
     {
         "id": "cultleader",
         "type": "townsfolk",
         "order": 26,
         "name": "Líder da Seita",
-        "ability": "A cada noite, o seu alinhamento será igual ao de um de seus vizinhos vivos. Se todos os jogadores do bem aderirem a sua seita, seu time vence."
+        "ability": "A cada noite o seu alinhamento será igual ao de um de seus vizinhos vivos. Se todos os jogadores do bem aderirem a sua seita, seu time vence."
     },
     {
         "id": "flowergirl",
         "type": "townsfolk",
         "order": 27,
         "name": "Florista",
-        "ability": "A cada noite*, saiba se um Demônio votou hoje."
+        "ability": "A cada noite*, aprenda se um Demônio votou hoje."
     },
     {
         "id": "towncrier",
         "type": "townsfolk",
         "order": 28,
         "name": "Arauto da Cidade",
-        "ability": "A cada noite*, saiba se um Lacaio nomeou hoje."
+        "ability": "A cada noite*, aprenda se um Lacaio nomeou hoje."
     },
     {
         "id": "oracle",
         "type": "townsfolk",
         "order": 29,
         "name": "Oráculo",
-        "ability": "A cada noite*, saiba quantos jogadores mortos são do mal."
+        "ability": "A cada noite*, aprenda quantos jogadores mortos são do mal."
     },
     {
         "id": "undertaker",
         "type": "townsfolk",
         "order": 30,
         "name": "Coveiro",
-        "ability": "A cada noite*, saiba qual personagem morreu por execução hoje."
+        "ability": "A cada noite*, aprenda qual personagem morreu por execução hoje."
     },
     {
         "id": "innkeeper",
@@ -249,7 +249,7 @@
         "type": "townsfolk",
         "order": 36,
         "name": "Exorcista",
-        "ability": "A cada noite*, escolha um jogador (exceto o da noite anterior): o Demônio, se escolhido, sabe quem você é e não age esta noite."
+        "ability": "A cada noite*, escolha um jogador (exceto o da noite anterior): o Demônio, se escolhido, descobre quem você é e não age esta noite."
     },
     {
         "id": "gossip",
@@ -263,14 +263,14 @@
         "type": "townsfolk",
         "order": 38,
         "name": "Prodígio",
-        "ability": "A cada dia, você pode visitar o Narrador para saber 2 coisas em segredo: 1 é verdadeira e 1 é falsa."
+        "ability": "A cada dia, você pode visitar o Narrador para aprender 2 coisas em segredo: 1 é verdadeira e 1 é falsa."
     },
     {
         "id": "alsaahir",
         "type": "townsfolk",
         "order": 39,
         "name": "Alsaahir",
-        "ability": "A cada dia, se você publicamente adivinhar quais jogadores são Lacaio(s) e quais são Demônio(s), o bem vence."
+        "ability": "A cada dia, se você publicamente adivinhar quais jogadores são Lacaio(s) e quais são Demônio(s), o Bem vence."
     },
     {
         "id": "engineer",
@@ -284,7 +284,7 @@
         "type": "townsfolk",
         "order": 41,
         "name": "Vigia Noturno",
-        "ability": "Uma vez por jogo, à noite, escolha um jogador: ele sabe que você é o Vigia Noturno."
+        "ability": "Uma vez por jogo, à noite, escolha um jogador: ele aprende que você é o Vigia Noturno."
     },
     {
         "id": "courtier",
@@ -298,7 +298,7 @@
         "type": "townsfolk",
         "order": 43,
         "name": "Costureira",
-        "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): saiba se eles têm o mesmo alinhamento."
+        "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): aprenda se eles têm o mesmo alinhamento."
     },
     {
         "id": "philosopher",
@@ -326,7 +326,7 @@
         "type": "townsfolk",
         "order": 47,
         "name": "Artista",
-        "ability": "Uma vez por jogo, durante o dia, em segredo, você pode fazer uma pergunta de sim/não para o Narrador."
+        "ability": "Uma vez por jogo, durante o dia, em segredo, você pode fazer uma pergunta de 'sim ou não' para o Narrador."
     },
     {
         "id": "slayer",
@@ -354,7 +354,7 @@
         "type": "townsfolk",
         "order": 51,
         "name": "Malabarista",
-        "ability": "Em seu primeiro dia, você pode tentar adivinhar publicamente até 5 personagens de até 5 jogadores. À noite, saiba quantos você acertou."
+        "ability": "Em seu primeiro dia, você pode tentar adivinhar publicamente até 5 personagens de até 5 jogadores. À noite, aprenda quantos você acertou."
     },
     {
         "id": "soldier",
@@ -382,7 +382,7 @@
         "type": "townsfolk",
         "order": 55,
         "name": "Amnésico",
-        "ability": "Você não sabe qual é a sua habilidade. A cada dia, visite o Narrador para tentar adivinhar a sua habilidade: saiba o quão perto está da resposta."
+        "ability": "Você não sabe qual é a sua habilidade. A cada dia, visite o Narrador para tentar adivinhar a sua habilidade: aprenda o quão perto está da resposta."
     },
     {
         "id": "farmer",
@@ -403,28 +403,28 @@
         "type": "townsfolk",
         "order": 58,
         "name": "Mestre dos Corvos",
-        "ability": "Se você morrer à noite, será acordado para escolher um jogador: saiba o personagem dele."
+        "ability": "Se você morrer à noite, você é acordado para escolher um jogador: aprenda o personagem dele."
     },
     {
         "id": "sage",
         "type": "townsfolk",
         "order": 59,
         "name": "Sábio",
-        "ability": "Se você for morto pelo Demônio, saiba que ele é 1 dentre 2 jogadores."
+        "ability": "Se você for morto pelo Demônio, aprenda que ele é 1 dentre 2 jogadores."
     },
     {
         "id": "choirboy",
         "type": "townsfolk",
         "order": 60,
         "name": "Coroinha",
-        "ability": "Se o Demônio matar o Rei, saiba qual jogador é o Demônio. [+Rei]"
+        "ability": "Se o Demônio matar o Rei, apenda qual jogador é o Demônio. [+Rei]"
     },
     {
         "id": "banshee",
         "type": "townsfolk",
         "order": 61,
         "name": "Banshee",
-        "ability": "Se você for morto por um Demônio, todos os jogadores sabem disso. De agora em diante você pode nomear duas vezes por dia e votar duas vezes por nomeação."
+        "ability": "Se você for morto por um Demônio, todos os jogadores aprendem isso. De agora em diante você pode nomear duas vezes por dia e votar duas vezes por nomeação."
     },
     {
         "id": "tealady",
@@ -480,14 +480,14 @@
         "type": "townsfolk",
         "order": 69,
         "name": "Ateu",
-        "ability": "O Narrador pode quebrar as regras do jogo e, se executado, o bem ganha, mesmo que você esteja morto. [Sem personagens do mal]"
+        "ability": "O Narrador pode quebrar as regras do jogo e, se executado, o Bem ganha, mesmo que você esteja morto. [Sem personagens do mal]"
     },
     {
         "id": "hermit",
         "type": "outsider",
         "order": 70,
         "name": "Ermitão",
-        "ability": "Você tem todas as habilidades dos Forasteiros. [-0 ou -1 Forasteiros]"
+        "ability": "Você tem todas as habilidades de Forasteiros. [-0 ou -1 Forasteiros]"
     },
     {
         "id": "butler",
@@ -515,7 +515,7 @@
         "type": "outsider",
         "order": 74,
         "name": "Lunático",
-        "ability": "Você acha que é um Demônio, mas você não é. O Demônio sabe quem você é e quem você escolhe à noite."
+        "ability": "Você pensa que é um Demônio, mas você não é. O Demônio sabe quem você é e quem você escolhe à noite."
     },
     {
         "id": "drunk",
@@ -641,14 +641,14 @@
         "type": "outsider",
         "order": 92,
         "name": "Enigmático",
-        "ability": "Um jogador está bêbado, mesmo se você estiver morto. Você tem uma chance de adivinhar quem é. Se conseguir, saiba quem é o Demônio. Do contrário, você recebe informação falsa."
+        "ability": "Um jogador está bêbado, mesmo se você estiver morto. Você tem uma chance de adivinhar quem é. Se conseguir, aprenda quem é o Demônio. Do contrário, você recebe informação falsa."
     },
     {
         "id": "mezepheles",
         "type": "minion",
         "order": 93,
         "name": "Mezéfeles",
-        "ability": "Você começa sabendo uma palavra secreta. O 1º jogador do bem que disser a palavra se torna do mal esta noite."
+        "ability": "Você começa sabendo uma palavra secreta. O 1º jogador do bem a dizer a palavra se torna do mal naquela noite."
     },
     {
         "id": "godfather",
@@ -739,7 +739,7 @@
         "type": "minion",
         "order": 106,
         "name": "Viúva",
-        "ability": "Na primeira noite, veja o Grimório e escolha um jogador: ela está envenenado. 1 jogador do bem sabe que a Viúva está em jogo."
+        "ability": "Na sua primeira noite, veja o Grimório e escolha um jogador: ele fica envenenado. 1 jogador do bem sabe que a Viúva está em jogo."
     },
     {
         "id": "xaan",
@@ -753,7 +753,7 @@
         "type": "minion",
         "order": 108,
         "name": "Marionete",
-        "ability": "Você acha que é um personagem do bem. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
+        "ability": "Você acredita ser um personagem do bem. O Demônio sabe quem você é. [Você é vizinho do Demônio]"
     },
     {
         "id": "wraith",
@@ -767,14 +767,14 @@
         "type": "minion",
         "order": 110,
         "name": "Invocador",
-        "ability": "Você começa sabendo 3 blefes. Na 3ª noite, escolha um jogador: ele se torna um Demônio do mal a sua escolha. [Sem Demônio]"
+        "ability": "Você começa sabendo 3 blefes. Na 3ª noite escolha um jogador: ele se torna um Demônio do mal a sua escolha. [Sem Demônio]"
     },
     {
         "id": "eviltwin",
         "type": "minion",
         "order": 111,
         "name": "Gêmea Má",
-        "ability": "Você e um oponente se conhecem e sabem o personagem um do outro. Se o jogador do bem for executado, o mal vence. O bem não pode vencer enquanto ambos viverem."
+        "ability": "Você e um oponente se conhecem e sabem o personagem um do outro. Se o jogador do bem for executado, o Mal vence. O Bem não pode vencer enquanto ambos viverem."
     },
     {
         "id": "goblin",
@@ -802,21 +802,21 @@
         "type": "minion",
         "order": 115,
         "name": "Mulher Escarlate",
-        "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam)"
+        "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam.)"
     },
     {
         "id": "vizier",
         "type": "minion",
         "order": 116,
         "name": "Vizir",
-        "ability": "Todos os jogadores sabem que você é o Vizir. Você não pode morrer durante o dia. Se jogadores do bem votaram você pode escolher executar imediatamente"
+        "ability": "Todos os jogadores sabem que você é o Vizir. Você não pode morrer durante o dia. Se jogadores do bem votaram você pode escolher executar imediatamente."
     },
     {
         "id": "organgrinder",
         "type": "minion",
         "order": 117,
         "name": "Realejo",
-        "ability": "Todos os jogadores mantêm seus olhos fechados durante votação e a contagem de votos é secreta. A cada noite, escolha se você está ou não bêbado. "
+        "ability": "Todos os jogadores mantêm seus olhos fechados durante a votação e a contagem de votos é secreta. A cada noite, escolha se você está ou não bêbado."
     },
     {
         "id": "boffin",
@@ -865,13 +865,13 @@
         "type": "demon",
         "order": 124,
         "name": "Capeta",
-        "ability": "A cada noite*, escolha um jogador: ele morre. Se você se matar desta forma, um Lacaio se torna o Capeta."
+        "ability": "A cada noite*, escolha um jogador: ele morre. Se você se matar desta forma, um Lacaio se torna Capeta."
     },
     {
         "id": "shabaloth",
         "type": "demon",
         "order": 125,
-        "name": "Shabaloth",
+        "name": "Xabalote",
         "ability": "A cada noite*, escolha 2 jogadores: eles morrem. Um jogador morto escolhido na noite anterior pode ser regurgitado."
     },
     {
@@ -886,7 +886,7 @@
         "type": "demon",
         "order": 127,
         "name": "Kazali",
-        "ability": "A cada noite*, escolha um jogador: ele morre. [Você escolhe quais jogadores são quais Lacaios. -? a +? Forasteiros]"
+        "ability": "A cada noite* escolha um jogador: ele morre. [Você escolhe quais jogadores são quais Lacaios. -? a +? Forasteiros]"
     },
     {
         "id": "po",
@@ -914,14 +914,14 @@
         "type": "demon",
         "order": 131,
         "name": "Vortox",
-        "ability": "A cada noite*, escolha um jogador: ele morre. Habilidades de Cidadãos geram informações falsas. A cada dia, se ninguém for executado, o mal vence."
+        "ability": "A cada noite*, escolha um jogador: ele morre. Habilidades de Cidadãos geram informações falsas. A cada dia, se ninguém for executado, o Mal vence."
     },
     {
         "id": "legion",
         "type": "demon",
         "order": 132,
         "name": "Legião",
-        "ability": "A cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores do mal votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
+        "ability": "A cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores maus votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
     },
     {
         "id": "fanggu",
@@ -935,7 +935,7 @@
         "type": "demon",
         "order": 134,
         "name": "Lorde do Tifão",
-        "ability": "A cada noite*, escolha um jogador: ele morre. [Jogadores do mal estão em linha. Você está no meio. +1 Lacaio. -? a +? Forasteiros]"
+        "ability": "A cada noite* escolha um jogador: ele morre. [Jogadores do mal estão em linha. Você está no meio. +1 Lacaio. -? a +? Forasteiros]"
     },
     {
         "id": "lleech",
@@ -963,7 +963,7 @@
         "type": "demon",
         "order": 138,
         "name": "Leviatã",
-        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o mal vence. Se mais de 1 jogador do bem for executado, o mal vence."
+        "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do bem for executado, o Mal vence."
     },
     {
         "id": "thief",
@@ -1003,9 +1003,7 @@
     {
         "id": "cacklejack",
         "type": "travellers",
-        "order": 144,
-        "name": "Zé Comédia",
-        "ability": "A cada dia, escolha um jogador: um jogador diferente troca de personagem hoje a noite."
+        "order": 144
     },
     {
         "id": "gunslinger",
@@ -1040,7 +1038,7 @@
         "type": "travellers",
         "order": 149,
         "name": "Juiz",
-        "ability": "Uma vez por jogo, se outro jogador nomear, você pode forçar essa execução ou impedí-la."
+        "ability": "Uma vez por jogo, se outro jogador nomear, você pode forçar essa execução ou impedi-la."
     },
     {
         "id": "apprentice",
@@ -1054,7 +1052,7 @@
         "type": "travellers",
         "order": 151,
         "name": "Pedinte",
-        "ability": "Você precisa de um token de voto para votar. Jogadores mortos podem escolher doar os deles a você. Caso o façam, saiba o alinhamento deles. Você está sóbrio & são."
+        "ability": "Você precisa de um token de voto para votar. Jogadores mortos podem escolher doar os deles a você. Caso o façam, aprenda o alinhamento deles. Você está sóbrio & são."
     },
     {
         "id": "deviant",
@@ -1096,7 +1094,7 @@
         "type": "fabled",
         "order": 157,
         "name": "Anjo",
-        "ability": "Algo ruim pode acontecer ao maior responsável pela morte de um jogador novo."
+        "ability": "Algo ruim pode acontecer com quem for o maior responsável pela morte de um jogador novato."
     },
     {
         "id": "bootlegger",
@@ -1110,14 +1108,14 @@
         "type": "fabled",
         "order": 159,
         "name": "Budista",
-        "ability": "Pelos primeiros 2 minutos de cada dia veteranos não podem falar."
+        "ability": "Pelos primeiros 2 minutos de cada dia, veteranos não podem falar."
     },
     {
         "id": "deusexfiasco",
         "type": "fabled",
         "order": 160,
         "name": "Deus ex Fiasco",
-        "ability": "Pelo menos uma vez por jogo, o Narrador vai cometer um erro, corrigi-lo, e admitir isso publicamente."
+        "ability": "Uma vez por jogo, o Narrador cometerá um erro, irá corrigí-lo e admitir publicamente."
     },
     {
         "id": "djinn",
@@ -1138,7 +1136,7 @@
         "type": "fabled",
         "order": 163,
         "name": "Duquesa",
-        "ability": "A cada dia 3 jogadores podem escolher te visitar. À noite*, cada visitante sabe quantos visitantes são do mal, mas 1 deles recebe informação falsa."
+        "ability": "A cada dia 3 jogadores podem escolher visitar o Narrador. À noite*, cada visitante descobre quantos visitantes são do mal, mas 1 deles recebe informação falsa."
     },
     {
         "id": "ferryman",
@@ -1152,7 +1150,7 @@
         "type": "fabled",
         "order": 165,
         "name": "Bufão",
-        "ability": "Uma vez por jogo, 1 jogador do bem pode ganhar informação falsa."
+        "ability": "Uma vez por jogo, 1 jogador do bem pode receber informações falsas."
     },
     {
         "id": "fiddler",
@@ -1201,7 +1199,7 @@
         "type": "fabled",
         "order": 172,
         "name": "Apanhador de Chuvas",
-        "ability": "Anuncie o nome de um personagem do bem. Se estiver em jogo ele só pode morrer por execução, mas o time do mal sabe quem ele é."
+        "ability": "Anuncie o nome de um personagem do bem. Se estiver em jogo, ele só pode morrer por execução, mas o time do mal sabe quem ele é."
     },
     {
         "id": "toymaker",

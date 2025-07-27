@@ -1000,95 +1000,95 @@
         "ability": "Each day, after the 1st execution, you may nominate again."
     },
     {
-        "id": "gunslinger",
+        "id": "cacklejack",
         "type": "travellers",
         "order": 144,
+        "name": "Cacklejack",
+        "ability": "Each day, choose a player: a different player changes character tonight."
+    },
+    {
+        "id": "gunslinger",
+        "type": "travellers",
+        "order": 145,
         "name": "Gunslinger",
         "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die."
     },
     {
         "id": "matron",
         "type": "travellers",
-        "order": 145,
+        "order": 146,
         "name": "Matron",
         "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private."
     },
     {
         "id": "gangster",
         "type": "travellers",
-        "order": 146,
+        "order": 147,
         "name": "Gangster",
         "ability": "Once per day, you may choose to kill an alive neighbor, if your other alive neighbor agrees."
     },
     {
         "id": "bonecollector",
         "type": "travellers",
-        "order": 147,
+        "order": 148,
         "name": "Bone Collector",
         "ability": "Once per game, at night*, choose a dead player: they regain their ability until dusk."
     },
     {
         "id": "judge",
         "type": "travellers",
-        "order": 148,
+        "order": 149,
         "name": "Judge",
         "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail."
     },
     {
         "id": "apprentice",
         "type": "travellers",
-        "order": 149,
+        "order": 150,
         "name": "Apprentice",
         "ability": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil)."
     },
     {
         "id": "beggar",
         "type": "travellers",
-        "order": 150,
+        "order": 151,
         "name": "Beggar",
         "ability": "You must use a vote token to vote. If a dead player gives you theirs, you learn their alignment. You are sober and healthy."
     },
     {
         "id": "deviant",
         "type": "travellers",
-        "order": 151,
+        "order": 152,
         "name": "Deviant",
         "ability": "If you were funny today, you cannot die by exile."
     },
     {
         "id": "scapegoat",
         "type": "travellers",
-        "order": 152,
+        "order": 153,
         "name": "Scapegoat",
         "ability": "If a player of your alignment is executed, you might be executed instead."
     },
     {
         "id": "gnome",
         "type": "travellers",
-        "order": 153,
+        "order": 154,
         "name": "Gnome",
         "ability": "All players start knowing a player of your alignment. You may choose to kill anyone who nominates them."
     },
     {
         "id": "bishop",
         "type": "travellers",
-        "order": 154,
+        "order": 155,
         "name": "Bishop",
         "ability": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day."
     },
     {
         "id": "voudon",
         "type": "travellers",
-        "order": 155,
+        "order": 156,
         "name": "Voudon",
         "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required."
-    },
-    {
-        "id": "cacklejack",
-        "type": "travellers",
-        "order": 156,
-        "name": "Cacklejack",
-        "ability": "Each day, choose a player: a different player changes character tonight."
     },
     {
         "id": "angel",

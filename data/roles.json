@@ -1287,6 +1287,15 @@
     "isDisabled": false
   },
   {
+    "id": "cacklejack",
+    "name": "Cacklejack",
+    "roleType": "travellers",
+    "print": "./images/print/Extras/travellers/cacklejack.webp",
+    "icon": "./images/icon/Extras/travellers/cacklejack.webp",
+    "version": "4b - Carousel Experimental",
+    "isDisabled": false
+  },
+  {
     "id": "gunslinger",
     "name": "Gunslinger",
     "roleType": "travellers",

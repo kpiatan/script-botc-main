@@ -31,7 +31,7 @@
     },
     {
         "name": "Coveiro",
-        "ability": "A cada noite*, saiba qual personagem morreu por execução hoje.",
+        "ability": "A cada noite*, aprenda qual personagem morreu por execução hoje.",
         "id": "undertaker"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "name": "Mestre dos Corvos",
-        "ability": "Se você morrer à noite, você é acordado para escolher um jogador: saiba o personagem dele.",
+        "ability": "Se você morrer à noite, você é acordado para escolher um jogador: aprenda o personagem dele.",
         "id": "ravenkeeper"
     },
     {
@@ -301,7 +301,7 @@
     },
     {
         "name": "Matemático",
-        "ability": "A cada noite, saiba quantas habilidades de jogadores funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens.",
+        "ability": "A cada noite, aprenda quantas habilidades de jogadores funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens.",
         "id": "mathematician"
     },
     {
@@ -311,22 +311,22 @@
     },
     {
         "name": "Arauto da Cidade",
-        "ability": "A cada noite*, saiba se um Lacaio nomeou hoje.",
+        "ability": "A cada noite*, aprenda se um Lacaio nomeou hoje.",
         "id": "towncrier"
     },
     {
         "name": "Oráculo",
-        "ability": "A cada noite*, saiba quantos jogadores mortos são do mal.",
+        "ability": "A cada noite*, aprenda quantos jogadores mortos são do mal.",
         "id": "oracle"
     },
     {
         "name": "Prodígio",
-        "ability": "A cada dia, você pode visitar o Narrador para saber 2 coisas em segredo: 1 é verdadeira e 1 é falsa.",
+        "ability": "A cada dia, você pode visitar o Narrador para aprender 2 coisas em segredo: 1 é verdadeira e 1 é falsa.",
         "id": "savant"
     },
     {
         "name": "Costureira",
-        "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): saiba se eles têm o mesmo alinhamento.",
+        "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): aprenda se eles têm o mesmo alinhamento.",
         "id": "seamstress"
     },
     {
@@ -346,7 +346,7 @@
     },
     {
         "name": "Sábio",
-        "ability": "Se você for morto pelo Demônio, saiba que ele é 1 dentre 2 jogadores.",
+        "ability": "Se você for morto pelo Demônio, aprenda que ele é 1 dentre 2 jogadores.",
         "id": "sage"
     },
     {
@@ -451,7 +451,7 @@
     },
     {
         "name": "General",
-        "ability": "A cada noite, saiba qual time o Narrador acredita que está vencendo: Bem, Mal ou nenhum.",
+        "ability": "A cada noite, aprenda qual time o Narrador acredita que está vencendo: Bem, Mal ou nenhum.",
         "id": "general"
     },
     {
@@ -481,12 +481,12 @@
     },
     {
         "name": "Amnésico",
-        "ability": "Você não sabe qual é a sua habilidade. A cada dia, visite o Narrador para tentar adivinhar a sua habilidade: saiba o quão perto está da resposta.",
+        "ability": "Você não sabe qual é a sua habilidade. A cada dia, visite o Narrador para tentar adivinhar a sua habilidade: aprenda o quão perto está da resposta.",
         "id": "amnesiac"
     },
     {
         "name": "Vigia Noturno",
-        "ability": "Uma vez por jogo, à noite, escolha um jogador: ele descobre que você é o Vigia Noturno.",
+        "ability": "Uma vez por jogo, à noite, escolha um jogador: ele aprende que você é o Vigia Noturno.",
         "id": "nightwatchman"
     },
     {
@@ -521,7 +521,7 @@
     },
     {
         "name": "Coroinha",
-        "ability": "Se o Demônio matar o Rei, descubra qual jogador é o Demônio. [+Rei]",
+        "ability": "Se o Demônio matar o Rei, apenda qual jogador é o Demônio. [+Rei]",
         "id": "choirboy"
     },
     {
@@ -561,7 +561,7 @@
     },
     {
         "name": "Idiota da Vila",
-        "ability": "A cada noite, escolha um jogador: saiba seu alinhamento. [+0 a +2 Idiotas da Aldeia. 1 dos extras está bêbado]",
+        "ability": "A cada noite, escolha um jogador: aprenda seu alinhamento. [+0 a +2 Idiotas da Aldeia. 1 dos extras está bêbado]",
         "id": "villageidiot"
     },
     {
@@ -596,7 +596,7 @@
     },
     {
         "name": "Enigmático",
-        "ability": "Um jogador está bêbado, mesmo se você estiver morto. Você tem uma chance de adivinhar quem é. Se conseguir, saiba quem é o Demônio. Do contrário, você recebe informação falsa.",
+        "ability": "Um jogador está bêbado, mesmo se você estiver morto. Você tem uma chance de adivinhar quem é. Se conseguir, aprenda quem é o Demônio. Do contrário, você recebe informação falsa.",
         "id": "puzzlemaster"
     },
     {
@@ -778,6 +778,11 @@
         "name": "Gnomo",
         "ability": "Todos os jogadores começam sabendo um jogador do seu alinhamento. Você pode escolher matar qualquer um que nomeie ele.",
         "id": "gnome"
+    },
+    {
+        "name": "Zé Comédia",
+        "ability": "A cada dia, escolha um jogador: um jogador diferente troca de personagem hoje a noite.",
+        "id": "Cacklejack"
     },
     {
         "name": "Sentinela",

@@ -715,148 +715,153 @@
         "order": 143
     },
     {
-        "id": "gunslinger",
+        "id": "cacklejack",
         "type": "travellers",
         "order": 144
     },
     {
-        "id": "matron",
+        "id": "gunslinger",
         "type": "travellers",
         "order": 145
     },
     {
-        "id": "gangster",
+        "id": "matron",
         "type": "travellers",
         "order": 146
     },
     {
-        "id": "bonecollector",
+        "id": "gangster",
         "type": "travellers",
         "order": 147
     },
     {
-        "id": "judge",
+        "id": "bonecollector",
         "type": "travellers",
         "order": 148
     },
     {
-        "id": "apprentice",
+        "id": "judge",
         "type": "travellers",
         "order": 149
     },
     {
-        "id": "beggar",
+        "id": "apprentice",
         "type": "travellers",
         "order": 150
     },
     {
-        "id": "deviant",
+        "id": "beggar",
         "type": "travellers",
         "order": 151
     },
     {
-        "id": "scapegoat",
+        "id": "deviant",
         "type": "travellers",
         "order": 152
     },
     {
-        "id": "gnome",
+        "id": "scapegoat",
         "type": "travellers",
         "order": 153
     },
     {
-        "id": "bishop",
+        "id": "gnome",
         "type": "travellers",
         "order": 154
     },
     {
-        "id": "voudon",
+        "id": "bishop",
         "type": "travellers",
         "order": 155
     },
     {
-        "id": "angel",
-        "type": "fabled",
+        "id": "voudon",
+        "type": "travellers",
         "order": 156
     },
     {
-        "id": "bootlegger",
+        "id": "angel",
         "type": "fabled",
         "order": 157
     },
     {
-        "id": "buddhist",
+        "id": "bootlegger",
         "type": "fabled",
         "order": 158
     },
     {
-        "id": "deusexfiasco",
+        "id": "buddhist",
         "type": "fabled",
         "order": 159
     },
     {
-        "id": "djinn",
+        "id": "deusexfiasco",
         "type": "fabled",
         "order": 160
     },
     {
-        "id": "doomsayer",
+        "id": "djinn",
         "type": "fabled",
         "order": 161
     },
     {
-        "id": "duchess",
+        "id": "doomsayer",
         "type": "fabled",
         "order": 162
     },
     {
-        "id": "ferryman",
+        "id": "duchess",
         "type": "fabled",
         "order": 163
     },
     {
-        "id": "fibbin",
+        "id": "ferryman",
         "type": "fabled",
         "order": 164
     },
     {
-        "id": "fiddler",
+        "id": "fibbin",
         "type": "fabled",
         "order": 165
     },
     {
-        "id": "gardener",
+        "id": "fiddler",
         "type": "fabled",
         "order": 166
     },
     {
-        "id": "hellslibrarian",
+        "id": "gardener",
         "type": "fabled",
         "order": 167
     },
     {
-        "id": "revolutionary",
+        "id": "hellslibrarian",
         "type": "fabled",
         "order": 168
     },
     {
-        "id": "sentinel",
+        "id": "revolutionary",
         "type": "fabled",
         "order": 169
     },
     {
-        "id": "spiritofivory",
+        "id": "sentinel",
         "type": "fabled",
         "order": 170
     },
     {
-        "id": "stormcatcher",
+        "id": "spiritofivory",
         "type": "fabled",
         "order": 171
     },
     {
-        "id": "toymaker",
+        "id": "stormcatcher",
         "type": "fabled",
         "order": 172
+    },
+    {
+        "id": "toymaker",
+        "type": "fabled",
+        "order": 173
     }
 ]
