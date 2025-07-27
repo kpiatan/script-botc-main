@@ -18,3 +18,18 @@ Este último passo é uma segurança adicional para não perder o arquivo anteri
 
 6b (essa opção mantém a tradução minha) - Jogar o arquivo updated_characters na pasta data e executar o script transfer-order.py
 Essa opção mantém as descrições dos personagens que estavam no arquivo characters.json, que contém algumas correções e algumas adaptações próprias. No fim, renomear o arquivo new.json para characters.json
+
+## PARA ATUALIZAR A LISTA DE JINXES ##
+1 - Entrar em https://wiki.bloodontheclocktower.com/Djinn e copiar todos os jinxes dos personagens para o arquivo djinn.txt na pasta data
+Esse é o wiki oficial e tem os dados mais atualizados dos jinxes
+
+2 - Entrar no arquivo djinn.txt e retirar, caso necessário, os termos "Townsfolk", "Outsiders", "Minions" e "Demons"
+Remover esses termos que estão na página para organizar o texto
+
+3 - Executar o script jinxes.py
+Criará o arquivo jinxes_new.json com o formato json
+
+4 - Excluir o antigo jinxes.py e renomear o jinxes_new.json
+Passo adicional para checagem
+
+OBS: Qualquer problema para executar os scripts, verificar se o terminal está na pasta certa: script-botc-main
