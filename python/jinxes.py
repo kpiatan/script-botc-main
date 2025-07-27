@@ -1,6 +1,9 @@
 import json
 import os
 
+# Script para transformar o arquivo djinn.txt (texto copiado do personagem djinn do wiki) em um formato JSON estruturado
+# Este script lê o arquivo djinn.txt, processa as informações e salva em jinxes_new.json.
+
 # Caminhos dos arquivos
 djinn_file = os.path.join('data', 'djinn.txt')              # Arquivo de entrada (texto bruto)
 jinxes_new_file = os.path.join('data', 'jinxes_new.json')   # Arquivo de saída (JSON)
