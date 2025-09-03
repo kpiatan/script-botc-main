@@ -1,0 +1,624 @@
+[
+    {
+        "id": "_meta",
+        "author": "Gstone Games",
+        "name": "Festival of Lanterns I: Temple Fair (v. 2.7.1) – character overview",
+        "logo": "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/_meta.png",
+		"bootlegger": ["This is not a script, and not meant to be played! You can use these characters when making your own scripts."]
+    },
+    {
+        "id": "waiter",
+        "name": "Garçom",
+        "team": "townsfolk",
+        "firstNight": 60.6,
+        "firstNightReminder": "Aponte para 2 jogadores do bem. 1 está bêbado pelo resto do jogo. :reminder:",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Conhecido",
+            "Bêbado"
+        ],
+        "setup": false,
+        "ability": "Você começa sabendo 2 jogadores do bem: 1 está bêbado, mesmo que você morra.",
+        "flavor": "Welcome back, sir! The usual, I assume?",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/waiter_temple_fair.png"
+        ]
+    },
+    {
+        "id": "yinyangdiviner",
+        "name": "Adivinho Yin-Yang",
+        "team": "townsfolk",
+        "firstNight": 48.2,
+        "firstNightReminder": "Mostre ao Adivinho Yin-Yang 2 fichas de personagens do bem e 2 do mal.",
+        "reminders": [
+            "Conhecido",
+            "Conhecido"
+        ],
+        "ability": "Você começa sabendo 2 personagens do bem e 2 do mal. Exatamente 2 deles estão em jogo.",
+        "flavor": "The great Xuanwu is before us. Gods return to their temples, ghosts return to their graves, monsters return to the mountains and forests!",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/yinyangdiviner_temple_fair.png"
+        ]
+    },
+    {
+        "id": "stargazer",
+        "name": "Astrônomo",
+        "team": "townsfolk",
+        "firstNight": 61.1,
+        "firstNightReminder": "Aponte horizontalmente no sentido do jogador do mal mais próximo ao Astrônomo, ou aponte para baixo se os jogadores do mal dos dois lados são equidistantes. Se um jogador do mal for vizinho do Astrônomo, dê uma informação falsa.",
+        "ability": "Você começa sabendo se o jogador do mal mais próximo a você está no sentido horário, anti-horário ou equidistante. Se ele for seu vizinho, esta informação é falsa.",
+        "flavor": "Strange phenomena in the heavens. Something wicked approaches.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/stargazer_temple_fair.png"
+        ]
+    },
+    {
+        "id": "rascal",
+        "name": "Travesso",
+        "team": "townsfolk",
+        "firstNight": 41.8,
+        "firstNightReminder": "O Travesso aponta para qualquer personagem Cidadão na sua folha. :reminder:",
+        "otherNight": 20.3,
+        "otherNightReminder": "O Travesso aponta para qualquer personagem Cidadão na sua folha. :reminder:",
+        "reminders": [
+            "Informação falsa"
+        ],
+        "ability": "A cada noite, escolha um personagem Cidadão: a habilidade deles dará informação falsa até o anoitecer.",
+        "flavor": "This one’s mine! This one, too!",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/rascal_temple_fair.png"
+        ]
+    },
+    {
+        "id": "herbdoctor",
+        "name": "Curandeiro",
+        "team": "townsfolk",
+        "firstNight": 60.5,
+        "firstNightReminder": "O Curandeiro aponta para outro jogador que não ele mesmo. Escreva uma palavra relacionada à habilidade daquele jogador num pedaço de papel ou celular e mostre ao Curandeiro.",
+        "otherNight": 79.1,
+        "otherNightReminder": "O Curandeiro aponta para outro jogador que não ele mesmo. Escreva uma palavra relacionada à habilidade daquele jogador num pedaço de papel ou celular e mostre ao Curandeiro.",
+        "ability": "A cada noite, escol  ha um jogador (exceto você): você fica sabendo uma palavra relacionada à habilidade dele.",
+        "flavor": "Increased heart rate. Your qi is weak, dispersing.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/herbdoctor_temple_fair.png"
+        ]
+    },
+    {
+        "id": "abbot",
+        "name": "Abade",
+        "team": "townsfolk",
+        "reminders": [
+            "Pacificado"
+        ],
+        "ability": "A cada noite, na primeira vez que uma habilidade do mal começa a afetar um de seus vizinhos vivos, ela falha: você sabe quando isso acontece.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/abbot_temple_fair.png"
+        ],
+        "flavor": "Always polish the mirror of the mind, so that no dust can collect.",
+        "jinxes": [
+            {
+                "id": "leviathan",
+                "reason": "Se o Leviatã nomear e executar um dos vizinhos vivos do Abade, aquele jogador não morre. Naquela noite, o Abade sabe que sua habilidade ativou, e que sua habilidade não pode funcionar novamente esta noite."
+            },
+            {
+                "id": "kazali",
+                "reason": "O Kazali pode escolher um vizinho do Abade para se tornar um Lacaio do mal."
+            }
+        ]
+    },
+    {
+        "id": "brocadier",
+        "name": "Brocadeiro",
+        "team": "townsfolk",
+        "otherNight": 15.3,
+        "otherNightReminder": "O Brocadeiro aponta para um jogador: marque aquele jogador com o lembrete PROTEGIDO. :reminder:",
+        "reminders": [
+            "Protegido"
+        ],
+        "ability": "A cada noite*, escolha um jogador: até o anoitecer de amanhã, se ele morrer, você morre no lugar dele.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/brocadier_temple_fair.png"
+        ],
+        "flavor": "Come hell or high water, I will protect you, my liege!"
+    },
+    {
+        "id": "firewatcher",
+        "name": "Vigia do Fogo",
+        "team": "townsfolk",
+        "otherNight": 15.1,
+        "otherNightReminder": "O Vigia do Fogo faz um número com os dedos (0, 1, 2, etc.). Coloque os lembretes PROTEGIDO nos dois jogadores que estão àquela distância do Vigia do Fogo nos dois lados. Se qualquer um deles for o primeiro a morrer hoje à noite, ele sobrevive, o Vigia do Fogo pode morrer, e mais ninguém morre esta noite. :reminder: :reminder: :reminder:",
+        "reminders": [
+            "Protegido",
+            "Protegido",
+            "Morto"
+        ],
+        "ability": "A cada noite*, adivinhe o número de passos até o 1º jogador a morrer naquela noite. Se acertar, ele não morre e ninguém mais pode morrer naquela noite, mas você pode morrer em seu lugar.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/firewatcher_temple_fair.png"
+        ],
+        "flavor": "Have you not heard of the prohibition on candles? This could burn the village down in this weather!",
+        "jinxes": [
+            {
+                "id": "riot",
+                "reason": "Se ninguém morrer na noite 3 e um jogador na distância adivinhada pelo Vigia do Fogo for o primeiro a ser nomeado no dia do Pandemônio, ele não morre imediatamente."
+            }
+        ]
+    },
+    {
+        "id": "singer",
+        "name": "Cantora",
+        "team": "townsfolk",
+        "otherNight": 53.2,
+        "otherNightReminder": "Se a Cantora estiver marcada com o marcador MORTO, ela morre.",
+        "reminders": [
+            "Sem habilidade",
+            "Morto"
+        ],
+        "ability": "Uma vez por jogo, durante o dia, escolha publicamente quaisquer voluntários. Se um Demônio for escolhido, você morre esta noite.",
+        "flavor": "A singsong girl, unaware of the sorrow of a conquered state, is singing Backyard Flowers on the river’s other shore.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/singer_temple_fair.png"
+        ]
+    },
+    {
+        "id": "enlightenedone_festival_of_lanterns",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/enlightenedone_temple_fair.png"
+        ],
+        "remindersGlobal": [
+            "Is the Enlightened One"
+        ],
+        "setup": true,
+        "name": "Enlightened One",
+        "team": "townsfolk",
+        "ability": "You think you are an Outsider. If affected by an evil player’s ability, you first become a not-in-play Townsfolk.",
+        "special": [
+            {
+                "type": "selection",
+                "name": "bag-disabled",
+                "time": "pregame"
+            },
+            {
+                "type": "reveal",
+                "name": "replace-character"
+            }
+        ],
+        "flavor": "The Six Paths are trees obscuring the forest; in truth, all beings are equal.",
+        "jinxes": [
+            {
+                "id": "villageidiot",
+                "reason": "If there is a spare token, the Enlightened One can become an extra Village Idiot. If so, the drunk Village Idiot might change."
+            }
+        ]
+    },
+    {
+        "id": "facechanger_festival_of_lanterns",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/facechanger_temple_fair.png"
+        ],
+        "otherNightReminder": "The Face Changer might gain an ability until dusk. :reminder:",
+        "remindersGlobal": [
+            "Is the Face Changer"
+        ],
+        "reminders": [
+            "Mad",
+            "Has ability"
+        ],
+        "name": "Face Changer",
+        "team": "townsfolk",
+        "ability": "If you are “mad” that you are a good character: tonight, you might gain their ability until dusk (once per character).",
+        "flavor": "One minute of glory on stage, ten years of hard work off stage.",
+        "special": [
+            {
+                "type": "reveal",
+                "name": "replace-character"
+            }
+        ]
+    },
+    {
+        "id": "banxian_festival_of_lanterns",
+        "name": "Ban Xian",
+        "team": "townsfolk",
+        "ability": "If you are chosen by a character’s ability at night, an evil player will be targeted instead.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/banxian_temple_fair.png"
+        ],
+        "flavor": "That man is always covered in grime or rambling incoherently. I can’t get a grip on him.",
+        "jinxes": [
+            {
+                "id": "riot",
+                "reason": "If a Riot player nominates the Ban Xian on day 3, another evil player dies instead of the Ban Xian, and nominates next. If the nominator is the only living evil player, the Ban Xian dies as normal."
+            },
+            {
+                "id": "kazali",
+                "reason": "The Kazali can choose that the Ban Xian player is one of their evil Minions."
+            }
+        ]
+    },
+    {
+        "id": "actor_festival_of_lanterns",
+        "name": "Actor",
+        "team": "townsfolk",
+        "firstNight": 21.2,
+        "firstNightReminder": "Wake all Townsfolk and Outsiders together.",
+        "reminders": [
+            "Good are drunk"
+        ],
+        "ability": "Good characters are good, drunk & know each other. Whoever wins, loses & whoever loses, wins. You can’t lose this ability.",
+        "flavor": "If we shadows have offended, think but this and all is mended, that you have but slumber’d here, while these visions did appear.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/actor_temple_fair.png"
+        ],
+        "jinxes": [
+            {
+                "id": "spy",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "eviltwin",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "widow",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "summoner",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "riot",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "legion",
+                "reason": "At any time, a Legion player can tell the Storyteller that they would like to die. Tonight, the Storyteller wakes all Legion players: if all agree, all die."
+            },
+            {
+                "id": "leviathan",
+                "reason": "At any time, the Leviathan can tell the Storyteller that they would like to die. The Storyteller kills that player tonight."
+            },
+            {
+                "id": "lilmonsta",
+                "reason": "At any time, the player holding Lil’ Monsta can tell the Storyteller that they would like to die. The Storyteller kills that player tonight."
+            },
+            {
+                "id": "pukka",
+                "reason": "At any time, the Pukka can tell the Storyteller that they would like to die. The Storyteller kills that player tonight."
+            },
+            {
+                "id": "pithag",
+                "reason": "A Pit-Hag cannot create an Actor."
+            },
+            {
+                "id": "boffin",
+                "reason": "The Demon cannot have the Actor ability."
+            },
+            {
+                "id": "king",
+                "reason": "The King does not become drunk due to the Actor’s ability."
+            },
+            {
+                "id": "damsel",
+                "reason": "The Damsel does not become drunk due to the Actor’s ability."
+            },
+            {
+                "id": "snitch",
+                "reason": "The Snitch does not become drunk due to the Actor’s ability."
+            },
+            {
+                "id": "lunatic",
+                "reason": "The Lunatic does not become drunk due to the Actor’s ability, and is not included when the good players learn each other."
+            },
+            {
+                "id": "pedant_festival_of_lanterns",
+                "reason": "The Pedant does not get drunk due to the Actor’s ability."
+            },
+            {
+                "id": "atheist",
+                "reason": "The Actor cannot reverse the victory conditions on executing the Storyteller."
+            },
+            {
+                "id": "goblin",
+                "reason": "The Actor cannot reverse the victory conditions due to the Goblin’s ability."
+            },
+            {
+                "id": "fearmonger",
+                "reason": "The Actor cannot reverse the victory conditions due to the Fearmonger’s ability."
+            }
+        ]
+    },
+    {
+        "id": "turncoat_festival_of_lanterns",
+        "name": "Turncoat",
+        "team": "outsider",
+        "firstNight": 52.5,
+        "firstNightReminder": "The Turncoat points to another player. Mark that player with the RIVAL reminder token. :reminder:",
+        "otherNight": 30.5,
+        "otherNightReminder": "The first time the Turncoat or the player marked RIVAL dies by execution, wake the other one, show them the YOU ARE info token and show a thumbs down for evil.",
+        "reminders": [
+            "Rival"
+        ],
+        "ability": "On your 1st night, choose another player. The 1st time one of you dies by execution, the other turns evil that night.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/turncoat_temple_fair.png"
+        ],
+        "flavor": "I fear his hesitation will cost the general this unique opportunity. A pity."
+    },
+    {
+        "id": "ambassador_festival_of_lanterns",
+        "name": "Ambassador",
+        "team": "outsider",
+        "reminders": [
+            "Targeted tonight"
+        ],
+        "ability": "When an evil player is chosen by an ability at night, you might be targeted instead (once per night), even if dead.",
+        "flavor": "The only thing worse than travelling alone in the wilderness is the company one might find there.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/ambassador_temple_fair.png"
+        ]
+    },
+    {
+        "id": "lummox_festival_of_lanterns",
+        "name": "Lummox",
+        "team": "outsider",
+        "otherNight": 66.1,
+        "otherNightReminder": "If the Lummox died today, decide whether to trigger their ability. If so, tonight, mark one of their alive neighbors with the DEAD reminder token. :reminder:",
+        "reminders": [
+            "Dead"
+        ],
+        "ability": "If you die, 1 alive neighbor might die tonight.",
+        "flavor": "Born under an unlucky star? Nonsense! I can’t be faulted for the misfortunes of people around me!",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/lummox_temple_fair.png"
+        ]
+    },
+    {
+        "id": "pedant_festival_of_lanterns",
+        "name": "Pedant",
+        "team": "outsider",
+        "firstNight": 21.1,
+        "firstNightReminder": "Show the Demon the Pedant character token.",
+        "otherNight": 50.9,
+        "otherNightReminder": "If the Demon guessed the Pedant player correctly, wake the Demon and show them the Pedant token. They may point to any player: mark that player DEAD. :reminder:",
+        "reminders": [
+            "Guess used",
+            "Dead"
+        ],
+        "ability": "The Demon knows you’re in play. If they privately guess you (once): tonight, they may choose a player to die (even if you die).",
+        "flavor": "I accept my fate, but first tell me: at whose hands am I dying?",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/pedant_temple_fair.png"
+        ]
+    },
+    {
+        "id": "bugkeeper_festival_of_lanterns",
+        "name": "Bug Keeper",
+        "team": "minion",
+        "otherNight": 52.1,
+        "otherNightReminder": "Any player who nominated the alive Bug Keeper dies.",
+        "reminders": [
+            "Dead"
+        ],
+        "ability": "Each night*, if you were alive when nominated today, your nominator dies, even if you die first.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/bugkeeper_temple_fair.png"
+        ],
+        "flavor": "The venom of the centipede, who ate the spider, who ate the scorpion, who ate the snake… No, it’s not enough!",
+        "jinxes": [
+            {
+                "id": "plaguedoctor",
+                "reason": "If the Storyteller would gain the Bug Keeper ability, a living Minion gains the Bug Keeper ability in addition to their own ability, and learns this."
+            }
+        ]
+    },
+    {
+        "id": "vixen_festival_of_lanterns",
+        "name": "Vixen",
+        "team": "minion",
+        "firstNight": 39.2,
+        "firstNightReminder": "The Vixen points to a player. Mark that player’s character token with the CHARMED reminder token. Put the Vixen to sleep and wake the chosen player. Show them the THIS CHARACTER SELECTED YOU info token and the Vixen character token. Put them to sleep. :reminder:",
+        "otherNight": 28.2,
+        "otherNightReminder": "If the Vixen died by execution today, turn the character token marked CHARMED upside-down. Wake that player, show them the YOU ARE info token, and thumbs down for evil.",
+        "reminders": [
+            "Charmed"
+        ],
+        "setup": false,
+        "ability": "On your 1st night, choose a player: they learn the Vixen is in play. If you die by execution, they become evil tonight.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/vixen_temple_fair.png"
+        ],
+        "flavor": "Your Majesty, the concubine had two sisters. They send their condolences and have requested an audience.",
+        "jinxes": [
+            {
+                "id": "heretic",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "plaguedoctor",
+                "reason": "If the Storyteller would gain the Vixen ability, a living Minion gains the Vixen ability in addition to their own ability, and learns this."
+            }
+        ]
+    },
+    {
+        "id": "corpsewalker_festival_of_lanterns",
+        "name": "Corpse Walker",
+        "team": "minion",
+        "reminders": [
+            "Undead",
+            "Undead"
+        ],
+        "setup": true,
+        "ability": "The 1st time each of your Townsfolk neighbors die, they register as alive. [−1 Outsider]",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/corpsewalker_temple_fair.png"
+        ],
+        "flavor": "Only journey under the cover of darkness, and never let them find out that your stomach is full of straw.",
+        "jinxes": [
+            {
+                "id": "plaguedoctor",
+                "reason": "If the Storyteller would gain the Corpse Walker ability, a living Minion gains the Corpse Walker ability in addition to their own ability, and learns this."
+            }
+        ]
+    },
+    {
+        "id": "imperialist_festival_of_lanterns",
+        "name": "Imperialist",
+        "team": "minion",
+        "firstNight": 37.5,
+        "firstNightReminder": "Show the Imperialist the LIVE and DIE reminder tokens: they point to one. Put the chosen token in the Grimoire. :reminder: :reminder:",
+        "reminders": [
+            "Live",
+            "Die"
+        ],
+        "ability": "Players who are “mad” that they want to live or die (you start by choosing which) might be immediately executed.",
+        "flavor": "He deserved to be beheaded! Yes, he broke curfew, my lord!",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/imperialist_temple_fair.png"
+        ]
+    },
+    {
+        "id": "qiongqi_festival_of_lanterns",
+        "name": "Qiong Qi",
+        "team": "demon",
+        "otherNight": 50.2,
+        "otherNightReminder": "The Qiong Qi points to a player. That player dies. If an Outsider died today, the chosen player registers as alive & you choose another player who dies. :reminder: :reminder:",
+        "reminders": [
+            "Undead",
+            "Undead",
+            "Dead",
+            "Died today"
+        ],
+        "setup": true,
+        "ability": "Each night*, choose a player: they die and, if an Outsider died today, register as alive, & another player dies. [+1 Outsider]",
+        "flavor": "The beast resembles a winged ox, with spines like a hedgehog and bark like a hound. It eats humans, and it bears the name Qiong Qi.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/qiongqi_temple_fair.png"
+        ]
+    },
+    {
+        "id": "taotie_festival_of_lanterns",
+        "name": "Tao Tie",
+        "team": "demon",
+        "otherNight": 50.21,
+        "otherNightReminder": "The Tao Tie shakes their head no, or points to up to 4 non-Traveller players or 1 Traveller. If the chosen players are of different character types, they die. :reminder: :reminder: :reminder: :reminder: If the Tao Tie points to a Traveller and other players, shake your head no and gesture for them to choose again.",
+        "reminders": [
+            "Dead",
+            "Dead",
+            "Dead",
+            "Dead"
+        ],
+        "setup": true,
+        "ability": "Each night*, choose up to 4 non-Traveller players (or 1 Traveller): if all are different character types, they die. [+1 Outsider]",
+        "flavor": "The beast looks like a ram with the face of a human, eyes under its armpits, tiger teeth and a baby’s voice. It devours people, and its name is Tao Tie.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/taotie_temple_fair.png"
+        ]
+    },
+    {
+        "id": "hundun_festival_of_lanterns",
+        "name": "Hun Dun",
+        "team": "demon",
+        "otherNight": 50.19,
+        "otherNightReminder": "The Hun Dun points to a player. That player dies. :reminder: If they are a Townsfolk neighbor of the Hun Dun, all good players (except Travellers) are poisoned until dusk. :reminder:",
+        "reminders": [
+            "Dead",
+            "Good are poisoned"
+        ],
+        "ability": "Each night*, choose a player: they die. If your Townsfolk neighbors die this way, all good non-Travellers are poisoned until dusk.",
+        "flavor": "The beast is a four-winged bird, red as cinnabar fire and with six legs but no face. It can sing and dance, and it is known as Hun Dun.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/hundun_temple_fair.png"
+        ]
+    },
+    {
+        "id": "taowu_festival_of_lanterns",
+        "name": "Tao Wu",
+        "team": "demon",
+        "firstNight": 17.8,
+        "firstNightReminder": "Do not wake the Tao Wu to give Demon info.",
+        "otherNight": 50.22,
+        "otherNightReminder": "The Tao Wu points to a player. That player dies. :reminder:",
+        "reminders": [
+            "Dead",
+            "No Ability",
+            "No Ability",
+            "No Ability"
+        ],
+        "ability": "Each night*, choose a player: they die. If you die, an alive Minion instead loses their ability, if possible. You learn no Demon info.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/taowu_temple_fair.png"
+        ],
+        "flavor": "The beast looks like a tiger with a human face, a mouth full of fangs and a tail of 18 foot. It destroys the land in its wake, and it is named Tao Wu.",
+        "jinxes": [
+            {
+                "id": "scarletwoman",
+                "reason": "The Scarlet Woman registers as having no ability to the Tao Wu."
+            },
+            {
+                "id": "eviltwin",
+                "reason": "The Evil Twin registers as having no ability to the Tao Wu."
+            },
+            {
+                "id": "mastermind",
+                "reason": "The Mastermind registers as having no ability to the Tao Wu."
+            },
+            {
+                "id": "organgrinder",
+                "reason": "If the Tao Wu is about to be executed and the alive Organ Grinder has their ability, the Storyteller announces that no one is executed."
+            },
+            {
+                "id": "marionette",
+                "reason": "The Tao Wu does not learn who the Marionette is. If the Marionette has no ability due to the Tao Wu’s ability, the Tao Wu learns who the Marionette is; the Marionette still thinks they are a good character."
+            },
+            {
+                "id": "hatter",
+                "reason": "If the Tao Wu player changes character, any Minion that lost their ability due to the Tao Wu ability dies immediately."
+            },
+            {
+                "id": "pithag",
+                "reason": "If the Tao Wu player changes character, any Minion that lost their ability due to the Tao Wu ability dies immediately."
+            },
+            {
+                "id": "engineer",
+                "reason": "If the Tao Wu player changes character, any Minion that lost their ability due to the Tao Wu ability dies immediately."
+            },
+            {
+                "id": "snakecharmer",
+                "reason": "If the Tao Wu swaps characters with another player, Minions that lost their ability due to the Tao Wu ability do not get their abilities back."
+            },
+            {
+                "id": "barber",
+                "reason": "If the Tao Wu swaps characters with another player, Minions that lost their ability due to the Tao Wu ability do not get their abilities back."
+            }
+        ]
+    },
+    {
+        "id": "pauper_festival_of_lanterns",
+        "name": "Pauper",
+        "team": "traveller",
+        "reminders": [
+            "Begging"
+        ],
+        "remindersGlobal": [
+            "Is the Pauper"
+        ],
+        "flavor": "I’ve had a rough spell, but I can still work. Give me the opportunity to prove myself, and you won’t be disappointed!",
+        "ability": "Each day, you may publicly choose a player (not yourself) to pick a non-Demon ability: you might gain it until dawn.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/pauper_temple_fair.png"
+        ]
+    },
+    {
+        "id": "qilin_festival_of_lanterns",
+        "name": "Qilin",
+        "team": "fabled",
+        "reminders": [
+            "Something good"
+        ],
+        "flavor": "麟之趾，振振公子，于嗟麟兮！ 麟之定，振振公姓，于嗟麟兮！ 麟之角，振振公族，于嗟麟兮！",
+        "ability": "On the final day, something good might happen to the most engaged player.",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/qilin_temple_fair.png"
+    }
+]
