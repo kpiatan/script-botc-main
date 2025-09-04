@@ -162,17 +162,17 @@
         ]
     },
     {
-        "id": "enlightenedone_festival_of_lanterns",
+        "id": "enlightenedone",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/enlightenedone_temple_fair.png"
         ],
         "remindersGlobal": [
-            "Is the Enlightened One"
+            "É o Iluminado"
         ],
         "setup": true,
-        "name": "Enlightened One",
+        "name": "Iluminado",
         "team": "townsfolk",
-        "ability": "You think you are an Outsider. If affected by an evil player’s ability, you first become a not-in-play Townsfolk.",
+        "ability": "Você acha que é um Forasteiro. Se for afetado por uma habilidade de um jogador do mal, você primeiro se torna um Cidadão que não está em jogo.",
         "special": [
             {
                 "type": "selection",
@@ -188,26 +188,26 @@
         "jinxes": [
             {
                 "id": "villageidiot",
-                "reason": "If there is a spare token, the Enlightened One can become an extra Village Idiot. If so, the drunk Village Idiot might change."
+                "reason": "Se tiver uma ficha de Idiota da Vila sobrando, o Iluminado pode se tornar um Idiota da Vila. Se isso acontecer, o Idiota da Vila bêbado pode mudar."
             }
         ]
     },
     {
-        "id": "facechanger_festival_of_lanterns",
+        "id": "facechanger",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/facechanger_temple_fair.png"
         ],
-        "otherNightReminder": "The Face Changer might gain an ability until dusk. :reminder:",
+        "otherNightReminder": "O Muda-Rostos pode ganhar uma habilidade até o anoitecer. :reminder:",
         "remindersGlobal": [
-            "Is the Face Changer"
+            "É o Muda-Rostos"
         ],
         "reminders": [
-            "Mad",
-            "Has ability"
+            "Alucinado",
+            "Tem habilidade"
         ],
-        "name": "Face Changer",
+        "name": "Muda-Rostos",
         "team": "townsfolk",
-        "ability": "If you are “mad” that you are a good character: tonight, you might gain their ability until dusk (once per character).",
+        "ability": "Se você alucinar que é um personagem do bem: esta noite, você pode ganhar sua habilidade até o anoitecer (uma vez por personagem).",
         "flavor": "One minute of glory on stage, ten years of hard work off stage.",
         "special": [
             {
@@ -217,10 +217,10 @@
         ]
     },
     {
-        "id": "banxian_festival_of_lanterns",
+        "id": "banxian",
         "name": "Ban Xian",
         "team": "townsfolk",
-        "ability": "If you are chosen by a character’s ability at night, an evil player will be targeted instead.",
+        "ability": "Se você for escolhido por uma habilidade à noite, um jogador do mal será afetado em seu lugar.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/banxian_temple_fair.png"
         ],
@@ -228,24 +228,24 @@
         "jinxes": [
             {
                 "id": "riot",
-                "reason": "If a Riot player nominates the Ban Xian on day 3, another evil player dies instead of the Ban Xian, and nominates next. If the nominator is the only living evil player, the Ban Xian dies as normal."
+                "reason": "Se um Pandemônio nomear o Ban Xian no dia 3, outro jogador do mal morre no lugar do Ban Xian, e nomeia a seguir. Se o nomeador é o único jogador vivo do mal, o Ban Xian morre normalmente."
             },
             {
                 "id": "kazali",
-                "reason": "The Kazali can choose that the Ban Xian player is one of their evil Minions."
+                "reason": "O Kazali pode escolher que o Ban Xian seja um de seus Lacaios do mal."
             }
         ]
     },
     {
-        "id": "actor_festival_of_lanterns",
-        "name": "Actor",
+        "id": "actor",
+        "name": "Ator",
         "team": "townsfolk",
         "firstNight": 21.2,
-        "firstNightReminder": "Wake all Townsfolk and Outsiders together.",
+        "firstNightReminder": "Acorde todos os Cidadãos e Forasteiros junto.",
         "reminders": [
-            "Good are drunk"
+            "Time do bem bêbado"
         ],
-        "ability": "Good characters are good, drunk & know each other. Whoever wins, loses & whoever loses, wins. You can’t lose this ability.",
+        "ability": "Personagens do bem não podem trocar de alinhamento, estão bêbados & se conhecem. Quem venceria perde e quem perderia vence. Você não pode perder esta habilidade.",
         "flavor": "If we shadows have offended, think but this and all is mended, that you have but slumber’d here, while these visions did appear.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/actor_temple_fair.png"
@@ -253,140 +253,140 @@
         "jinxes": [
             {
                 "id": "spy",
-                "reason": "Only 1 jinxed character can be in play."
+                "reason": "Somente 1 destes personagens podem estar em jogo."
             },
             {
                 "id": "eviltwin",
-                "reason": "Only 1 jinxed character can be in play."
+                "reason": "Somente 1 destes personagens podem estar em jogo."
             },
             {
                 "id": "widow",
-                "reason": "Only 1 jinxed character can be in play."
+                "reason": "Somente 1 destes personagens podem estar em jogo."
             },
             {
                 "id": "summoner",
-                "reason": "Only 1 jinxed character can be in play."
+                "reason": "Somente 1 destes personagens podem estar em jogo."
             },
             {
                 "id": "riot",
-                "reason": "Only 1 jinxed character can be in play."
+                "reason": "Somente 1 destes personagens podem estar em jogo."
             },
             {
                 "id": "legion",
-                "reason": "At any time, a Legion player can tell the Storyteller that they would like to die. Tonight, the Storyteller wakes all Legion players: if all agree, all die."
+                "reason": "A qualquer momento, um jogador Legião pode dizer ao Narrador que ele quer morrer. À noite, o Narrador acorda todos os jogadores Legião: se todos concordarem, todos morrem."
             },
             {
                 "id": "leviathan",
-                "reason": "At any time, the Leviathan can tell the Storyteller that they would like to die. The Storyteller kills that player tonight."
+                "reason": "A qualquer momento, o Leviatã pode dizer ao Narrador que ele quer morrer. O Narrador mata aquele jogador à noite."
             },
             {
                 "id": "lilmonsta",
-                "reason": "At any time, the player holding Lil’ Monsta can tell the Storyteller that they would like to die. The Storyteller kills that player tonight."
+                "reason": "A qualquer momento, o jogador com o Monstrim pode dizer ao Narrador que ele quer morrer. O Narrador mata aquele jogador à noite."
             },
             {
                 "id": "pukka",
-                "reason": "At any time, the Pukka can tell the Storyteller that they would like to die. The Storyteller kills that player tonight."
+                "reason": "A qualquer momento, a Pukka pode dizer ao Narrador que ela quer morrer. O Narrador mata aquele jogador à noite."
             },
             {
                 "id": "pithag",
-                "reason": "A Pit-Hag cannot create an Actor."
+                "reason": "A Bruxa do Fosso não pode criar um Ator."
             },
             {
                 "id": "boffin",
-                "reason": "The Demon cannot have the Actor ability."
+                "reason": "O Demônio não pode ter a habilidade do Ator."
             },
             {
                 "id": "king",
-                "reason": "The King does not become drunk due to the Actor’s ability."
+                "reason": "O Rei não fica bêbado devido a habilidade do Ator."
             },
             {
                 "id": "damsel",
-                "reason": "The Damsel does not become drunk due to the Actor’s ability."
+                "reason": "A Donzela não fica bêbada devido a habilidade do Ator."
             },
             {
                 "id": "snitch",
-                "reason": "The Snitch does not become drunk due to the Actor’s ability."
+                "reason": "O Dedo-Duro não fica bêbado devido a habilidade do Ator."
             },
             {
                 "id": "lunatic",
-                "reason": "The Lunatic does not become drunk due to the Actor’s ability, and is not included when the good players learn each other."
+                "reason": "O Lunático não fica bêbado devido a habilidade do Ator, e não acorda junto com os outros jogadores do bem."
             },
             {
-                "id": "pedant_festival_of_lanterns",
-                "reason": "The Pedant does not get drunk due to the Actor’s ability."
+                "id": "pedant",
+                "reason": "O Pedante não fica bêbado devido a habilidade do Ator."
             },
             {
                 "id": "atheist",
-                "reason": "The Actor cannot reverse the victory conditions on executing the Storyteller."
+                "reason": "O Ator não pode reverter as condições de vitória ao executar o Narrador."
             },
             {
                 "id": "goblin",
-                "reason": "The Actor cannot reverse the victory conditions due to the Goblin’s ability."
+                "reason": "O Ator não pode reverter as condições de vitória devido à habilidade do Goblin."
             },
             {
                 "id": "fearmonger",
-                "reason": "The Actor cannot reverse the victory conditions due to the Fearmonger’s ability."
+                "reason": "O Ator não pode reverter as condições de vitória devido à habilidade do Intimidador."
             }
         ]
     },
     {
-        "id": "turncoat_festival_of_lanterns",
-        "name": "Turncoat",
+        "id": "turncoat",
+        "name": "Vira-Casaca",
         "team": "outsider",
         "firstNight": 52.5,
-        "firstNightReminder": "The Turncoat points to another player. Mark that player with the RIVAL reminder token. :reminder:",
+        "firstNightReminder": "O Vira-Casaca aponta para outro jogador. Marque aquele jogador com o lembrete RIVAL. :reminder:",
         "otherNight": 30.5,
-        "otherNightReminder": "The first time the Turncoat or the player marked RIVAL dies by execution, wake the other one, show them the YOU ARE info token and show a thumbs down for evil.",
+        "otherNightReminder": "A primeira vez que o Vira-Casaca ou o jogador marcado com RIVAL morrer por execução, acorde o outro jogador, mostre a ficha de informação VOCÊ É e mostre o sinal de time do mal.",
         "reminders": [
             "Rival"
         ],
-        "ability": "On your 1st night, choose another player. The 1st time one of you dies by execution, the other turns evil that night.",
+        "ability": "Na sua 1ª noite, escolha outro jogador. A 1ª vez que um de vocês morrer por execução, o outro se torna do mal naquela noite.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/turncoat_temple_fair.png"
         ],
         "flavor": "I fear his hesitation will cost the general this unique opportunity. A pity."
     },
     {
-        "id": "ambassador_festival_of_lanterns",
-        "name": "Ambassador",
+        "id": "ambassador",
+        "name": "Embaixador",
         "team": "outsider",
         "reminders": [
-            "Targeted tonight"
+            "Afetado esta noite"
         ],
-        "ability": "When an evil player is chosen by an ability at night, you might be targeted instead (once per night), even if dead.",
+        "ability": "Quando um jogador do mal é escolhido por uma habilidade à noite, você pode ser afetado ao invés disso (uma vez por noite), mesmo se estiver morto.",
         "flavor": "The only thing worse than travelling alone in the wilderness is the company one might find there.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/ambassador_temple_fair.png"
         ]
     },
     {
-        "id": "lummox_festival_of_lanterns",
-        "name": "Lummox",
+        "id": "lummox",
+        "name": "Estrela do Azar",
         "team": "outsider",
         "otherNight": 66.1,
-        "otherNightReminder": "If the Lummox died today, decide whether to trigger their ability. If so, tonight, mark one of their alive neighbors with the DEAD reminder token. :reminder:",
+        "otherNightReminder": "Se a Estrela do Azar morreu, decida se vai ativar a sua habilidade. Se ativar, à noite, marque um de seus vizinhos vivos com o lembrete MORTO. :reminder:",
         "reminders": [
-            "Dead"
+            "Morto"
         ],
-        "ability": "If you die, 1 alive neighbor might die tonight.",
+        "ability": "Se você morrer, 1 vizinho vivo seu pode morrer à noite.",
         "flavor": "Born under an unlucky star? Nonsense! I can’t be faulted for the misfortunes of people around me!",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/lummox_temple_fair.png"
         ]
     },
     {
-        "id": "pedant_festival_of_lanterns",
-        "name": "Pedant",
+        "id": "pedant",
+        "name": "Pedante",
         "team": "outsider",
         "firstNight": 21.1,
-        "firstNightReminder": "Show the Demon the Pedant character token.",
+        "firstNightReminder": "Mostre ao Demônio a ficha do personagem Pedante.",
         "otherNight": 50.9,
-        "otherNightReminder": "If the Demon guessed the Pedant player correctly, wake the Demon and show them the Pedant token. They may point to any player: mark that player DEAD. :reminder:",
+        "otherNightReminder": "Se o Demônio adivinhou o jogador do Pedante corretamente, acorde o Demônio e mostre a ficha do Pedante. O Demônio pode apontar para um jogador: marque aquele jogador com o lembrete MORTO. :reminder:",
         "reminders": [
-            "Guess used",
-            "Dead"
+            "Chance usada",
+            "Morto"
         ],
-        "ability": "The Demon knows you’re in play. If they privately guess you (once): tonight, they may choose a player to die (even if you die).",
+        "ability": "O Demônio sabe que você está em jogo. Se ele adivinhar quem você é (uma chance): esta noite, ele pode escolher um jogador para morrer (mesmo que você morra).",
         "flavor": "I accept my fate, but first tell me: at whose hands am I dying?",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/pedant_temple_fair.png"
