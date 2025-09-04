@@ -1,0 +1,451 @@
+[
+    {
+        "id": "_meta",
+        "name": "Festival of Lanterns II: The Storm is Coming (v. 0.6.5) � character overview",
+        "author": "Gstone Games",
+        "logo": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/_meta.png",
+        "almanac": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/almanac.html",
+		"bootlegger": ["This is not a script, and not meant to be played! You can use these characters when making your own scripts.","These characters are a work in progress and subject to change."]
+    },
+    {
+        "id": "blademaster",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/blademaster_the_storm_is_coming.png",
+        "firstNightReminder": "Show the Minion character token marked *KNOW*.",
+        "reminders": [
+            "Conhecido","Sem Habilidade"
+        ],
+        "name": "Espadachim",
+        "team": "townsfolk",
+        "ability": "Você começa sabendo um personagem Lacaio em jogo. Se você adivinhar publicamente quem é durante o dia (uma chance), ele morre.",
+        "firstNight": 42.2
+    },
+    {
+        "id": "guide",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/guide_the_storm_is_coming.png",
+        "firstNightReminder": "The Guide chooses 1 to 3 players. Nod or shake your head depending on if any were chosen or affected by evil players� abilities.",
+        "otherNightReminder": "The Guide chooses 1 to 3 players. Nod or shake your head depending on if any were chosen or affected by evil players� abilities.",
+        "name": "Guia",
+        "team": "townsfolk",
+        "ability": "Each night, choose 1 to 3 players: you learn if any of them were chosen or affected by evil abilities tonight.",
+        "firstNight": 70.3,
+        "otherNight": 88.3,
+        "jinxes": [
+            {
+                "id": "chambermaid",
+                "reason": "The Chambermaid learns if the Guide wakes tonight or not, even though the Chambermaid wakes first."
+            },
+            {
+                "id": "mathematician",
+                "reason": "The Guide learns if the Mathematician is affected or not, even though the Guide wakes first."
+            }
+        ]
+    },
+    {
+        "id": "broker_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/broker_the_storm_is_coming.png",
+        "firstNightReminder": "The Broker chooses 2 living players. If they are the same alignment, mark both *CLIENT*. :reminder: :reminder:",
+        "otherNightReminder": "The Broker chooses 2 living players. If they are the same alignment, mark both *CLIENT*. :reminder: :reminder:",
+        "reminders": [
+            "Client","Client"
+        ],
+        "name": "Broker",
+        "team": "townsfolk",
+        "ability": "Each night, choose 2 alive players: if they are the same alignment, abilities targeting one will instead target the other tonight.",
+        "firstNight": 19.5,
+        "otherNight": 8.9
+    },
+    {
+        "id": "geomancer_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/geomancer_the_storm_is_coming.png",
+        "name": "Geomancer",
+        "team": "townsfolk",
+		"firstNightReminder": "Show a player�s character type. :reminder:",
+        "otherNightReminder": "Show the next player�s character type. :reminder:",
+        "reminders": [
+            "Townsfolk","Outsider","Minion","Demon"
+        ],
+        "ability": "Each night, you learn the next new character type clockwise of the player you learned yesterday. (Travellers don�t count.)",
+		"firstNight": 62.2,
+        "otherNight": 78.2
+    },
+    {
+        "id": "prefect_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/prefect_the_storm_is_coming.png",
+        "otherNightReminder": "Nod if an Outsider, Minion or Demon died today. Shake your head if not.",
+        "reminders": [
+            "Stranger died"
+        ],
+        "name": "Prefect",
+        "team": "townsfolk",
+        "ability": "Each night*, you learn if a non-Townsfolk (& non-Traveller) died today or tonight.",
+        "otherNight": 83.2
+    },
+    {
+        "id": "historian_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/historian_the_storm_is_coming.png",
+        "otherNightReminder": "If a player died today, give a finger signal.",
+        "reminders": [
+            "Died Today"
+        ],
+        "name": "Historian",
+        "team": "townsfolk",
+        "ability": "Each night*, if a player died today, learn the number of alive Townsfolk.",
+        "otherNight": 75.2
+    },
+    {
+        "id": "cleric_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/cleric_the_storm_is_coming.png",
+        "otherNightReminder": "The Cleric chooses a player. If a Demon is chosen, the Cleric dies and the Demon becomes drunk. :reminder: :reminder:",
+        "reminders": [
+            "Drunk","Dead"
+        ],
+        "name": "Cleric",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player: if you choose the Demon, you die & they are drunk until dawn.",
+        "otherNight": 32.1
+    },
+    {
+        "id": "patrol_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/patrol_the_storm_is_coming.png",
+        "otherNightReminder": "The Patrol chooses 2 characters. If both are alive, mark both with *SAFE* reminder tokens. :reminder: :reminder:",
+        "reminders": [
+            "Safe","Safe"
+        ],
+        "name": "Patrol",
+        "team": "townsfolk",
+        "ability": "Each night*, choose 2 good characters (different to last night): if both are alive, they can�t die tonight.",
+        "otherNight": 15.8,
+        "jinxes": [
+            {
+                "id": "leviathan",
+                "reason": "If the Leviathan is in play, the Patrol-protected player is safe from all evil abilities."
+            },
+            {
+                "id": "riot",
+                "reason": "If the Riot is in play, the Patrol-protected player is safe from all evil abilities."
+            }
+        ]
+    },
+    {
+        "id": "tabby_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/tabby_the_storm_is_coming.png",
+        "otherNightReminder": "The Tabby chooses a player. If they are a good character, mark them with the *PRINCE* reminder token. :reminder:",
+        "reminders": [
+            "Prince"
+        ],
+        "name": "Tabby",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player (not yourself or Travellers): if they are a good character & die to evil tonight, you swap characters.",
+        "otherNight": 20.8,
+        "jinxes": [
+            {
+                "id": "professor",
+                "reason": "If the Professor has already used their ability when swapping characters with the Tabby, the new Professor has no ability."
+            },
+            {
+                "id": "banshee",
+                "reason": "If the Tabby swaps characters with the Banshee, the Storyteller does not announce that the Banshee died."
+            },
+			{
+                "id": "leviathan",
+                "reason": "Each night*, the Leviathan chooses an alive player (different to previous nights): if they choose the same player as the Tabby, the Tabby�s ability activates, but the chosen player does not die."
+            },
+            {
+                "id": "riot",
+                "reason": "Each night*, Riot chooses an alive good player (different to previous nights): if they choose the same player as the Tabby, the Tabby�s ability activates, but the chosen player does not die."
+            }
+        ]
+    },
+    {
+        "id": "envoy_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/envoy_the_storm_is_coming.png",
+        "name": "Envoy",
+        "team": "townsfolk",
+        "ability": "Each day, publicly name a character: tonight, you learn if they are in play. If you learn �no�, you then lose this ability.",
+		"otherNight": 80.2,
+		"reminders": [
+			"Correct",
+			"No Ability"
+		],
+		"otherNightReminder": "Nod or shake your head. :reminder:"
+    },
+    {
+        "id": "zhen_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/zhen_the_storm_is_coming.png",
+        "otherNightReminder": "The Zhen might choose a Townsfolk character. :reminder: :reminder:",
+        "reminders": [
+            "Poisoned","Dead"
+        ],
+        "name": "Zhen",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose a Townsfolk character: if they are in play, they become poisoned and die.",
+        "otherNight": 33.3,
+		"jinxes": [
+            {
+                "id": "banxian_festival_of_lanterns",
+                "reason": "If the Zhen chooses the Ban Xian, the Ban Xian becomes poisoned and dies."
+            }
+        ]
+    },
+    {
+        "id": "consort_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/consort_the_storm_is_coming.png",
+        "name": "Consort",
+        "team": "townsfolk",
+        "ability": "Once per game, the Storyteller will break the rules for you. You privately learn what they did."
+    },
+    {
+        "id": "thaumaturge_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/thaumaturge_the_storm_is_coming.png",
+        "firstNightReminder": "The Thaumaturge chooses a number. Place that number of LEARN reminders in the Grimoire. If the number chosen is 1, show the Thaumaturge the token of 1 in-play character.",
+        "otherNightReminder": "If it is the night corresponding to the number of LEARN reminders in the Grimoire, wake the Thaumaturge and show them all characters marked LEARN.",
+        "reminders": [
+            "Learn","Learn","Learn","Learn","Learn","Learn"
+        ],
+        "name": "Thaumaturge",
+        "team": "townsfolk",
+        "ability": "On your 1st night, choose a number. On the night of that number, learn that number of in-play characters.",
+        "firstNight": 51.4,
+        "otherNight": 80.1
+    },
+    {
+        "id": "puppeteer_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/puppeteer_the_storm_is_coming.png",
+        "name": "Puppeteer",
+        "team": "townsfolk",
+        "ability": "If you die at night, you swap characters with an alive Minion player.",
+		"otherNightReminder": "If the Puppeteer died tonight, wake the Puppeteer and a living Minion one at a time. Show the *YOU ARE* token & their new character token.",
+		"otherNight": 50.75
+    },
+    {
+        "id": "dyer_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/dyer_the_storm_is_coming.png",
+        "name": "Dyer",
+        "team": "townsfolk",
+        "ability": "If you die at night, the Demon�s ability becomes �Each night*, a player might die�.",
+		"reminders": [
+			"Stained"
+		],
+		"otherNightReminder": "If the Dyer died tonight, mark the Demon *STAINED*. :reminder:",
+		"otherNight": 52.9
+    },
+    {
+        "id": "brushholder_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/brushholder_the_storm_is_coming.png",
+        "otherNightReminder": "If the Brush Holder died today or tonight, point to a player.",
+        "reminders": [
+            "Died today"
+        ],
+        "name": "Brush Holder",
+        "team": "townsfolk",
+        "ability": "If you die during the day, you learn a good player tonight. If you die at night, you learn an evil player.",
+        "otherNight": 68.6
+    },
+    {
+        "id": "tombsculptor_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/tombsculptor_the_storm_is_coming.png",
+        "name": "Tomb Sculptor",
+        "team": "townsfolk",
+        "ability": "If no evil players are dead, you can only die by execution."
+    },
+    {
+        "id": "prosecutor_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/prosecutor_the_storm_is_coming.png",
+        "otherNightReminder": "If the Prosecutor made their first nomination today, show the character token marked *NOMINEE*. If a Demon is marked *NOMINEE*, show a good character token.",
+        "reminders": [
+            "Nominee","No Ability"
+        ],
+        "name": "Prosecutor",
+        "team": "townsfolk",
+        "ability": "After your first nomination, at night*, learn your nominee�s character. Demons register as good characters to you.",
+        "otherNight": 77.1
+    },
+    {
+        "id": "bookboy_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/bookboy_the_storm_is_coming.png",
+        "name": "Bookboy",
+        "team": "outsider",
+        "ability": "On your 1st night, choose a player (not yourself). When an evil ability affects them, you die that night*.",
+		"reminders": [
+			"Chosen","Dead"
+		],
+		"firstNightReminder": "The Bookboy chooses a player. :reminder:",
+		"firstNight": 52.55
+    },
+    {
+        "id": "embalmer_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/embalmer_the_storm_is_coming.png",
+        "otherNightReminder": "If the Embalmer became the Demon today, show them the *YOU ARE* & Demon tokens. Give a thumbs down.",
+        "reminders": [
+            "Is the Demon"
+        ],
+        "name": "Embalmer",
+        "team": "outsider",
+        "ability": "If 5 or more players live and you nominate, execute & kill the Demon, you become the evil Demon. (Travellers don�t count)",
+        "otherNight": 30.8,
+		"jinxes": [
+            {
+                "id": "scarletwoman",
+                "reason": "If the Embalmer executes and becomes the Demon, the Scarlet Woman does not become a Demon."
+            },
+            {
+                "id": "alhadikhia",
+                "reason": "If there are two living Al-Hadikhias, the Embalmer Al-Hadikhia becomes the Embalmer again, but does not turn good."
+            },
+			{
+                "id": "lilmonsta",
+                "reason": "If there are 5 or more players alive and the player holding Lil� Monsta dies from the Embalmer�s nomination, the Embalmer turns evil and is given Lil� Monsta tonight."
+            },
+            {
+                "id": "lleech",
+                "reason": "If there are 5 or more players alive and the Lleech host dies by the Embalmer�s nomination, the old Lleech dies tonight, and the Embalmer becomes the evil Lleech but does not kill tonight."
+            }
+        ]
+    },
+    {
+        "id": "server_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/server_the_storm_is_coming.png",
+        "reminders": [
+            "Drunk"
+        ],
+        "name": "Server",
+        "team": "outsider",
+        "ability": "One of your good neighbors is drunk, even if you are dead."
+    },
+    {
+        "id": "vintner_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/vintner_the_storm_is_coming.png",
+        "name": "Vintner",
+        "team": "minion",
+        "ability": "Each night, choose a Townsfolk character: their ability yields info of your choice next time.",
+		"reminders": [
+            "Tipsy"
+        ],
+		"firstNight": 27.15,
+		"otherNight": 52.8,
+		"firstNightReminder": "The Vintner chooses a Townsfolk character and a piece of info. :reminder:",
+		"otherNightReminder": "The Vintner chooses a Townsfolk character and a piece of info. :reminder:"
+    },
+    {
+        "id": "gudiao_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/gudiao_the_storm_is_coming.png",
+        "name": "Gu Diao",
+        "team": "minion",
+        "ability": "Each night, choose an alive good neighbor: you learn their character, and they are poisoned & register as evil Gu Diao until dusk.",
+		"firstNightReminder": "The Gu Diao chooses a living good neighbor. :reminder: Show the Gu Diao that player�s character token.",
+        "otherNightReminder": "The Gu Diao chooses a living good neighbor. :reminder: Show the Gu Diao that player�s character token.",
+        "reminders": [
+            "Gu Diao"
+        ],
+		"firstNight": 28.2,
+		"otherNight": 13.6		
+    },
+    {
+        "id": "mengpo_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/mengpo_the_storm_is_coming.png",
+        "name": "Meng Po",
+        "team": "minion",
+        "ability": "Each night*, choose a player: if they live at dawn, they choose to lose their ability, or die & keep their ability until dusk.",
+		"otherNightReminder": "The Meng Po chooses a player. :reminder:",
+        "reminders": [
+            "Chosen"
+        ],
+		"otherNight": 85.55	
+    },
+    {
+        "id": "huapi_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/huapi_the_storm_is_coming.png",
+        "firstNightReminder": "The Huapi points to a player. That player dies and turns undead. :reminder:",
+        "otherNightReminder": "If the previously undead player was revived by the Huapi, the Huapi points to a player. That player dies and turns undead. :reminder:",
+        "reminders": [
+            "Looks Alive","On the Prowl"
+        ],
+        "name": "Huapi",
+        "team": "minion",
+        "ability": "On your 1st night, choose an alive player: they die but register as alive. If they die again, they live & you regain this ability.",
+        "firstNight": 40.6,
+        "otherNight": 51.3
+    },
+    {
+        "id": "warden_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/warden_the_storm_is_coming.png",
+        "name": "Warden",
+        "team": "demon",
+        "ability": "Each night, choose up to 3 players. 1 player you chose last night dies: if any of them died today, all die tonight.",
+		"firstNightReminder": "The Warden chooses up to 3 players. :reminder: :reminder: :reminder:",
+        "otherNightReminder": "1 or 2 chosen players die. :reminder: :reminder: The Warden chooses up to 3 players. :reminder: :reminder: :reminder:",
+        "reminders": [
+            "Chosen","Chosen","Chosen","Dead","Dead"
+        ],
+		"firstNight": 41.25,
+        "otherNight": 50.221
+    },
+    {
+        "id": "yan_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/yan_the_storm_is_coming.png",
+        "name": "Yan",
+        "team": "demon",
+        "ability": "Each night, choose a player: they die tomorrow night. On your 1st night, look at the Grimoire and choose a player: they die on the 3rd night, even if for some reason they could not.",
+		"firstNightReminder": "Show the Grimoire for as long as the Yan needs. The Yan chooses a player. :reminder:",
+        "otherNightReminder": "The preiously chosen player dies. :reminder: The Yan chooses a player. :reminder: On the 3rd night, the marked player dies. :reminder:",
+        "reminders": [
+            "Dead","Dead","Dies Tomorrow","3","2","1"
+        ],
+		"firstNight": 40.8,
+        "otherNight": 50.222
+    },
+    {
+        "id": "conspirator_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/conspirator_the_storm_is_coming.png",
+        "name": "Conspirator",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If you didn�t vote today, choose an additional player: they die.",
+        "otherNightReminder": "The Conspirator chooses a player. :reminder: If the Conspirator did not vote today, they choose an additional player. :reminder:",
+        "reminders": [
+            "Did Not Vote","Dead","Dead"
+        ],
+        "otherNight": 50.223
+    },
+    {
+        "id": "tyrant_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/tyrant_the_storm_is_coming.png",
+        "otherNightReminder": "The Tyrant chooses 0, 1 or 2 players. :reminder: :reminder:",
+        "reminders": [
+            "Dead","Dead","0 Died Last Night","1 Died Last Night","2+ Died Last Night"
+        ],
+        "name": "Tyrant",
+        "team": "demon",
+        "ability": "Each night*, choose 0 to 2 players: they die. Your choices cannot equal the number of deaths last night (max 2).",
+        "otherNight": 50.224
+    },
+    {
+        "id": "guhuo_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/guhuo_the_storm_is_coming.png",
+        "name": "Guhuo",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. You might gain the ability of the Minion who most recently died by execution.",
+		"reminders": [
+            "Dead","Has Ability"
+        ],
+		"otherNight": 50.225,
+		"otherNightReminder": "The Guhuo chooses a player. :reminder: The Guhuo might wake due to their Minion ability."
+    },
+    {
+        "id": "outlaw_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/outlaw_the_storm_is_coming.png",
+        "name": "Outlaw",
+        "team": "traveller",
+		"reminders": [
+			"Drunk","Drunk","Drunk"],
+        "ability": "Each night*, a player who interrupted you today becomes drunk until dawn, even if you are dead.",
+		"otherNight": 6.11,
+		"otherNightReminder": "A player might become drunk. :reminder:"
+    },
+    {
+        "id": "messenger_the_storm_is_coming",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/messenger_the_storm_is_coming.png",
+        "name": "Messenger",
+        "team": "fabled",
+        "ability": "There are no restrictions on abilities that require players to make a choice."
+    }
+]
