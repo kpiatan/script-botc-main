@@ -393,15 +393,15 @@
         ]
     },
     {
-        "id": "bugkeeper_festival_of_lanterns",
-        "name": "Bug Keeper",
+        "id": "bugkeeper",
+        "name": "Guardião dos Insetos",
         "team": "minion",
         "otherNight": 52.1,
-        "otherNightReminder": "Any player who nominated the alive Bug Keeper dies.",
+        "otherNightReminder": "Qualquer jogador que nomeou o Guardião dos Insetos que estava vivo morre.",
         "reminders": [
-            "Dead"
+            "Morto"
         ],
-        "ability": "Each night*, if you were alive when nominated today, your nominator dies, even if you die first.",
+        "ability": "A cada noite*, se você estava vivo quando foi nomeado hoje, seu nomeador morre, mesmo que você morra antes.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/bugkeeper_temple_fair.png"
         ],
@@ -409,23 +409,23 @@
         "jinxes": [
             {
                 "id": "plaguedoctor",
-                "reason": "If the Storyteller would gain the Bug Keeper ability, a living Minion gains the Bug Keeper ability in addition to their own ability, and learns this."
+                "reason": "Se o Narrador ganharia a habilidade do Guardião dos Insetos, um Lacaio vivo ganha a habilidade do Guardião dos Insetos junto com sua própria habilidade, e fica sabendo disso."
             }
         ]
     },
     {
-        "id": "vixen_festival_of_lanterns",
-        "name": "Vixen",
+        "id": "vixen",
+        "name": "Mulher-Gato",
         "team": "minion",
         "firstNight": 39.2,
-        "firstNightReminder": "The Vixen points to a player. Mark that player’s character token with the CHARMED reminder token. Put the Vixen to sleep and wake the chosen player. Show them the THIS CHARACTER SELECTED YOU info token and the Vixen character token. Put them to sleep. :reminder:",
+        "firstNightReminder": "A Mulher-Gato aponta para um jogador. Marque aquele jogador com o lembrete ENCANTADO. Ponha a Mulher-Gato para dormir e acorde o jogador escolhido. Mostre a ele a ficha de informação ESSE PERSONAGEM SELECIONOU VOCÊ e a ficha da Mulher-Gato. :reminder:",
         "otherNight": 28.2,
-        "otherNightReminder": "If the Vixen died by execution today, turn the character token marked CHARMED upside-down. Wake that player, show them the YOU ARE info token, and thumbs down for evil.",
+        "otherNightReminder": "Se a Mulher-Gato morreu por execução hoje, vire a ficha de personagem marcado como ENCANTADO de cabeça para baixo. Acorde aquele jogador, mostre a ficha de informação VOCÊ É, e o sinal de time do mal.",
         "reminders": [
-            "Charmed"
+            "Encantado"
         ],
         "setup": false,
-        "ability": "On your 1st night, choose a player: they learn the Vixen is in play. If you die by execution, they become evil tonight.",
+        "ability": "Na sua 1ª noite, escolha um jogador: ele fica sabendo que a Mulher-Gato está em jogo. Se você morrer por execução, ele se torna do mal naquela noite.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/vixen_temple_fair.png"
         ],
@@ -433,24 +433,24 @@
         "jinxes": [
             {
                 "id": "heretic",
-                "reason": "Only 1 jinxed character can be in play."
+                "reason": "Somente 1 destes personagens podem estar em jogo."
             },
             {
                 "id": "plaguedoctor",
-                "reason": "If the Storyteller would gain the Vixen ability, a living Minion gains the Vixen ability in addition to their own ability, and learns this."
+                "reason": "Se o Narrador ganharia a habilidade da Mulher-Gato, um Lacaio vivo ganha a habilidade da Mulher-Gato junto com sua própria habilidade, e fica sabendo disso."
             }
         ]
     },
     {
-        "id": "corpsewalker_festival_of_lanterns",
-        "name": "Corpse Walker",
+        "id": "corpsewalker",
+        "name": "Condutor de Cadáveres",
         "team": "minion",
         "reminders": [
-            "Undead",
-            "Undead"
+            "Morto-vivo",
+            "Morto-vivo"
         ],
         "setup": true,
-        "ability": "The 1st time each of your Townsfolk neighbors die, they register as alive. [−1 Outsider]",
+        "ability": "Na 1ª vez que cada um dos seus vizinhos Cidadãos morrer, eles registram como vivo. [−1 Forasteiro]",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/corpsewalker_temple_fair.png"
         ],
@@ -458,95 +458,95 @@
         "jinxes": [
             {
                 "id": "plaguedoctor",
-                "reason": "If the Storyteller would gain the Corpse Walker ability, a living Minion gains the Corpse Walker ability in addition to their own ability, and learns this."
+                "reason": "Se o Narrador ganharia a habilidade do Condutor de Cadáveres, um Lacaio vivo ganha a habilidade do Condutor de Cadáveres junto com sua própria habilidade, e fica sabendo disso."
             }
         ]
     },
     {
-        "id": "imperialist_festival_of_lanterns",
-        "name": "Imperialist",
+        "id": "imperialist",
+        "name": "Imperialista",
         "team": "minion",
         "firstNight": 37.5,
-        "firstNightReminder": "Show the Imperialist the LIVE and DIE reminder tokens: they point to one. Put the chosen token in the Grimoire. :reminder: :reminder:",
+        "firstNightReminder": "Mostre ao Imperialista os lembretes VIVER e MORRER: ele aponta para um. Coloque o lembrete escolhido no Grimório. :reminder: :reminder:",
         "reminders": [
-            "Live",
-            "Die"
+            "Viver",
+            "Morrer"
         ],
-        "ability": "Players who are “mad” that they want to live or die (you start by choosing which) might be immediately executed.",
+        "ability": "Jogadores que alucinarem que querem viver ou morrer (você começa escolhendo qual) podem ser executados imediatamente.",
         "flavor": "He deserved to be beheaded! Yes, he broke curfew, my lord!",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/imperialist_temple_fair.png"
         ]
     },
     {
-        "id": "qiongqi_festival_of_lanterns",
+        "id": "qiongqi",
         "name": "Qiong Qi",
         "team": "demon",
         "otherNight": 50.2,
-        "otherNightReminder": "The Qiong Qi points to a player. That player dies. If an Outsider died today, the chosen player registers as alive & you choose another player who dies. :reminder: :reminder:",
+        "otherNightReminder": "O Qiong Qi aponta para um jogador. Aquele jogador morre. Se um Forasteiro morreu de dia, o jogador escolhido registra como se estivesse vivo & outro jogador morre. :reminder: :reminder:",
         "reminders": [
-            "Undead",
-            "Undead",
-            "Dead",
-            "Died today"
+            "Morto-vivo",
+            "Morto-vivo",
+            "Morto",
+            "Morreu hoje"
         ],
         "setup": true,
-        "ability": "Each night*, choose a player: they die and, if an Outsider died today, register as alive, & another player dies. [+1 Outsider]",
+        "ability": "A cada noite*, escolha um jogador: ele morre. Se um Forasteiro morreu de dia hoje, o jogador selecionado registra como vivo & outro jogador morre. [+1 Forasteiro]",
         "flavor": "The beast resembles a winged ox, with spines like a hedgehog and bark like a hound. It eats humans, and it bears the name Qiong Qi.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/qiongqi_temple_fair.png"
         ]
     },
     {
-        "id": "taotie_festival_of_lanterns",
+        "id": "taotie",
         "name": "Tao Tie",
         "team": "demon",
         "otherNight": 50.21,
-        "otherNightReminder": "The Tao Tie shakes their head no, or points to up to 4 non-Traveller players or 1 Traveller. If the chosen players are of different character types, they die. :reminder: :reminder: :reminder: :reminder: If the Tao Tie points to a Traveller and other players, shake your head no and gesture for them to choose again.",
+        "otherNightReminder": "O Tao Tie balança sua cabeça com o sinal de não, ou aponta para até 4 jogadores não-Viajantesou 1 Viajante. Se os jogadores escolhidos são de tipos de personagens diferentes, eles morrem. :reminder: :reminder: :reminder: :reminder: Se o Tao Tie apontar para um Viajante e outros jogadores, balance sua cabeça com o sinal de não para que ele faça a escolha novamente.",
         "reminders": [
-            "Dead",
-            "Dead",
-            "Dead",
-            "Dead"
+            "Morto",
+            "Morto",
+            "Morto",
+            "Morto"
         ],
         "setup": true,
-        "ability": "Each night*, choose up to 4 non-Traveller players (or 1 Traveller): if all are different character types, they die. [+1 Outsider]",
+        "ability": "A cada noite*, escolha até 4 jogadores não-Viajantes (ou 1 Viajante): se todos forem de tipos diferentes de personagens, eles morrem. [+1 Forasteiro]",
         "flavor": "The beast looks like a ram with the face of a human, eyes under its armpits, tiger teeth and a baby’s voice. It devours people, and its name is Tao Tie.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/taotie_temple_fair.png"
         ]
     },
     {
-        "id": "hundun_festival_of_lanterns",
+        "id": "hundun",
         "name": "Hun Dun",
         "team": "demon",
         "otherNight": 50.19,
-        "otherNightReminder": "The Hun Dun points to a player. That player dies. :reminder: If they are a Townsfolk neighbor of the Hun Dun, all good players (except Travellers) are poisoned until dusk. :reminder:",
+        "otherNightReminder": "O Hun Dun aponta para um jogador. Aquele jogador morre. :reminder: Se ele era um Cidadão vizinho do the Hun Dun, todos os jogadores do time do bem (exceto Viajantes) estão envenenados até o anoitecer. :reminder:",
         "reminders": [
-            "Dead",
-            "Good are poisoned"
+            "Morto",
+            "Time do bem está envenenado"
         ],
-        "ability": "Each night*, choose a player: they die. If your Townsfolk neighbors die this way, all good non-Travellers are poisoned until dusk.",
+        "ability": "A cada noite*, escolha um jogador: ele morre. Se um vizinho seu Cidadão morrer desta maneira, todos os jogadores do bem não-Viajantes estão envenenados até o anoitecer.",
         "flavor": "The beast is a four-winged bird, red as cinnabar fire and with six legs but no face. It can sing and dance, and it is known as Hun Dun.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/hundun_temple_fair.png"
         ]
     },
     {
-        "id": "taowu_festival_of_lanterns",
+        "id": "taowu",
         "name": "Tao Wu",
         "team": "demon",
         "firstNight": 17.8,
-        "firstNightReminder": "Do not wake the Tao Wu to give Demon info.",
+        "firstNightReminder": "Não acorde o Tao Wu para informá-lo de seus Lacaios ou os 3 personagens fora-de-jogo.",
         "otherNight": 50.22,
-        "otherNightReminder": "The Tao Wu points to a player. That player dies. :reminder:",
+        "otherNightReminder": "O Tao Wu aponta para um jogador. Aquele jogador morre. :reminder:",
         "reminders": [
-            "Dead",
-            "No Ability",
-            "No Ability",
-            "No Ability"
+            "Morto",
+            "Sem Habilidade",
+            "Sem Habilidade",
+            "Sem Habilidade"
         ],
-        "ability": "Each night*, choose a player: they die. If you die, an alive Minion instead loses their ability, if possible. You learn no Demon info.",
+        "ability": "A cada noite*, escolha um jogador: ele morre. Se você for morrer, um Lacaio vivo perde sua habilidade ao invés disso, se possível. Você não recebe a informação inicial de Demônio.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/taowu_temple_fair.png"
         ],
@@ -554,71 +554,71 @@
         "jinxes": [
             {
                 "id": "scarletwoman",
-                "reason": "The Scarlet Woman registers as having no ability to the Tao Wu."
+                "reason": "A Mulher Escarlate registra como se não tivesse habilidade para o Tao Wu."
             },
             {
                 "id": "eviltwin",
-                "reason": "The Evil Twin registers as having no ability to the Tao Wu."
+                "reason": "A Gêmea Má registra como se não tivesse habilidade para o Tao Wu."
             },
             {
                 "id": "mastermind",
-                "reason": "The Mastermind registers as having no ability to the Tao Wu."
+                "reason": "O Mentor registra como se não tivesse habilidade para o Tao Wu."
             },
             {
                 "id": "organgrinder",
-                "reason": "If the Tao Wu is about to be executed and the alive Organ Grinder has their ability, the Storyteller announces that no one is executed."
+                "reason": "Se o Tao Wu está prestes a ser executado e o Organista tem sua habilidade, o Narrador anuncia que ninguém foi executado."
             },
             {
                 "id": "marionette",
-                "reason": "The Tao Wu does not learn who the Marionette is. If the Marionette has no ability due to the Tao Wu’s ability, the Tao Wu learns who the Marionette is; the Marionette still thinks they are a good character."
+                "reason": "O Tao Wu não fica sabendo quem é a Marionete. Se a Marionette não tem habilidade devido à habilidade do Tao Wu, o Tao Wu fica sabendo que é a Marionete; a Marionete continua achando que é um personagem do bem."
             },
             {
                 "id": "hatter",
-                "reason": "If the Tao Wu player changes character, any Minion that lost their ability due to the Tao Wu ability dies immediately."
+                "reason": "Se o Tao Wu mudar de personagem, qualquer Lacaio que tiver perdido sua habilidade devido à habilidade do Tao Wu morre imediatamente."
             },
             {
                 "id": "pithag",
-                "reason": "If the Tao Wu player changes character, any Minion that lost their ability due to the Tao Wu ability dies immediately."
+                "reason": "Se o Tao Wu mudar de personagem, qualquer Lacaio que tiver perdido sua habilidade devido à habilidade do Tao Wu morre imediatamente."
             },
             {
                 "id": "engineer",
-                "reason": "If the Tao Wu player changes character, any Minion that lost their ability due to the Tao Wu ability dies immediately."
+                "reason": "Se o Tao Wu mudar de personagem, qualquer Lacaio que tiver perdido sua habilidade devido à habilidade do Tao Wu morre imediatamente."
             },
             {
                 "id": "snakecharmer",
-                "reason": "If the Tao Wu swaps characters with another player, Minions that lost their ability due to the Tao Wu ability do not get their abilities back."
+                "reason": "Se o Tao Wu trocar de personagens com outro jogador, Lacaios que perderam sua habilidade devido à habilidade do Tao Wu não recebem sua habilidade de volta."
             },
             {
                 "id": "barber",
-                "reason": "If the Tao Wu swaps characters with another player, Minions that lost their ability due to the Tao Wu ability do not get their abilities back."
+                "reason": "Se o Tao Wu trocar de personagens com outro jogador, Lacaios que perderam sua habilidade devido à habilidade do Tao Wu não recebem sua habilidade de volta."
             }
         ]
     },
     {
-        "id": "pauper_festival_of_lanterns",
-        "name": "Pauper",
+        "id": "pauper",
+        "name": "Esfarrapado",
         "team": "traveller",
         "reminders": [
-            "Begging"
+            "Pedindo"
         ],
         "remindersGlobal": [
-            "Is the Pauper"
+            "É o Esfarrapado"
         ],
         "flavor": "I’ve had a rough spell, but I can still work. Give me the opportunity to prove myself, and you won’t be disappointed!",
-        "ability": "Each day, you may publicly choose a player (not yourself) to pick a non-Demon ability: you might gain it until dawn.",
+        "ability": "A cada dia, você pode publicamente escolher um jogador (exceto você) para escolher uma habilidade que não seja de Demônio: você pode ganhar ela até o amanhecer.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/pauper_temple_fair.png"
         ]
     },
     {
-        "id": "qilin_festival_of_lanterns",
+        "id": "qilin",
         "name": "Qilin",
         "team": "fabled",
         "reminders": [
-            "Something good"
+            "Algo bom"
         ],
         "flavor": "麟之趾，振振公子，于嗟麟兮！ 麟之定，振振公姓，于嗟麟兮！ 麟之角，振振公族，于嗟麟兮！",
-        "ability": "On the final day, something good might happen to the most engaged player.",
+        "ability": "No dia final, algo de bom pode acontecer ao jogador mais engajado.",
         "image": "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/qilin_temple_fair.png"
     }
 ]
