@@ -10,7 +10,7 @@
     {
         "id": "blademaster",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/blademaster_the_storm_is_coming.png",
-        "firstNightReminder": "Show the Minion character token marked *KNOW*.",
+        "firstNightReminder": "Mostre o personagem Lacaio com o lembrete *CONHECIDO*.",
         "reminders": [
             "Conhecido","Sem Habilidade"
         ],
@@ -22,49 +22,49 @@
     {
         "id": "guide",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/guide_the_storm_is_coming.png",
-        "firstNightReminder": "The Guide chooses 1 to 3 players. Nod or shake your head depending on if any were chosen or affected by evil players� abilities.",
-        "otherNightReminder": "The Guide chooses 1 to 3 players. Nod or shake your head depending on if any were chosen or affected by evil players� abilities.",
+        "firstNightReminder": "O Guia escolhe de 1 a 3 pessoas. Balance a cabeça com sim ou não, dependendo se qualquer um deles foi escolhido ou afetado por habilidades do mal esta noite.",
+        "otherNightReminder": "O Guia escolhe de 1 a 3 pessoas. Balance a cabeça com sim ou não, dependendo se qualquer um deles foi escolhido ou afetado por habilidades do mal esta noite.",
         "name": "Guia",
         "team": "townsfolk",
-        "ability": "Each night, choose 1 to 3 players: you learn if any of them were chosen or affected by evil abilities tonight.",
+        "ability": "A cada noite, escolha de 1 a 3 jogadores: você fica sabendo se qualquer algum deles foi escolhido ou afetado por habilidades do mal esta noite.",
         "firstNight": 70.3,
         "otherNight": 88.3,
         "jinxes": [
             {
                 "id": "chambermaid",
-                "reason": "The Chambermaid learns if the Guide wakes tonight or not, even though the Chambermaid wakes first."
+                "reason": "A Camareira fica sabendo se o Guia acorda esta noite ou não, mesmo que a Camareira acorde antes."
             },
             {
                 "id": "mathematician",
-                "reason": "The Guide learns if the Mathematician is affected or not, even though the Guide wakes first."
+                "reason": "O Guia fica sabendo se o Matemático será afetado ou não, mesmo que o Guia acorde antes."
             }
         ]
     },
     {
-        "id": "broker_the_storm_is_coming",
+        "id": "broker",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/broker_the_storm_is_coming.png",
-        "firstNightReminder": "The Broker chooses 2 living players. If they are the same alignment, mark both *CLIENT*. :reminder: :reminder:",
-        "otherNightReminder": "The Broker chooses 2 living players. If they are the same alignment, mark both *CLIENT*. :reminder: :reminder:",
+        "firstNightReminder": "O Corretor escolhe 2 jogadores vivos. Se eles são do mesmo alinhamento, marque os dois com o lembrete *CLIENTE*. :reminder: :reminder:",
+        "otherNightReminder": "O Corretor escolhe 2 jogadores vivos. Se eles são do mesmo alinhamento, marque os dois com o lembrete *CLIENTE*. :reminder: :reminder:",
         "reminders": [
-            "Client","Client"
+            "Cliente","Cliente"
         ],
-        "name": "Broker",
+        "name": "Corretor",
         "team": "townsfolk",
-        "ability": "Each night, choose 2 alive players: if they are the same alignment, abilities targeting one will instead target the other tonight.",
+        "ability": "A cada noite, escolha 2 jogadores vivos: se eles forem do mesmo alinhamento, habilidades direcionadas a um serão redirecionadas para o outro esta noite.",
         "firstNight": 19.5,
         "otherNight": 8.9
     },
     {
-        "id": "geomancer_the_storm_is_coming",
+        "id": "geomancer",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/geomancer_the_storm_is_coming.png",
-        "name": "Geomancer",
+        "name": "Geomante",
         "team": "townsfolk",
-		"firstNightReminder": "Show a player�s character type. :reminder:",
-        "otherNightReminder": "Show the next player�s character type. :reminder:",
+		"firstNightReminder": "Mostre ao Geomante um tipo de personagem. :reminder:",
+        "otherNightReminder": "Mostre ao Geomante o tipo de personagem do próximo jogador. :reminder:",
         "reminders": [
-            "Townsfolk","Outsider","Minion","Demon"
+            "Cidadão","Forasteiro","Lacaio","Demônio"
         ],
-        "ability": "Each night, you learn the next new character type clockwise of the player you learned yesterday. (Travellers don�t count.)",
+        "ability": "A cada noite, você fica sabendo o próximo tipo de personagem no sentido horário do jogador que você aprendeu ontem. (Viajantes não contam.)",
 		"firstNight": 62.2,
         "otherNight": 78.2
     },
