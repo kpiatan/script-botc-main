@@ -69,27 +69,27 @@
         "otherNight": 78.2
     },
     {
-        "id": "prefect_the_storm_is_coming",
+        "id": "prefect",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/prefect_the_storm_is_coming.png",
-        "otherNightReminder": "Nod if an Outsider, Minion or Demon died today. Shake your head if not.",
+        "otherNightReminder": "Acene sua cabeça com 'sim' se um Forasteiro, Lacaio ou Demônio morreu hoje. Balance sua cabeça com 'não' se não.",
         "reminders": [
-            "Stranger died"
+            "Stranho Morreu"
         ],
-        "name": "Prefect",
+        "name": "Monitor",
         "team": "townsfolk",
-        "ability": "Each night*, you learn if a non-Townsfolk (& non-Traveller) died today or tonight.",
+        "ability": "A cada noite*, saiba se um não-Cidadão (& não-Viajante) morreu hoje de dia ou de noite.",
         "otherNight": 83.2
     },
     {
-        "id": "historian_the_storm_is_coming",
+        "id": "historian",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/historian_the_storm_is_coming.png",
-        "otherNightReminder": "If a player died today, give a finger signal.",
+        "otherNightReminder": "Se um jogador morreu hoje, informe o número de Cidadãos vivos.",
         "reminders": [
-            "Died Today"
+            "Morreu Hoje"
         ],
-        "name": "Historian",
+        "name": "Historiador",
         "team": "townsfolk",
-        "ability": "Each night*, if a player died today, learn the number of alive Townsfolk.",
+        "ability": "A cada noite*, se um jogador morreu hoje, saiba o número de Cidadãos vivos.",
         "otherNight": 75.2
     },
     {
