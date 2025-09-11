@@ -286,54 +286,54 @@
 		"jinxes": [
             {
                 "id": "scarletwoman",
-                "reason": "If the Embalmer executes and becomes the Demon, the Scarlet Woman does not become a Demon."
+                "reason": "Se o Embalsamador executar e se tornar o Demônio, a Mulher Escarlate não vira o Demônio."
             },
             {
                 "id": "alhadikhia",
-                "reason": "If there are two living Al-Hadikhias, the Embalmer Al-Hadikhia becomes the Embalmer again, but does not turn good."
+                "reason": "Se existem dois Al-Hadikhias vivos, o Al-Hadikhia Embalsamador se torna Embalsamador novamente, mas não vira do bem."
             },
 			{
                 "id": "lilmonsta",
-                "reason": "If there are 5 or more players alive and the player holding Lil� Monsta dies from the Embalmer�s nomination, the Embalmer turns evil and is given Lil� Monsta tonight."
+                "reason": "Se há 5 ou mais jogadores vivos e o jogador segurando o Monstrim morrer pelo Embalsamador, o Embalsamador se torna do mal e carrega o Monstrim naquela noite."
             },
             {
                 "id": "lleech",
-                "reason": "If there are 5 or more players alive and the Lleech host dies by the Embalmer�s nomination, the old Lleech dies tonight, and the Embalmer becomes the evil Lleech but does not kill tonight."
+                "reason": "Se há 5 ou mais jogadores vivos e o hospedeiro do Sanguessuga morrer pela nomeação do Embalsamador, o Sanguessuga antigo morre hoje à noite, e o Embalsamador se torna o Sanguessuga do mal mas não mata hoje à noite."
             }
         ]
     },
     {
-        "id": "server_the_storm_is_coming",
+        "id": "server",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/server_the_storm_is_coming.png",
         "reminders": [
-            "Drunk"
+            "Bêbado"
         ],
-        "name": "Server",
+        "name": "Atendente",
         "team": "outsider",
-        "ability": "One of your good neighbors is drunk, even if you are dead."
+        "ability": "Um de seus vizinhos do bem está bêbado, mesmo que você esteja morto."
     },
     {
-        "id": "vintner_the_storm_is_coming",
+        "id": "vintner",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/vintner_the_storm_is_coming.png",
-        "name": "Vintner",
+        "name": "Vinicultor",
         "team": "minion",
-        "ability": "Each night, choose a Townsfolk character: their ability yields info of your choice next time.",
+        "ability": "A cada noite, escolha um personagem Cidadão: você escolhe a próxima informação que esse personagem receberá.",
 		"reminders": [
-            "Tipsy"
+            "Embriagado"
         ],
 		"firstNight": 27.15,
 		"otherNight": 52.8,
-		"firstNightReminder": "The Vintner chooses a Townsfolk character and a piece of info. :reminder:",
-		"otherNightReminder": "The Vintner chooses a Townsfolk character and a piece of info. :reminder:"
+		"firstNightReminder": "O Vinicultor escolhe um personagem Cidadão e a informação que ele receberá. :reminder:",
+		"otherNightReminder": "O Vinicultor escolhe um personagem Cidadão e a informação que ele receberá. :reminder:"
     },
     {
-        "id": "gudiao_the_storm_is_coming",
+        "id": "gudiao",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/gudiao_the_storm_is_coming.png",
         "name": "Gu Diao",
         "team": "minion",
-        "ability": "Each night, choose an alive good neighbor: you learn their character, and they are poisoned & register as evil Gu Diao until dusk.",
-		"firstNightReminder": "The Gu Diao chooses a living good neighbor. :reminder: Show the Gu Diao that player�s character token.",
-        "otherNightReminder": "The Gu Diao chooses a living good neighbor. :reminder: Show the Gu Diao that player�s character token.",
+        "ability": "A cada noite, escolha um vizinho vivo do bem: você fica sabendo o personagem dele, ele está envenenado & registra como um Gu Diao do mal até o anoitecer.",
+		"firstNightReminder": "O Gu Diao escolhe um vizinho vivo do bem. :reminder: Mostre ao Gu Diao o personagem daquele jogador.",
+        "otherNightReminder": "O Gu Diao escolhe um vizinho vivo do bem. :reminder: Mostre ao Gu Diao o personagem daquele jogador.",
         "reminders": [
             "Gu Diao"
         ],
@@ -341,111 +341,111 @@
 		"otherNight": 13.6		
     },
     {
-        "id": "mengpo_the_storm_is_coming",
+        "id": "mengpo",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/mengpo_the_storm_is_coming.png",
         "name": "Meng Po",
         "team": "minion",
-        "ability": "Each night*, choose a player: if they live at dawn, they choose to lose their ability, or die & keep their ability until dusk.",
-		"otherNightReminder": "The Meng Po chooses a player. :reminder:",
+        "ability": "A cada noite*, escolha um jogador: se ele estiver vivo ao amanhecer, ele escolhe entre perder a sua habilidade ou morrer & manter sua habilidade até o anoitecer.",
+		"otherNightReminder": "O Meng Po escolhe um jogador. :reminder:",
         "reminders": [
-            "Chosen"
+            "Escolhido"
         ],
 		"otherNight": 85.55	
     },
     {
-        "id": "huapi_the_storm_is_coming",
+        "id": "huapi",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/huapi_the_storm_is_coming.png",
-        "firstNightReminder": "The Huapi points to a player. That player dies and turns undead. :reminder:",
+        "firstNightReminder": "O Huapi aponta para um jogador. Aquele jogador morre e se torna morto-vivo. :reminder:",
         "otherNightReminder": "If the previously undead player was revived by the Huapi, the Huapi points to a player. That player dies and turns undead. :reminder:",
         "reminders": [
-            "Looks Alive","On the Prowl"
+            "Aparenta Estar Vivo","À Espreita"
         ],
         "name": "Huapi",
         "team": "minion",
-        "ability": "On your 1st night, choose an alive player: they die but register as alive. If they die again, they live & you regain this ability.",
+        "ability": "Na sua 1ª noite, escolha um jogador vivo: ele morre mas registra como vivo. Se ele morrer novamente, ele fica vivo & você ganha novamente esta habilidade.",
         "firstNight": 40.6,
         "otherNight": 51.3
     },
     {
-        "id": "warden_the_storm_is_coming",
+        "id": "warden",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/warden_the_storm_is_coming.png",
-        "name": "Warden",
+        "name": "Carcereiro",
         "team": "demon",
-        "ability": "Each night, choose up to 3 players. 1 player you chose last night dies: if any of them died today, all die tonight.",
-		"firstNightReminder": "The Warden chooses up to 3 players. :reminder: :reminder: :reminder:",
-        "otherNightReminder": "1 or 2 chosen players die. :reminder: :reminder: The Warden chooses up to 3 players. :reminder: :reminder: :reminder:",
+        "ability": "A cada noite, escolha até 3 jogadores. 1 jogador que você escolheu na noite passada morre: se qualquer um deles morreu hoje de dia, todos morrem hoje à noite.",
+		"firstNightReminder": "O Carcereiro escolhe até 3 jogadores. :reminder: :reminder: :reminder:",
+        "otherNightReminder": "1 ou 2 jogadores escolhidos morrem. :reminder: :reminder: O Carcereiro escolhe até 3 jogadores. :reminder: :reminder: :reminder:",
         "reminders": [
-            "Chosen","Chosen","Chosen","Dead","Dead"
+            "Escolhido","Escolhido","Escolhido","Morto","Morto"
         ],
 		"firstNight": 41.25,
         "otherNight": 50.221
     },
     {
-        "id": "yan_the_storm_is_coming",
+        "id": "yan",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/yan_the_storm_is_coming.png",
         "name": "Yan",
         "team": "demon",
-        "ability": "Each night, choose a player: they die tomorrow night. On your 1st night, look at the Grimoire and choose a player: they die on the 3rd night, even if for some reason they could not.",
-		"firstNightReminder": "Show the Grimoire for as long as the Yan needs. The Yan chooses a player. :reminder:",
-        "otherNightReminder": "The preiously chosen player dies. :reminder: The Yan chooses a player. :reminder: On the 3rd night, the marked player dies. :reminder:",
+        "ability": "A cada noite, escolha um jogador: ele morre amanhã à noite. Na sua 1ª noite, olhe o Grimório e escolha um jogador: ele morre na 3ª noite, mesmo que por alguma razão ele não possa morrer.",
+		"firstNightReminder": "Mostre o Grimório ao Yan pelo tempo que ele precisar. O Yan escolhe um jogador para morrer amanhã à noite. :reminder: O Yan escolhe um jogador para morrer na 3ª noite. :reminder:",
+        "otherNightReminder": "O jogador escolhido anteriormente morre. :reminder: O Yan escolhe um jogador. :reminder: Na 3ª noite, o jogador marcado morre. :reminder:",
         "reminders": [
-            "Dead","Dead","Dies Tomorrow","3","2","1"
+            "Morto","Morto","Morre Amanhã","3","2","1"
         ],
 		"firstNight": 40.8,
         "otherNight": 50.222
     },
     {
-        "id": "conspirator_the_storm_is_coming",
+        "id": "conspirator",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/conspirator_the_storm_is_coming.png",
-        "name": "Conspirator",
+        "name": "Conspirador",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If you didn�t vote today, choose an additional player: they die.",
-        "otherNightReminder": "The Conspirator chooses a player. :reminder: If the Conspirator did not vote today, they choose an additional player. :reminder:",
+        "ability": "A cada noite*, escolha um jogador: ele morre. Se você não votou hoje, escolha mais um jogador: ele morre.",
+        "otherNightReminder": "O Conspirador escolhe um jogador. :reminder: Se o Conspirador não votou hoje, ele escolhe mais um jogador. :reminder:",
         "reminders": [
-            "Did Not Vote","Dead","Dead"
+            "Não Votou","Morto","Morto"
         ],
         "otherNight": 50.223
     },
     {
-        "id": "tyrant_the_storm_is_coming",
+        "id": "tyrant",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/tyrant_the_storm_is_coming.png",
-        "otherNightReminder": "The Tyrant chooses 0, 1 or 2 players. :reminder: :reminder:",
+        "otherNightReminder": "O Tirano escolhe 0, 1 ou 2 jogadores. :reminder: :reminder:",
         "reminders": [
-            "Dead","Dead","0 Died Last Night","1 Died Last Night","2+ Died Last Night"
+            "Morto","Morto","0 Morreram Noite Passada","1 Morreram Noite Passada","2+ Morreram Noite Passada"
         ],
-        "name": "Tyrant",
+        "name": "Tirano",
         "team": "demon",
-        "ability": "Each night*, choose 0 to 2 players: they die. Your choices cannot equal the number of deaths last night (max 2).",
+        "ability": "A cada noite*, escolha de 0 a 2 jogadores: eles morrem. O número de jogadores escolhido não pode ser o mesmo que o número de mortes na noite anterior (máximo 2).",
         "otherNight": 50.224
     },
     {
-        "id": "guhuo_the_storm_is_coming",
+        "id": "guhuo",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/guhuo_the_storm_is_coming.png",
         "name": "Guhuo",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. You might gain the ability of the Minion who most recently died by execution.",
+        "ability": "A cada noite*, escolha um jogador: ele morre. Você pode ganhar a habilidade do Lacaio que morreu mais recentemente por execução.",
 		"reminders": [
-            "Dead","Has Ability"
+            "Morto","Tem Habilidade"
         ],
 		"otherNight": 50.225,
-		"otherNightReminder": "The Guhuo chooses a player. :reminder: The Guhuo might wake due to their Minion ability."
+		"otherNightReminder": "O Guhuo escolhe um jogador. :reminder: O Guhuo pode acordar de acordo com sua habilidade de Lacaio."
     },
     {
-        "id": "outlaw_the_storm_is_coming",
+        "id": "outlaw",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/outlaw_the_storm_is_coming.png",
-        "name": "Outlaw",
+        "name": "Fora-da-Lei",
         "team": "traveller",
 		"reminders": [
-			"Drunk","Drunk","Drunk"],
-        "ability": "Each night*, a player who interrupted you today becomes drunk until dawn, even if you are dead.",
+			"Bêbado","Bêbado","Bêbado"],
+        "ability": "A cada noite*, um jogador que interrompeu você hoje pode ficar bêbado até o amanhecer, mesmo que você esteja morto.",
 		"otherNight": 6.11,
-		"otherNightReminder": "A player might become drunk. :reminder:"
+		"otherNightReminder": "Um jogador pode ficar bêbado. :reminder:"
     },
     {
-        "id": "messenger_the_storm_is_coming",
+        "id": "messenger",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/messenger_the_storm_is_coming.png",
-        "name": "Messenger",
+        "name": "Mensageiro",
         "team": "fabled",
-        "ability": "There are no restrictions on abilities that require players to make a choice."
+        "ability": "Habilidades de escolha não têm restrições."
     }
 ]
