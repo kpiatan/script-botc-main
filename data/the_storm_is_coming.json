@@ -93,123 +93,123 @@
         "otherNight": 75.2
     },
     {
-        "id": "cleric_the_storm_is_coming",
+        "id": "cleric",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/cleric_the_storm_is_coming.png",
-        "otherNightReminder": "The Cleric chooses a player. If a Demon is chosen, the Cleric dies and the Demon becomes drunk. :reminder: :reminder:",
+        "otherNightReminder": "O Clérigo escolhe um jogador. Se um Demônio for escolhido, o Clérigo morre e o Demônio fica bêbado. :reminder: :reminder:",
         "reminders": [
-            "Drunk","Dead"
+            "Bêbado","Morto"
         ],
-        "name": "Cleric",
+        "name": "Clérigo",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player: if you choose the Demon, you die & they are drunk until dawn.",
+        "ability": "A cada noite*, escolha um jogador: se você escolher o Demônio, você morre & ele fica bêbado até o amanhecer.",
         "otherNight": 32.1
     },
     {
-        "id": "patrol_the_storm_is_coming",
+        "id": "patrol",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/patrol_the_storm_is_coming.png",
-        "otherNightReminder": "The Patrol chooses 2 characters. If both are alive, mark both with *SAFE* reminder tokens. :reminder: :reminder:",
+        "otherNightReminder": "O Patrulha escolhe 2 personagens. Se os dois estão vivos, marque os dois com o lembrete *PROTEGIDO*. :reminder: :reminder:",
         "reminders": [
-            "Safe","Safe"
+            "Protegido","Protegido"
         ],
-        "name": "Patrol",
+        "name": "Patrulha",
         "team": "townsfolk",
-        "ability": "Each night*, choose 2 good characters (different to last night): if both are alive, they can�t die tonight.",
+        "ability": "A cada noite*, escolhe 2 personagens do bem (diferentes da noite anterior): se ambos estão vivos, eles não podem morrer esta noite.",
         "otherNight": 15.8,
         "jinxes": [
             {
                 "id": "leviathan",
-                "reason": "If the Leviathan is in play, the Patrol-protected player is safe from all evil abilities."
+                "reason": "Se o Leviatã está em jogo, o jogador protegido pelo Patrulha está protegido de todas as habilidades do time do mal."
             },
             {
                 "id": "riot",
-                "reason": "If the Riot is in play, the Patrol-protected player is safe from all evil abilities."
+                "reason": "Se o Pandemônio está em jogo, o jogador protegido pelo Patrulha está protegido de todas as habilidades do time do mal."
             }
         ]
     },
     {
-        "id": "tabby_the_storm_is_coming",
+        "id": "tabby",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/tabby_the_storm_is_coming.png",
-        "otherNightReminder": "The Tabby chooses a player. If they are a good character, mark them with the *PRINCE* reminder token. :reminder:",
+        "otherNightReminder": "O Malhado escolhe um jogador. Se ele escolheu um personagem do bem, marque ele com o lembrete *PRÍNCIPE*. :reminder:",
         "reminders": [
-            "Prince"
+            "Príncipe"
         ],
-        "name": "Tabby",
+        "name": "Malhado",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player (not yourself or Travellers): if they are a good character & die to evil tonight, you swap characters.",
+        "ability": "A cada noite*, escolha um jogador (exceto você ou Viajantes): se ele é um personagem do bem & morrer devido à habilidades do mal hoje a noite, vocês trocam de personagens.",
         "otherNight": 20.8,
         "jinxes": [
             {
                 "id": "professor",
-                "reason": "If the Professor has already used their ability when swapping characters with the Tabby, the new Professor has no ability."
+                "reason": "Se o Cientista já tiver usado sua habilidade quando trocou de personagem com o Malhado, o novo Cientista não tem habilidade."
             },
             {
                 "id": "banshee",
-                "reason": "If the Tabby swaps characters with the Banshee, the Storyteller does not announce that the Banshee died."
+                "reason": "Se o Malhado trocar de personagens com a Banshee, o Narrador não anuncia que a Banshee morreu."
             },
 			{
                 "id": "leviathan",
-                "reason": "Each night*, the Leviathan chooses an alive player (different to previous nights): if they choose the same player as the Tabby, the Tabby�s ability activates, but the chosen player does not die."
+                "reason": "A cada noite*, o Leviatã escolhe um jogador vivo (diferente de noites anteriores): se ele escolher o mesmo jogador escolhido pelo Malhado, a habilidade do Malhado ativa, mas o jogador escolhido não morre."
             },
             {
                 "id": "riot",
-                "reason": "Each night*, Riot chooses an alive good player (different to previous nights): if they choose the same player as the Tabby, the Tabby�s ability activates, but the chosen player does not die."
+                "reason": "A cada noite*, o Pandemônio escolhe um jogador vivo do bem (diferente de noites anteriores): se ele escolher o mesmo jogador escolhido pelo Malhado, a habilidade do Malhado ativa, mas o jogador escolhido não morre."
             }
         ]
     },
     {
-        "id": "envoy_the_storm_is_coming",
+        "id": "envoy",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/envoy_the_storm_is_coming.png",
-        "name": "Envoy",
+        "name": "Enviado",
         "team": "townsfolk",
-        "ability": "Each day, publicly name a character: tonight, you learn if they are in play. If you learn �no�, you then lose this ability.",
+        "ability": "A cada dia, anuncie publicamente um personagem: esta noite, você fica sabendo se ele está em jogo. Se você receber um 'não', você então perde esta habilidade.",
 		"otherNight": 80.2,
 		"reminders": [
-			"Correct",
-			"No Ability"
+			"Correto",
+			"Sem Habilidade"
 		],
-		"otherNightReminder": "Nod or shake your head. :reminder:"
+		"otherNightReminder": "Balance ou acene sua cabeça com 'sim' ou 'não'. :reminder:"
     },
     {
-        "id": "zhen_the_storm_is_coming",
+        "id": "zhen",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/zhen_the_storm_is_coming.png",
-        "otherNightReminder": "The Zhen might choose a Townsfolk character. :reminder: :reminder:",
+        "otherNightReminder": "O Zhen pode escolher um personagem Cidadão. :reminder: :reminder:",
         "reminders": [
-            "Poisoned","Dead"
+            "Bêbado","Morto"
         ],
         "name": "Zhen",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, choose a Townsfolk character: if they are in play, they become poisoned and die.",
+        "ability": "Uma vez por jogo, à noite*, escolhe um personagem Cidadão: se ele estiver em jogo, ele fica bêbado e morre.",
         "otherNight": 33.3,
 		"jinxes": [
             {
-                "id": "banxian_festival_of_lanterns",
-                "reason": "If the Zhen chooses the Ban Xian, the Ban Xian becomes poisoned and dies."
+                "id": "banxian",
+                "reason": "Se o Zhen escolher o Ban Xian, o Ban Xian fica bêbado e morre."
             }
         ]
     },
     {
-        "id": "consort_the_storm_is_coming",
+        "id": "consort",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/consort_the_storm_is_coming.png",
-        "name": "Consort",
+        "name": "Consorte Real",
         "team": "townsfolk",
-        "ability": "Once per game, the Storyteller will break the rules for you. You privately learn what they did."
+        "ability": "Uma vez por jogo, o Narrador irá quebrar as regras do jogo para você. Você privadamente fica sabendo o que foi feito."
     },
     {
-        "id": "thaumaturge_the_storm_is_coming",
+        "id": "thaumaturge",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/thaumaturge_the_storm_is_coming.png",
-        "firstNightReminder": "The Thaumaturge chooses a number. Place that number of LEARN reminders in the Grimoire. If the number chosen is 1, show the Thaumaturge the token of 1 in-play character.",
-        "otherNightReminder": "If it is the night corresponding to the number of LEARN reminders in the Grimoire, wake the Thaumaturge and show them all characters marked LEARN.",
+        "firstNightReminder": "O Taumaturgo escolhe um número. Ponha este número de lembretes SABE no Grimório. Se o número escolhido for 1, mostre ao Taumaturgo 1 personagem em jogo.",
+        "otherNightReminder": "Se for a noite correspondente ao número de lembretes SABE no Grimório, acorde o Taumaturgo e mostre todos os personagens marcados com SABE.",
         "reminders": [
-            "Learn","Learn","Learn","Learn","Learn","Learn"
+            "Sabe","Sabe","Sabe","Sabe","Sabe","Sabe"
         ],
-        "name": "Thaumaturge",
+        "name": "Taumaturgo",
         "team": "townsfolk",
-        "ability": "On your 1st night, choose a number. On the night of that number, learn that number of in-play characters.",
+        "ability": "Na sua 1ª noite, escolha um número. Na noite daquele número, saiba aquele número de personagens em jogo.",
         "firstNight": 51.4,
         "otherNight": 80.1
     },
     {
-        "id": "puppeteer_the_storm_is_coming",
+        "id": "puppeteer",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/puppeteer_the_storm_is_coming.png",
         "name": "Puppeteer",
         "team": "townsfolk",
