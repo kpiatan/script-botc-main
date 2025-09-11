@@ -211,77 +211,77 @@
     {
         "id": "puppeteer",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/puppeteer_the_storm_is_coming.png",
-        "name": "Puppeteer",
+        "name": "Mestre dos Bonecos",
         "team": "townsfolk",
-        "ability": "If you die at night, you swap characters with an alive Minion player.",
-		"otherNightReminder": "If the Puppeteer died tonight, wake the Puppeteer and a living Minion one at a time. Show the *YOU ARE* token & their new character token.",
+        "ability": "Se você morrer à noite, você troca de personagens com um Lacaio vivo.",
+		"otherNightReminder": "Se o Mestre dos Bonecos morrer hoje à noite, acorde o Mestre dos Bonecos e um Lacaio vivo um de cada vez. Mostre a ficha de informação *VOCÊ É* & seu novo personagem.",
 		"otherNight": 50.75
     },
     {
-        "id": "dyer_the_storm_is_coming",
+        "id": "dyer",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/dyer_the_storm_is_coming.png",
-        "name": "Dyer",
+        "name": "Tintureiro",
         "team": "townsfolk",
-        "ability": "If you die at night, the Demon�s ability becomes �Each night*, a player might die�.",
+        "ability": "Se você morrer à noite, a habilidade do Demônio se torna: 'A cada noite*, um jogador pode morrer'.",
 		"reminders": [
-			"Stained"
+			"Manchado"
 		],
-		"otherNightReminder": "If the Dyer died tonight, mark the Demon *STAINED*. :reminder:",
+		"otherNightReminder": "Se o Tintureiro morreu hoje à noite, marque o Demônio com o lembrete *MANCHADO*. :reminder:",
 		"otherNight": 52.9
     },
     {
-        "id": "brushholder_the_storm_is_coming",
+        "id": "brushholder",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/brushholder_the_storm_is_coming.png",
-        "otherNightReminder": "If the Brush Holder died today or tonight, point to a player.",
+        "otherNightReminder": "Se o Porta-Pincel morreu hoje de dia ou de noite, aponte para um jogador.",
         "reminders": [
-            "Died today"
+            "Morreu Hoje"
         ],
-        "name": "Brush Holder",
+        "name": "Porta-Pincel",
         "team": "townsfolk",
-        "ability": "If you die during the day, you learn a good player tonight. If you die at night, you learn an evil player.",
+        "ability": "Se você morrer de dia, você fica sabendo um jogador do bem hoje à noite. Se você morrer à noite, você fica sabendo um jogador do mal.",
         "otherNight": 68.6
     },
     {
-        "id": "tombsculptor_the_storm_is_coming",
+        "id": "tombsculptor",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/tombsculptor_the_storm_is_coming.png",
-        "name": "Tomb Sculptor",
+        "name": "Escultor de Túmulos",
         "team": "townsfolk",
-        "ability": "If no evil players are dead, you can only die by execution."
+        "ability": "Se nenhum jogador do mal estiver morto, você só pode morrer por execução."
     },
     {
-        "id": "prosecutor_the_storm_is_coming",
+        "id": "prosecutor",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/prosecutor_the_storm_is_coming.png",
-        "otherNightReminder": "If the Prosecutor made their first nomination today, show the character token marked *NOMINEE*. If a Demon is marked *NOMINEE*, show a good character token.",
+        "otherNightReminder": "Se o Promotor fez sua primeira nomeação hoje, mostre o personagem marcado com o lembrete *NOMEADO*. Se um Demônio estiver marcado com o lembrete *NOMEADO*, mostre um personagem do bem.",
         "reminders": [
-            "Nominee","No Ability"
+            "Nomeado","Sem Habilidade"
         ],
-        "name": "Prosecutor",
+        "name": "Promotor",
         "team": "townsfolk",
-        "ability": "After your first nomination, at night*, learn your nominee�s character. Demons register as good characters to you.",
+        "ability": "Após a sua primeira nomeação, à noite, saiba o personagem do jogador nomeado. Demônios registram como personagens do bem para você.",
         "otherNight": 77.1
     },
     {
-        "id": "bookboy_the_storm_is_coming",
+        "id": "bookboy",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/bookboy_the_storm_is_coming.png",
-        "name": "Bookboy",
+        "name": "Menino dos Livros",
         "team": "outsider",
-        "ability": "On your 1st night, choose a player (not yourself). When an evil ability affects them, you die that night*.",
+        "ability": "Na sua 1ª noite, escolha um jogador (exceto você). Quando uma habilidade do mal afetar ele, você morre naquela noite*.",
 		"reminders": [
-			"Chosen","Dead"
+			"Escolhido","Morto"
 		],
-		"firstNightReminder": "The Bookboy chooses a player. :reminder:",
+		"firstNightReminder": "O Menino dos Livros escolhe um jogador. :reminder:",
 		"firstNight": 52.55
     },
     {
-        "id": "embalmer_the_storm_is_coming",
+        "id": "embalmer",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/embalmer_the_storm_is_coming.png",
-        "otherNightReminder": "If the Embalmer became the Demon today, show them the *YOU ARE* & Demon tokens. Give a thumbs down.",
+        "otherNightReminder": "Se o Embalsamador se tornou o Demônio hoje, mostre a ficha de informação *VOCÊ É* & uma ficha de Demônio. Faça o sinal de time do mal.",
         "reminders": [
-            "Is the Demon"
+            "É o Demônio"
         ],
-        "name": "Embalmer",
+        "name": "Embalsamador",
         "team": "outsider",
-        "ability": "If 5 or more players live and you nominate, execute & kill the Demon, you become the evil Demon. (Travellers don�t count)",
+        "ability": "Se 5 ou mais jogadores estiverem vivos e você nomear, executar e matar o Demônio, você se torna um Demônio do mal. (Viajantes não contam)",
         "otherNight": 30.8,
 		"jinxes": [
             {
