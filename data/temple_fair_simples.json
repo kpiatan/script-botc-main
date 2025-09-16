@@ -1,0 +1,164 @@
+[
+  {
+    "id": "waiter",
+    "type": "townsfolk",
+    "name": "Garçom",
+    "ability": "Você começa sabendo 2 jogadores do bem: 1 está bêbado, mesmo que você morra."
+  },
+  {
+    "id": "yinyangdiviner",
+    "type": "townsfolk",
+    "name": "Adivinho Yin-Yang",
+    "ability": "Você começa sabendo 2 personagens do bem e 2 do mal. Exatamente 2 deles estão em jogo."
+  },
+  {
+    "id": "stargazer",
+    "type": "townsfolk",
+    "name": "Astrônomo",
+    "ability": "Você começa sabendo se o jogador do mal mais próximo a você está no sentido horário, anti-horário ou equidistante. Se ele for seu vizinho, esta informação é falsa."
+  },
+  {
+    "id": "rascal",
+    "type": "townsfolk",
+    "name": "Travesso",
+    "ability": "A cada noite, escolha um personagem Cidadão: a habilidade deles dará informação falsa até o anoitecer."
+  },
+  {
+    "id": "herbdoctor",
+    "type": "townsfolk",
+    "name": "Curandeiro",
+    "ability": "A cada noite, escol  ha um jogador (exceto você): você fica sabendo uma palavra relacionada à habilidade dele."
+  },
+  {
+    "id": "abbot",
+    "type": "townsfolk",
+    "name": "Abade",
+    "ability": "A cada noite, na primeira vez que uma habilidade do mal começa a afetar um de seus vizinhos vivos, ela falha: você sabe quando isso acontece."
+  },
+  {
+    "id": "brocadier",
+    "type": "townsfolk",
+    "name": "Brocadeiro",
+    "ability": "A cada noite*, escolha um jogador: até o anoitecer de amanhã, se ele morrer, você morre no lugar dele."
+  },
+  {
+    "id": "firewatcher",
+    "type": "townsfolk",
+    "name": "Vigia do Fogo",
+    "ability": "A cada noite*, adivinhe o número de passos até o 1º jogador a morrer naquela noite. Se acertar, ele não morre e ninguém mais pode morrer naquela noite, mas você pode morrer em seu lugar."
+  },
+  {
+    "id": "singer",
+    "type": "townsfolk",
+    "name": "Cantora",
+    "ability": "Uma vez por jogo, durante o dia, escolha publicamente quaisquer voluntários. Se um Demônio for escolhido, você morre esta noite."
+  },
+  {
+    "id": "enlightenedone",
+    "type": "townsfolk",
+    "name": "Iluminado",
+    "ability": "Você acha que é um Forasteiro. Se for afetado por uma habilidade de um jogador do mal, você primeiro se torna um Cidadão que não está em jogo."
+  },
+  {
+    "id": "facechanger",
+    "type": "townsfolk",
+    "name": "Muda-Rostos",
+    "ability": "Se você alucinar que é um personagem do bem: esta noite, você pode ganhar sua habilidade até o anoitecer (uma vez por personagem)."
+  },
+  {
+    "id": "banxian_br",
+    "type": "townsfolk",
+    "name": "Ban Xian",
+    "ability": "Se você for escolhido por uma habilidade à noite, um jogador do mal será afetado em seu lugar."
+  },
+  {
+    "id": "actor",
+    "type": "townsfolk",
+    "name": "Ator",
+    "ability": "Personagens do bem não podem trocar de alinhamento, estão bêbados & se conhecem. Quem venceria perde e quem perderia vence. Você não pode perder esta habilidade."
+  },
+  {
+    "id": "turncoat",
+    "type": "outsider",
+    "name": "Vira-Casaca",
+    "ability": "Na sua 1ª noite, escolha outro jogador. A 1ª vez que um de vocês morrer por execução, o outro se torna do mal naquela noite."
+  },
+  {
+    "id": "ambassador",
+    "type": "outsider",
+    "name": "Embaixador",
+    "ability": "Quando um jogador do mal é escolhido por uma habilidade à noite, você pode ser afetado ao invés disso (uma vez por noite), mesmo se estiver morto."
+  },
+  {
+    "id": "lummox",
+    "type": "outsider",
+    "name": "Estrela do Azar",
+    "ability": "Se você morrer, 1 vizinho vivo seu pode morrer à noite."
+  },
+  {
+    "id": "pedant",
+    "type": "outsider",
+    "name": "Pedante",
+    "ability": "O Demônio sabe que você está em jogo. Se ele adivinhar quem você é (uma chance): esta noite, ele pode escolher um jogador para morrer (mesmo que você morra)."
+  },
+  {
+    "id": "bugkeeper",
+    "type": "minion",
+    "name": "Guardião dos Insetos",
+    "ability": "A cada noite*, se você estava vivo quando foi nomeado hoje, seu nomeador morre, mesmo que você morra antes."
+  },
+  {
+    "id": "vixen",
+    "type": "minion",
+    "name": "Mulher-Gato",
+    "ability": "Na sua 1ª noite, escolha um jogador: ele fica sabendo que a Mulher-Gato está em jogo. Se você morrer por execução, ele se torna do mal naquela noite."
+  },
+  {
+    "id": "corpsewalker",
+    "type": "minion",
+    "name": "Condutor de Cadáveres",
+    "ability": "Na 1ª vez que cada um dos seus vizinhos Cidadãos morrer, eles registram como vivo. [−1 Forasteiro]"
+  },
+  {
+    "id": "imperialist",
+    "type": "minion",
+    "name": "Imperialista",
+    "ability": "Jogadores que alucinarem que querem viver ou morrer (você começa escolhendo qual) podem ser executados imediatamente."
+  },
+  {
+    "id": "qiongqi_br",
+    "type": "demon",
+    "name": "Qiong Qi",
+    "ability": "A cada noite*, escolha um jogador: ele morre. Se um Forasteiro morreu de dia hoje, o jogador selecionado registra como vivo & outro jogador morre. [+1 Forasteiro]"
+  },
+  {
+    "id": "taotie_br",
+    "type": "demon",
+    "name": "Tao Tie",
+    "ability": "A cada noite*, escolha até 4 jogadores não-Viajantes (ou 1 Viajante): se todos forem de tipos diferentes de personagens, eles morrem. [+1 Forasteiro]"
+  },
+  {
+    "id": "hundun_br",
+    "type": "demon",
+    "name": "Hun Dun",
+    "ability": "A cada noite*, escolha um jogador: ele morre. Se um vizinho seu Cidadão morrer desta maneira, todos os jogadores do bem não-Viajantes estão envenenados até o anoitecer."
+  },
+  {
+    "id": "taowu_br",
+    "type": "demon",
+    "name": "Tao Wu",
+    "ability": "A cada noite*, escolha um jogador: ele morre. Se você for morrer, um Lacaio vivo perde sua habilidade ao invés disso, se possível. Você não recebe a informação inicial de Demônio."
+  },
+  {
+    "id": "pauper",
+    "type": "traveller",
+    "name": "Esfarrapado",
+    "ability": "A cada dia, você pode publicamente escolher um jogador (exceto você) para escolher uma habilidade que não seja de Demônio: você pode ganhar ela até o amanhecer."
+  },
+  {
+    "id": "qilin_br",
+    "type": "fabled",
+    "name": "Qilin",
+    "ability": "No dia final, algo de bom pode acontecer ao jogador mais engajado."
+  }
+]
