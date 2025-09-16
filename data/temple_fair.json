@@ -217,7 +217,7 @@
         ]
     },
     {
-        "id": "banxian",
+        "id": "banxian_br",
         "name": "Ban Xian",
         "team": "townsfolk",
         "ability": "Se você for escolhido por uma habilidade à noite, um jogador do mal será afetado em seu lugar.",
@@ -479,7 +479,7 @@
         ]
     },
     {
-        "id": "qiongqi",
+        "id": "qiongqi_br",
         "name": "Qiong Qi",
         "team": "demon",
         "otherNight": 50.2,
@@ -498,7 +498,7 @@
         ]
     },
     {
-        "id": "taotie",
+        "id": "taotie_br",
         "name": "Tao Tie",
         "team": "demon",
         "otherNight": 50.21,
@@ -517,7 +517,7 @@
         ]
     },
     {
-        "id": "hundun",
+        "id": "hundun_br",
         "name": "Hun Dun",
         "team": "demon",
         "otherNight": 50.19,
@@ -533,7 +533,7 @@
         ]
     },
     {
-        "id": "taowu",
+        "id": "taowu_br",
         "name": "Tao Wu",
         "team": "demon",
         "firstNight": 17.8,
@@ -611,7 +611,7 @@
         ]
     },
     {
-        "id": "qilin",
+        "id": "qilin_br",
         "name": "Qilin",
         "team": "fabled",
         "reminders": [

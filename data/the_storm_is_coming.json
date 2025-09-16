@@ -83,13 +83,13 @@
     {
         "id": "historian",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/historian_the_storm_is_coming.png",
-        "otherNightReminder": "Se um jogador morreu hoje, informe o número de Cidadãos vivos.",
+        "otherNightReminder": "Se um jogador morreu hoje de dia, informe o número de Cidadãos vivos.",
         "reminders": [
             "Morreu Hoje"
         ],
         "name": "Historiador",
         "team": "townsfolk",
-        "ability": "A cada noite*, se um jogador morreu hoje, saiba o número de Cidadãos vivos.",
+        "ability": "A cada noite*, se um jogador morreu hoje de dia, saiba o número de Cidadãos vivos.",
         "otherNight": 75.2
     },
     {
@@ -170,7 +170,7 @@
 		"otherNightReminder": "Balance ou acene sua cabeça com 'sim' ou 'não'. :reminder:"
     },
     {
-        "id": "zhen",
+        "id": "zhen_br",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/zhen_the_storm_is_coming.png",
         "otherNightReminder": "O Zhen pode escolher um personagem Cidadão. :reminder: :reminder:",
         "reminders": [
@@ -327,7 +327,7 @@
 		"otherNightReminder": "O Vinicultor escolhe um personagem Cidadão e a informação que ele receberá. :reminder:"
     },
     {
-        "id": "gudiao",
+        "id": "gudiao_br",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/gudiao_the_storm_is_coming.png",
         "name": "Gu Diao",
         "team": "minion",
@@ -341,7 +341,7 @@
 		"otherNight": 13.6		
     },
     {
-        "id": "mengpo",
+        "id": "mengpo_br",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/mengpo_the_storm_is_coming.png",
         "name": "Meng Po",
         "team": "minion",
@@ -353,7 +353,7 @@
 		"otherNight": 85.55	
     },
     {
-        "id": "huapi",
+        "id": "huapi_br",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/huapi_the_storm_is_coming.png",
         "firstNightReminder": "O Huapi aponta para um jogador. Aquele jogador morre e se torna morto-vivo. :reminder:",
         "otherNightReminder": "If the previously undead player was revived by the Huapi, the Huapi points to a player. That player dies and turns undead. :reminder:",
@@ -442,7 +442,7 @@
 		"otherNightReminder": "Um jogador pode ficar bêbado. :reminder:"
     },
     {
-        "id": "messenger",
+        "id": "messenger_br",
         "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/messenger_the_storm_is_coming.png",
         "name": "Mensageiro",
         "team": "fabled",
