@@ -78,7 +78,7 @@
         "firstNightReminder": "O Curandeiro aponta para outro jogador que não ele mesmo. Escreva uma palavra relacionada à habilidade daquele jogador num pedaço de papel ou celular e mostre ao Curandeiro.",
         "otherNight": 79.1,
         "otherNightReminder": "O Curandeiro aponta para outro jogador que não ele mesmo. Escreva uma palavra relacionada à habilidade daquele jogador num pedaço de papel ou celular e mostre ao Curandeiro.",
-        "ability": "A cada noite, escol  ha um jogador (exceto você): você fica sabendo uma palavra relacionada à habilidade dele.",
+        "ability": "A cada noite, escolha um jogador (exceto você): você fica sabendo uma palavra relacionada à habilidade dele.",
         "flavor": "Increased heart rate. Your qi is weak, dispersing.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/herbdoctor_temple_fair.png"
@@ -91,7 +91,7 @@
         "reminders": [
             "Pacificado"
         ],
-        "ability": "A cada noite, na primeira vez que uma habilidade do mal começa a afetar um de seus vizinhos vivos, ela falha: você sabe quando isso acontece.",
+        "ability": "A cada noite, na 1ª vez que uma habilidade do mal for afetar um de seus vizinhos vivos, ela falha: você sabe quando isso acontece.",
         "image": [
             "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/abbot_temple_fair.png"
         ],
@@ -336,7 +336,7 @@
         "firstNight": 52.5,
         "firstNightReminder": "O Vira-Casaca aponta para outro jogador. Marque aquele jogador com o lembrete RIVAL. :reminder:",
         "otherNight": 30.5,
-        "otherNightReminder": "A primeira vez que o Vira-Casaca ou o jogador marcado com RIVAL morrer por execução, acorde o outro jogador, mostre a ficha de informação VOCÊ É e mostre o sinal de time do mal.",
+        "otherNightReminder": "A 1ª vez que o Vira-Casaca ou o jogador marcado com RIVAL morrer por execução, acorde o outro jogador, mostre a ficha de informação VOCÊ É e mostre o sinal de time do mal.",
         "reminders": [
             "Rival"
         ],

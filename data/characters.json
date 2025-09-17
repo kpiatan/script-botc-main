@@ -200,7 +200,7 @@
         "type": "townsfolk",
         "order": 29,
         "name": "Abade",
-        "ability": "A cada noite, na 1ª vez que uma habilidade do mal começa a afetar um de seus vizinhos vivos, ela falha: você sabe quando isso acontece."
+        "ability": "A cada noite, na 1ª vez que uma habilidade do mal for afetar um de seus vizinhos vivos, ela falha: você sabe quando isso acontece."
     },
     {
         "id": "guide",
