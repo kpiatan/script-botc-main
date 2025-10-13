@@ -39,7 +39,7 @@
         "type": "townsfolk",
         "order": 6,
         "name": "Lavadeira",
-        "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Cidadão específico."
+        "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Aldeão específico."
     },
     {
         "id": "clockmaker",
@@ -74,14 +74,14 @@
         "type": "townsfolk",
         "order": 11,
         "name": "Pixie",
-        "ability": "Você começa sabendo 1 personagem Cidadão em jogo. Se você estava alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer."
+        "ability": "Você começa sabendo 1 personagem Aldeão em jogo. Se você estava alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer."
     },
     {
         "id": "bountyhunter",
         "type": "townsfolk",
         "order": 12,
         "name": "Mercenário",
-        "ability": "Você começa sabendo 1 jogador do mal. Se esse jogador morrer, saiba outro jogador do mal esta noite. [1 Cidadão é do mal]"
+        "ability": "Você começa sabendo 1 jogador do mal. Se esse jogador morrer, saiba outro jogador do mal esta noite. [1 Aldeão é do mal]"
     },
     {
         "id": "empath",
@@ -312,14 +312,14 @@
         "type": "townsfolk",
         "order": 45,
         "name": "Caçador",
-        "ability": "Uma vez por jogo, à noite, você pode escolher um jogador vivo: a Donzela, se escolhida, se torna um Cidadão que não estava em jogo. [+Donzela]"
+        "ability": "Uma vez por jogo, à noite, você pode escolher um jogador vivo: a Donzela, se escolhida, se torna um Aldeão que não estava em jogo. [+Donzela]"
     },
     {
         "id": "professor",
         "type": "townsfolk",
         "order": 46,
         "name": "Cientista",
-        "ability": "Uma vez por jogo, à noite*, escolha um jogador morto: se ele for um Cidadão, é revivido."
+        "ability": "Uma vez por jogo, à noite*, escolha um jogador morto: se ele for um Aldeão, é revivido."
     },
     {
         "id": "artist",
@@ -452,7 +452,7 @@
         "type": "townsfolk",
         "order": 65,
         "name": "Virgem",
-        "ability": "Na 1ª vez que você é nomeado, se o nomeador for um Cidadão, ele é executado imediatamente."
+        "ability": "Na 1ª vez que você é nomeado, se o nomeador for um Aldeão, ele é executado imediatamente."
     },
     {
         "id": "magician",
@@ -522,7 +522,7 @@
         "type": "outsider",
         "order": 75,
         "name": "Bêbado",
-        "ability": "Você não sabe que é o Bêbado. Você acha que é um Cidadão, mas não é."
+        "ability": "Você não sabe que é o Bêbado. Você acha que é um Aldeão, mas não é."
     },
     {
         "id": "tinker",
@@ -676,7 +676,7 @@
         "type": "minion",
         "order": 97,
         "name": "Espião",
-        "ability": "A cada noite, você vê o Grimório. Você pode ser registrado como se fosse do bem e um Cidadão ou Forasteiro, mesmo morto."
+        "ability": "A cada noite, você vê o Grimório. Você pode ser registrado como se fosse do bem e um Aldeão ou Forasteiro, mesmo morto."
     },
     {
         "id": "harpy",
@@ -746,7 +746,7 @@
         "type": "minion",
         "order": 107,
         "name": "Xaã",
-        "ability": "Na X-ésima noite todos os Cidadãos são envenenados até o anoitecer. [X Forasteiros]"
+        "ability": "Na X-ésima noite todos os Aldeões são envenenados até o anoitecer. [X Forasteiros]"
     },
     {
         "id": "marionette",
@@ -858,7 +858,7 @@
         "type": "demon",
         "order": 123,
         "name": "No Dashii",
-        "ability": "A cada noite*, escolha um jogador: ele morre. Seus dois vizinhos Cidadãos estão envenenados."
+        "ability": "A cada noite*, escolha um jogador: ele morre. Seus dois vizinhos Aldeões estão envenenados."
     },
     {
         "id": "imp",
@@ -907,14 +907,14 @@
         "type": "demon",
         "order": 130,
         "name": "Vigormortis",
-        "ability": "A cada noite*, você escolhe um jogador: ele morre. Lacaios que você mata mantêm suas habilidades e envenenam um vizinho Cidadão. [-1 Forasteiro]."
+        "ability": "A cada noite*, você escolhe um jogador: ele morre. Lacaios que você mata mantêm suas habilidades e envenenam um vizinho Aldeão. [-1 Forasteiro]."
     },
     {
         "id": "vortox",
         "type": "demon",
         "order": 131,
         "name": "Vortox",
-        "ability": "A cada noite*, escolha um jogador: ele morre. Habilidades de Cidadãos geram informações falsas. A cada dia, se ninguém for executado, o mal vence."
+        "ability": "A cada noite*, escolha um jogador: ele morre. Habilidades de Aldeões geram informações falsas. A cada dia, se ninguém for executado, o mal vence."
     },
     {
         "id": "legion",
@@ -1047,7 +1047,7 @@
         "type": "travellers",
         "order": 150,
         "name": "Aprendiz",
-        "ability": "Na sua 1ª noite, você ganha uma habilidade de Cidadão (se for do bem), ou de Lacaio (se for do mal)."
+        "ability": "Na sua 1ª noite, você ganha uma habilidade de Aldeão (se for do bem), ou de Lacaio (se for do mal)."
     },
     {
         "id": "beggar",
