@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Função para mapear os tipos para os nomes em português
   function getTypeInPortuguese(type) {
     const typeMap = {
-      'townsfolk': 'Cidadãos',
+      'townsfolk': 'Aldeões',
       'outsider': 'Forasteiros',
       'minion': 'Lacaios',
       'demon': 'Demônios',
