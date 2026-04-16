@@ -238,18 +238,18 @@
         "ability": "A cada noite*, escolha um jogador: se ele está ou ficar bêbado ou envenenado essa noite, você morre."
     },
     {
-        "id": "lycanthrope",
-        "type": "townsfolk",
-        "order": 35,
-        "name": "Licantropo",
-        "ability": "A cada noite*, escolha um jogador vivo. Se o jogador escolhido for do bem, ele morre e o Demônio não mata esta noite. Um jogador do bem registra como do mal."
-    },
-    {
         "id": "exorcist",
         "type": "townsfolk",
-        "order": 36,
+        "order": 35,
         "name": "Exorcista",
         "ability": "A cada noite*, escolha um jogador (exceto o da noite anterior): o Demônio, se escolhido, sabe quem você é e não age esta noite."
+    },
+    {
+        "id": "lycanthrope",
+        "type": "townsfolk",
+        "order": 36,
+        "name": "Licantropo",
+        "ability": "A cada noite*, escolha um jogador vivo. Se o jogador escolhido for do bem, ele morre e o Demônio não mata esta noite. Um jogador do bem registra como do mal."
     },
     {
         "id": "gossip",
