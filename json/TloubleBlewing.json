@@ -1,0 +1,392 @@
+[{"id":"_meta","author":"Marroney","name":"Tlouble Blewing"},
+    {   "id": "stargazer",
+        "name": "Astrônomo",
+        "team": "townsfolk",
+        "firstNight": 61.1,
+        "firstNightReminder": "Aponte horizontalmente no sentido do jogador do mal mais próximo ao Astrônomo, ou aponte para baixo se os jogadores do mal dos dois lados são equidistantes. Se um jogador do mal for vizinho do Astrônomo, dê uma informação falsa.",
+        "ability": "Você começa sabendo se o jogador do mal mais próximo a você está no sentido horário, anti-horário ou equidistante. Se ele for seu vizinho, esta informação é falsa.",
+        "flavor": "Strange phenomena in the heavens. Something wicked approaches.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/stargazer_temple_fair.png"
+        ]    },
+    {   "id": "blademaster",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/blademaster_the_storm_is_coming.png",
+        "firstNightReminder": "Mostre o personagem Lacaio com o lembrete *CONHECIDO*.",
+        "reminders": [
+            "Conhecido","Sem Habilidade"
+        ],
+        "name": "Espadachim",
+        "team": "townsfolk",
+        "ability": "Você começa sabendo um personagem Lacaio em jogo. Se você adivinhar publicamente quem é durante o dia (uma chance), ele morre.",
+        "firstNight": 42.2    },
+    {   "id": "yinyangdiviner",
+        "name": "Adivinho Yin-Yang",
+        "team": "townsfolk",
+        "firstNight": 48.2,
+        "firstNightReminder": "Mostre ao Adivinho Yin-Yang 2 fichas de personagens do bem e 2 do mal.",
+        "reminders": [
+            "Conhecido",
+            "Conhecido"
+        ],
+        "ability": "Você começa sabendo 2 personagens do bem e 2 do mal. Exatamente 2 deles estão em jogo.",
+        "flavor": "The great Xuanwu is before us. Gods return to their temples, ghosts return to their graves, monsters return to the mountains and forests!",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/yinyangdiviner_temple_fair.png"
+        ]    },
+    {   "id": "waiter",
+        "name": "Garçom",
+        "team": "townsfolk",
+        "firstNight": 60.6,
+        "firstNightReminder": "Aponte para 2 jogadores do bem. 1 está bêbado pelo resto do jogo.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Conhecido",
+            "Bêbado"
+        ],
+        "setup": false,
+        "ability": "Você começa sabendo 2 jogadores do bem: 1 está bêbado, mesmo que você morra.",
+        "flavor": "Welcome back, sir! The usual, I assume?",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/waiter_temple_fair.png"
+        ]    },
+    {   "id": "abbot",
+        "name": "Abade",
+        "team": "townsfolk",
+        "reminders": [
+            "Pacificado"
+        ],
+        "ability": "A cada noite, na 1ª vez que uma habilidade do mal for afetar um de seus vizinhos vivos, ela falha: você sabe quando isso acontece.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/abbot_temple_fair.png"
+        ],
+        "flavor": "Always polish the mirror of the mind, so that no dust can collect.",
+        "jinxes": [
+            {
+                "id": "leviathan",
+                "reason": "Se o Leviatã nomear e executar um dos vizinhos vivos do Abade, aquele jogador não morre. Naquela noite, o Abade sabe que sua habilidade ativou, e que sua habilidade não pode funcionar novamente esta noite."
+            },
+            {
+                "id": "kazali",
+                "reason": "O Kazali pode escolher um vizinho do Abade para se tornar um Lacaio do mal."
+            }
+        ]    },
+    {   "id": "herbdoctor",
+        "name": "Curandeiro",
+        "team": "townsfolk",
+        "firstNight": 60.5,
+        "firstNightReminder": "O Curandeiro aponta para outro jogador que não ele mesmo. Escreva uma palavra relacionada à habilidade daquele jogador num pedaço de papel ou celular e mostre ao Curandeiro.",
+        "otherNight": 79.1,
+        "otherNightReminder": "O Curandeiro aponta para outro jogador que não ele mesmo. Escreva uma palavra relacionada à habilidade daquele jogador num pedaço de papel ou celular e mostre ao Curandeiro.",
+        "ability": "A cada noite, escolha um jogador (exceto você): você fica sabendo uma palavra relacionada à habilidade dele.",
+        "flavor": "Increased heart rate. Your qi is weak, dispersing.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/herbdoctor_temple_fair.png"
+        ]    },
+    {   "id": "historian",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/historian_the_storm_is_coming.png",
+        "otherNightReminder": "Se um jogador morreu hoje de dia, informe o número de Cidadãos vivos.",
+        "reminders": [
+            "Morreu Hoje"
+        ],
+        "name": "Historiador",
+        "team": "townsfolk",
+        "ability": "A cada noite*, se um jogador morreu hoje de dia, saiba o número de Cidadãos vivos.",
+        "otherNight": 75.2    },
+    {   "id": "brocadier",
+        "name": "Brocadeiro",
+        "team": "townsfolk",
+        "otherNight": 15.3,
+        "otherNightReminder": "O Brocadeiro aponta para um jogador: marque aquele jogador com o lembrete PROTEGIDO.",
+        "reminders": [
+            "Protegido"
+        ],
+        "ability": "A cada noite*, escolha um jogador: até o anoitecer de amanhã, se ele morrer, você morre no lugar dele.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/brocadier_temple_fair.png"
+        ],
+        "flavor": "Come hell or high water, I will protect you, my liege!"    },
+    {   "id": "singer",
+        "name": "Cantora",
+        "team": "townsfolk",
+        "otherNight": 53.2,
+        "otherNightReminder": "Se a Cantora estiver marcada com o marcador MORTO, ela morre.",
+        "reminders": [
+            "Sem habilidade",
+            "Morto"
+        ],
+        "ability": "Uma vez por jogo, durante o dia, escolha publicamente quaisquer voluntários. Se um Demônio for escolhido, você morre esta noite.",
+        "flavor": "A singsong girl, unaware of the sorrow of a conquered state, is singing Backyard Flowers on the river’s other shore.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/singer_temple_fair.png"
+        ]    },
+    {   "id": "banxian_br",
+        "name": "Ban Xian",
+        "team": "townsfolk",
+        "ability": "Se você for escolhido por uma habilidade à noite, um jogador do mal será afetado em seu lugar.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/banxian_temple_fair.png"
+        ],
+        "flavor": "That man is always covered in grime or rambling incoherently. I can’t get a grip on him.",
+        "jinxes": [
+            {
+                "id": "riot",
+                "reason": "Se um Pandemônio nomear o Ban Xian no dia 3, outro jogador do mal morre no lugar do Ban Xian, e nomeia a seguir. Se o nomeador é o único jogador vivo do mal, o Ban Xian morre normalmente."
+            },
+            {
+                "id": "kazali",
+                "reason": "O Kazali pode escolher que o Ban Xian seja um de seus Lacaios do mal."
+            }
+        ]    },
+    {   "id": "brushholder",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/brushholder_the_storm_is_coming.png",
+        "otherNightReminder": "Se o Porta-Pincel morreu hoje de dia ou de noite, aponte para um jogador.",
+        "reminders": [
+            "Morreu Hoje"
+        ],
+        "name": "Porta-Pincel",
+        "team": "townsfolk",
+        "ability": "Se você morrer de dia, você fica sabendo um jogador do bem hoje à noite. Se você morrer à noite, você fica sabendo um jogador do mal.",
+        "otherNight": 68.6    },
+    {   "id": "thaumaturge",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/thaumaturge_the_storm_is_coming.png",
+        "firstNightReminder": "O Taumaturgo escolhe um número. Ponha este número de lembretes SABE no Grimório. Se o número escolhido for 1, mostre ao Taumaturgo 1 personagem em jogo.",
+        "otherNightReminder": "Se for a noite correspondente ao número de lembretes SABE no Grimório, acorde o Taumaturgo e mostre todos os personagens marcados com SABE.",
+        "reminders": [
+            "Sabe","Sabe","Sabe","Sabe","Sabe","Sabe"
+        ],
+        "name": "Taumaturgo",
+        "team": "townsfolk",
+        "ability": "Na sua 1ª noite, escolha um número. Na noite daquele número, saiba aquele número de personagens em jogo.",
+        "firstNight": 51.4,
+        "otherNight": 80.1    },
+    {   "id": "prosecutor",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/prosecutor_the_storm_is_coming.png",
+        "otherNightReminder": "Se o Promotor fez sua primeira nomeação hoje, mostre o personagem marcado com o lembrete *NOMEADO*. Se um Demônio estiver marcado com o lembrete *NOMEADO*, mostre um personagem do bem.",
+        "reminders": [
+            "Nomeado","Sem Habilidade"
+        ],
+        "name": "Promotor",
+        "team": "townsfolk",
+        "ability": "Após a sua primeira nomeação, à noite, saiba o personagem do jogador nomeado. Demônios registram como personagens do bem para você.",
+        "otherNight": 77.1    },
+    {   "id": "bookboy",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/bookboy_the_storm_is_coming.png",
+        "name": "Menino dos Livros",
+        "team": "outsider",
+        "ability": "Na sua 1ª noite, escolha um jogador (exceto você). Quando uma habilidade do mal afetar ele, você morre naquela noite*.",
+		"reminders": [
+			"Escolhido","Morto"
+		],
+		"firstNightReminder": "O Menino dos Livros escolhe um jogador.",
+		"firstNight": 52.55    },
+    {   "id": "pedant",
+        "name": "Pedante",
+        "team": "outsider",
+        "firstNight": 21.1,
+        "firstNightReminder": "Mostre ao Demônio a ficha do personagem Pedante.",
+        "otherNight": 50.9,
+        "otherNightReminder": "Se o Demônio adivinhou o jogador do Pedante corretamente, acorde o Demônio e mostre a ficha do Pedante. O Demônio pode apontar para um jogador: marque aquele jogador com o lembrete MORTO.",
+        "reminders": [
+            "Chance usada",
+            "Morto"
+        ],
+        "ability": "O Demônio sabe que você está em jogo. Se ele adivinhar quem você é (uma chance): esta noite, ele pode escolher um jogador para morrer (mesmo que você morra).",
+        "flavor": "I accept my fate, but first tell me: at whose hands am I dying?",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/pedant_temple_fair.png"
+        ]    },
+    {   "id": "lummox",
+        "name": "Estrela do Azar",
+        "team": "outsider",
+        "otherNight": 66.1,
+        "otherNightReminder": "Se a Estrela do Azar morreu, decida se vai ativar a sua habilidade. Se ativar, à noite, marque um de seus vizinhos vivos com o lembrete MORTO.",
+        "reminders": [
+            "Morto"
+        ],
+        "ability": "Se você morrer, 1 vizinho vivo seu pode morrer à noite.",
+        "flavor": "Born under an unlucky star? Nonsense! I can’t be faulted for the misfortunes of people around me!",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/lummox_temple_fair.png"
+        ]    },
+    {   "id": "embalmer",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/embalmer_the_storm_is_coming.png",
+        "otherNightReminder": "Se o Embalsamador se tornou o Demônio hoje, mostre a ficha de informação *VOCÊ É* & uma ficha de Demônio. Faça o sinal de time do mal.",
+        "reminders": [
+            "É o Demônio"
+        ],
+        "name": "Embalsamador",
+        "team": "outsider",
+        "ability": "Se 5 ou mais jogadores estiverem vivos e você nomear, executar e matar o Demônio, você se torna um Demônio do mal. (Viajantes não contam)",
+        "otherNight": 30.8,
+		"jinxes": [
+            {
+                "id": "scarletwoman",
+                "reason": "Se o Embalsamador executar e se tornar o Demônio, a Mulher Escarlate não vira o Demônio."
+            },
+            {
+                "id": "alhadikhia",
+                "reason": "Se existem dois Al-Hadikhias vivos, o Al-Hadikhia Embalsamador se torna Embalsamador novamente, mas não vira do bem."
+            },
+			{
+                "id": "lilmonsta",
+                "reason": "Se há 5 ou mais jogadores vivos e o jogador segurando o Monstrim morrer pelo Embalsamador, o Embalsamador se torna do mal e carrega o Monstrim naquela noite."
+            },
+            {
+                "id": "lleech",
+                "reason": "Se há 5 ou mais jogadores vivos e o hospedeiro do Sanguessuga morrer pela nomeação do Embalsamador, o Sanguessuga antigo morre hoje à noite, e o Embalsamador se torna o Sanguessuga do mal mas não mata hoje à noite."
+            }
+        ]    },
+    {   "id": "vintner",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/vintner_the_storm_is_coming.png",
+        "name": "Vinicultor",
+        "team": "minion",
+        "ability": "A cada noite, escolha um personagem Cidadão: você escolhe a próxima informação que esse personagem receberá.",
+		"reminders": [
+            "Embriagado"
+        ],
+		"firstNight": 27.15,
+		"otherNight": 52.8,
+		"firstNightReminder": "O Vinicultor escolhe um personagem Cidadão e a informação que ele receberá.",
+		"otherNightReminder": "O Vinicultor escolhe um personagem Cidadão e a informação que ele receberá."  },
+    {   "id": "gudiao_br",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/gudiao_the_storm_is_coming.png",
+        "name": "Gu Diao",
+        "team": "minion",
+        "ability": "A cada noite, escolha um vizinho vivo do bem: você fica sabendo o personagem dele, ele está envenenado & registra como um Gu Diao do mal até o anoitecer.",
+		"firstNightReminder": "O Gu Diao escolhe um vizinho vivo do bem. :reminder: Mostre ao Gu Diao o personagem daquele jogador.",
+        "otherNightReminder": "O Gu Diao escolhe um vizinho vivo do bem. :reminder: Mostre ao Gu Diao o personagem daquele jogador.",
+        "reminders": [
+            "Gu Diao"
+        ],
+		"firstNight": 28.2,
+		"otherNight": 13.6	    },
+    {   "id": "vixen",
+        "name": "Mulher-Gato",
+        "team": "minion",
+        "firstNight": 39.2,
+        "firstNightReminder": "A Mulher-Gato aponta para um jogador. Marque aquele jogador com o lembrete ENCANTADO. Ponha a Mulher-Gato para dormir e acorde o jogador escolhido. Mostre a ele a ficha de informação ESSE PERSONAGEM SELECIONOU VOCÊ e a ficha da Mulher-Gato. :reminder:",
+        "otherNight": 28.2,
+        "otherNightReminder": "Se a Mulher-Gato morreu por execução hoje, vire a ficha de personagem marcado como ENCANTADO de cabeça para baixo. Acorde aquele jogador, mostre a ficha de informação VOCÊ É, e o sinal de time do mal.",
+        "reminders": [
+            "Encantado"
+        ],
+        "setup": false,
+        "ability": "Na sua 1ª noite, escolha um jogador: ele fica sabendo que a Mulher-Gato está em jogo. Se você morrer por execução, ele se torna do mal naquela noite.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/vixen_temple_fair.png"
+        ],
+        "flavor": "Your Majesty, the concubine had two sisters. They send their condolences and have requested an audience.",
+        "jinxes": [
+            {
+                "id": "heretic",
+                "reason": "Somente 1 destes personagens podem estar em jogo."
+            },
+            {
+                "id": "plaguedoctor",
+                "reason": "Se o Narrador ganharia a habilidade da Mulher-Gato, um Lacaio vivo ganha a habilidade da Mulher-Gato junto com sua própria habilidade, e fica sabendo disso."
+            }
+        ]    },
+    {   "id": "imperialist",
+        "name": "Imperialista",
+        "team": "minion",
+        "firstNight": 37.5,
+        "firstNightReminder": "Mostre ao Imperialista os lembretes VIVER e MORRER: ele aponta para um. Coloque o lembrete escolhido no Grimório. :reminder: :reminder:",
+        "reminders": [
+            "Viver",
+            "Morrer"
+        ],
+        "ability": "Jogadores que alucinarem que querem viver ou morrer (você começa escolhendo qual) podem ser executados imediatamente.",
+        "flavor": "He deserved to be beheaded! Yes, he broke curfew, my lord!",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/imperialist_temple_fair.png"
+        ]    },
+    {   "id": "taotie_br",
+        "name": "Tao Tie",
+        "team": "demon",
+        "otherNight": 50.21,
+        "otherNightReminder": "O Tao Tie balança sua cabeça com o sinal de não, ou aponta para até 4 jogadores não-Viajantes ou 1 Viajante. Se os jogadores escolhidos são de tipos de personagens diferentes, eles morrem. Se o Tao Tie apontar para um Viajante e outros jogadores, balance sua cabeça com o sinal de não para que ele faça a escolha novamente.",
+        "reminders": [
+            "Morto",
+            "Morto",
+            "Morto",
+            "Morto"
+        ],
+        "setup": true,
+        "ability": "A cada noite*, escolha até 4 jogadores não-Viajantes (ou 1 Viajante): se todos forem de tipos diferentes de personagens, eles morrem. [+1 Forasteiro]",
+        "flavor": "The beast looks like a ram with the face of a human, eyes under its armpits, tiger teeth and a baby’s voice. It devours people, and its name is Tao Tie.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/taotie_temple_fair.png"
+        ]    },
+    {   "id": "guhuo",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/guhuo_the_storm_is_coming.png",
+        "name": "Guhuo",
+        "team": "demon",
+        "ability": "A cada noite*, escolha um jogador: ele morre. Você pode ganhar a habilidade do Lacaio que morreu mais recentemente por execução.",
+		"reminders": [
+            "Morto","Tem Habilidade"
+        ],
+		"otherNight": 50.225,
+		"otherNightReminder": "O Guhuo escolhe um jogador. O Guhuo pode acordar de acordo com sua habilidade de Lacaio."    },
+    {   "id": "yan",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/yan_the_storm_is_coming.png",
+        "name": "Yan",
+        "team": "demon",
+        "ability": "A cada noite, escolha um jogador: ele morre amanhã à noite. Na sua 1ª noite, olhe o Grimório e escolha um jogador: ele morre na 3ª noite, mesmo que por alguma razão ele não possa morrer.",
+		"firstNightReminder": "Mostre o Grimório ao Yan pelo tempo que ele precisar. O Yan escolhe um jogador para morrer amanhã à noite. O Yan escolhe um jogador para morrer na 3ª noite.",
+        "otherNightReminder": "O jogador escolhido anteriormente morre. O Yan escolhe um jogador. Na 3ª noite, o jogador marcado morre.",
+        "reminders": [
+            "Morto","Morto","Morre Amanhã","3","2","1"
+        ],
+		"firstNight": 40.8,
+        "otherNight": 50.222    },
+    {   "id": "conspirator",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/conspirator_the_storm_is_coming.png",
+        "name": "Conspirador",
+        "team": "demon",
+        "ability": "A cada noite*, escolha um jogador: ele morre. Se você não votou hoje, escolha mais um jogador: ele morre.",
+        "otherNightReminder": "O Conspirador escolhe um jogador. Se o Conspirador não votou hoje, ele escolhe mais um jogador.",
+        "reminders": [
+            "Não Votou","Morto","Morto"
+        ],
+        "otherNight": 50.223     },
+    {   "id": "pauper",
+        "name": "Esfarrapado",
+        "team": "traveller",
+        "reminders": [
+            "Pedindo"
+        ],
+        "remindersGlobal": [
+            "É o Esfarrapado"
+        ],
+        "flavor": "I’ve had a rough spell, but I can still work. Give me the opportunity to prove myself, and you won’t be disappointed!",
+        "ability": "A cada dia, você pode publicamente escolher um jogador (exceto você) para escolher uma habilidade que não seja de Demônio: você pode ganhar ela até o amanhecer.",
+        "image": [
+            "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/pauper_temple_fair.png"
+        ]    },
+    {   "id": "outlaw",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/outlaw_the_storm_is_coming.png",
+        "name": "Fora-da-Lei",
+        "team": "traveller",
+		"reminders": [
+			"Bêbado","Bêbado","Bêbado"],
+        "ability": "A cada noite*, um jogador que interrompeu você hoje pode ficar bêbado até o amanhecer, mesmo que você esteja morto.",
+		"otherNight": 6.11,
+		"otherNightReminder": "Um jogador pode ficar bêbado."    },
+    {   "id": "qilin_br",
+        "name": "Qilin",
+        "team": "fabled",
+        "reminders": [
+            "Algo bom"
+        ],
+        "flavor": "麟之趾，振振公子，于嗟麟兮！ 麟之定，振振公姓，于嗟麟兮！ 麟之角，振振公族，于嗟麟兮！",
+        "ability": "No dia final, algo de bom pode acontecer ao jogador mais engajado.",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/Temple_Fair/qilin_temple_fair.png"
+    },
+    {   "id": "messenger_br",
+        "image": "https://www.bloodstar.xyz/p/Eliderad/The_Storm_is_Coming/messenger_the_storm_is_coming.png",
+        "name": "Mensageiro",
+        "team": "fabled",
+        "ability": "Habilidades de escolha não têm restrições."
+    }
+]
