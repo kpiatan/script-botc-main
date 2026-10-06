@@ -74,7 +74,7 @@
         "type": "townsfolk",
         "order": 11,
         "name": "Pixie",
-        "ability": "Você começa sabendo 1 personagem Aldeão em jogo. Se você estava alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer."
+        "ability": "Você começa sabendo 1 Aldeão em jogo. Se você estava alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer."
     },
     {
         "id": "bountyhunter",
@@ -242,7 +242,7 @@
         "type": "townsfolk",
         "order": 35,
         "name": "Exorcista",
-        "ability": "A cada noite*, escolha um jogador (exceto o da noite anterior): o Demônio, se escolhido, sabe quem você é e não age esta noite."
+        "ability": "A cada noite*, escolha um jogador (exceto o da noite anterior): o Demônio, se escolhido, sabe quem você é e não acorda esta noite."
     },
     {
         "id": "lycanthrope",
@@ -655,7 +655,7 @@
         "type": "minion",
         "order": 94,
         "name": "Mafioso",
-        "ability": "Você começa sabendo quais Forasteiros estão em jogo. Se um Forasteiro morreu hoje de dia, escolha um jogador esta noite: o alvo morre. [−1 ou +1 Forasteiro]"
+        "ability": "Você começa sabendo quais Forasteiros estão em jogo. Se 1 morreu hoje de dia, escolha um jogador esta noite: ele morre. [−1 ou +1 Forasteiro]"
     },
     {
         "id": "poisoner",
@@ -697,7 +697,7 @@
         "type": "minion",
         "order": 100,
         "name": "Cerenovus",
-        "ability": "A cada noite, escolha um personagem do bem e um jogador: amanhã, o jogador deve alucinar que é esse personagem; do contrário, pode ser executado."
+        "ability": "A cada noite, escolha um jogador e um personagem do bem: amanhã, o jogador deve alucinar que é esse personagem; do contrário, pode ser executado."
     },
     {
         "id": "fearmonger",
